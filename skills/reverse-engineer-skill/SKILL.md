@@ -2,7 +2,7 @@
 name: reverse-engineer-skill
 description: Use when given outputs made by an AI skill, prompt, template, or creator workflow (posts, captions, threads, newsletters, scripts) and asked to recover, reverse engineer, reconstruct, or clone the instructions that produced them, or to build a skill that writes "like these".
 metadata:
-  version: "0.2-prototype"
+  version: "0.3-prototype"
   modalities: text (carousel and video not built yet)
 ---
 
@@ -104,14 +104,15 @@ their split. Do not read held-out files before step 8.
    with the final draft, run `compare heldout/ replay/heldout/`, and diff. Also
    replay one brief with a generic prompt as a negative control: it must look
    clearly worse, or say the comparison does not discriminate. After this
-   step the rules are frozen. Any later change goes under "Untested changes"
-   in the skill and the report.
+   step the rules are frozen. A change the held-out outputs suggest goes
+   under "Untested changes" in `report.md` only, never into `SKILL.md`: the
+   user decides whether to apply it.
 9. **Leak check.** Run `python3 scripts/style_stats.py leak SKILL.md train/`.
    Only lines repeated in every original (sign-offs, fixed CTAs, headers) may
    match. Remove any other match.
-10. **Export.** Write `SKILL.md` from the final draft and `report.md`: ledger,
-    history, held-out result per check, negative control, leak count,
-    unknowns.
+10. **Export.** Write `SKILL.md` from the frozen draft and `report.md`:
+    ledger, history, held-out result per check, negative control, leak
+    count, unknowns, untested changes.
 
 ## Finish
 
@@ -130,5 +131,5 @@ Report to the user:
 | Writing a device the source likely bans into the template | Check it against P1 first |
 | Each brief type gets its own rule | One template menu with triggers |
 | "Always include" for a section that could be optional | "Usually", plus a question |
-| Editing rules after the held-out test as if tested | Freeze; list as Untested changes |
+| Editing rules after the held-out test | Freeze; untested changes go in report.md only |
 | Topic words in rules | Topic is brief, unless it holds N/N across varied topics |

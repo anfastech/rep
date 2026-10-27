@@ -3,7 +3,7 @@ name: <kebab-case-name>
 description: Use when <the job this skill does, in trigger terms>.
 metadata:
   reconstructed-from: <N> outputs (<train count> train, <held-out count> held out)
-  method: reverse-engineer-skill v0.2
+  method: reverse-engineer-skill v0.3
 ---
 
 # <Skill title>
@@ -42,7 +42,3 @@ Questions the outputs cannot answer. Do not act on these as rules.
 
 - <for example: Are AI-tell patterns like "not X, it's Y" banned? Is there a
   per-user voice file? What happens for content types not seen?>
-
-## Untested changes
-
-Rule changes made after the held-out test. Empty if none.
