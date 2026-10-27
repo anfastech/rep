@@ -1,7 +1,7 @@
 {
   "name": "rep",
   "description": "Reverse engineer prompt: rebuild the skill or prompt behind a set of AI outputs.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": {
     "name": "anfastech"
   },

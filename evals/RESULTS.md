@@ -68,6 +68,19 @@ numeric matches were wrong on screen (finger area, brightness), so the method no
 requires a side-by-side visual check with every numeric diff. The source video is not
 in the repo.
 
+## Video rebuild (v0.6, same video)
+
+The full 84.5 s video was rebuilt from code (Three.js, 4 CC BY models, CC0 texture and
+HDRI): 11 shots, 2,538 frames, captions driven by the word timings. What the rebuild
+showed about the v0.5 output:
+- Used directly: word timings (captions, shot timing), the beat template (shot list),
+  caption and overlay style.
+- Wrong: overlays recovered from one shot were applied to every shot (labels, disclaimers).
+- Missing: a per-shot table (camera, objects, overlays), framing measured up front, and an
+  asset inventory with licenses. The one shot that could not be matched needed a rigged hand.
+- A sampled test render missed a state leak between shots that the full render showed.
+v0.6 adds these to `references/video.md`. The rebuild itself is not in the repo.
+
 ## Limits
 
 - 2 or 3 source skills per round and one scorer each. No inter-scorer agreement measured yet.
