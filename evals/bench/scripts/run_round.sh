@@ -36,19 +36,23 @@ PY
 }
 
 # 2. Reconstruct with one skill version, blind to the source.
-#    claude -p can hang after finishing, so stop it 5 minutes after report.md appears.
+#    claude -p can hang after finishing: stop it HANG_GRACE seconds after report.md
+#    appears, or after MAX_RUN seconds in any case.
+HANG_GRACE=${HANG_GRACE:-300}; MAX_RUN=${MAX_RUN:-7200}
 recon() {
   local id=$1 v=$2 d=$WORK/$1-$2
   mkdir -p "$d/.claude/skills"
   git -C "$REPO" archive "$v" skills/reverse-engineer-skill | tar -x -C "$d/.claude"
   cp -R "$BENCH/outputs/$id" "$d/outputs"
-  (cd "$d" && "${CLAUDE[@]}" --permission-mode bypassPermissions \
+  (cd "$d" && exec "${CLAUDE[@]}" --permission-mode bypassPermissions \
      < "$BENCH/prompts/reconstruct.md" > "$WORK/$id-$v.log" 2>&1) &
-  local pid=$! t=0
+  local pid=$! t=0 all=0
   while kill -0 $pid 2>/dev/null; do
-    if [ -f "$d/reverse-runs/target/report.md" ]; then t=$((t + 10)); [ $t -ge 300 ] && kill $pid; fi
-    sleep 10
+    sleep 5; all=$((all + 5))
+    [ -f "$d/reverse-runs/target/report.md" ] && t=$((t + 5))
+    if [ $t -ge "$HANG_GRACE" ] || [ $all -ge "$MAX_RUN" ]; then kill $pid; break; fi
   done
+  wait $pid 2>/dev/null
   mkdir -p "$BENCH/runs/$v/$id"
   for f in SKILL.md report.md ledger.md history.md; do
     [ -f "$d/reverse-runs/target/$f" ] && cp "$d/reverse-runs/target/$f" "$BENCH/runs/$v/$id/"
@@ -57,19 +61,32 @@ recon() {
 }
 
 # 3. Paired blind scoring: one scorer sees both versions as X and Y.
-score() {
-  local id=$1 x y
+#    blind() edits the shared MAPPING.txt, so it runs one id at a time.
+blind() {
+  local id=$1 x y map=$BENCH/blind/MAPPING.txt
   if [ $((RANDOM % 2)) = 0 ]; then x=$VA; y=$VB; else x=$VB; y=$VA; fi
   mkdir -p "$BENCH/blind/$id"
   cp "$BENCH/runs/$x/$id/SKILL.md" "$BENCH/blind/$id/X.md"
   cp "$BENCH/runs/$y/$id/SKILL.md" "$BENCH/blind/$id/Y.md"
-  sed -i '' "/^$id:/d" "$BENCH/blind/MAPPING.txt" 2>/dev/null || sed -i "/^$id:/d" "$BENCH/blind/MAPPING.txt"
-  echo "$id: X=$x Y=$y" >> "$BENCH/blind/MAPPING.txt"
+  touch "$map"; grep -v "^$id:" "$map" > "$map.tmp" || true; mv "$map.tmp" "$map"
+  echo "$id: X=$x Y=$y" >> "$map"
+}
+score() {
+  local id=$1
   sed -e "s#{BENCH}#$BENCH#g" -e "s#{ID}#$id#g" "$BENCH/prompts/score-paired.md" > "$WORK/$id.score.txt"
-  (cd "$ISO" && "${CLAUDE[@]}" --permission-mode bypassPermissions < "$WORK/$id.score.txt" > "$WORK/$id.score.log" 2>&1)
+  (cd "$ISO" && exec "${CLAUDE[@]}" --permission-mode bypassPermissions < "$WORK/$id.score.txt" > "$WORK/$id.score.log" 2>&1)
 }
 
 for id in "${IDS[@]}"; do gen "$id" & done; wait
+for id in "${IDS[@]}"; do
+  [ -f "$BENCH/outputs/$id/heldout/07.txt" ] || { echo "stop: no outputs for $id (see $WORK/$id.out.txt)"; exit 1; }
+done
 for id in "${IDS[@]}"; do for v in "$VA" "$VB"; do recon "$id" "$v" & done; done; wait
+for id in "${IDS[@]}"; do
+  for v in "$VA" "$VB"; do
+    [ -f "$BENCH/runs/$v/$id/SKILL.md" ] || { echo "stop: no SKILL.md for $id $v"; exit 1; }
+  done
+  blind "$id"
+done
 for id in "${IDS[@]}"; do score "$id" & done; wait
 python3 "$BENCH/scripts/sum_paired.py" "${IDS[@]}"

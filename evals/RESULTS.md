@@ -69,3 +69,9 @@ First version with a precision gain on both skills. Recall flat.
 1. Run v0.4 on real outputs.
 2. Second independent scorer on r6, r7 before trusting small gaps.
 3. Check that the Unknowns list stays short and answerable (r7 had 38 items).
+
+## Reproducibility
+
+`sources.tsv` pins each source to the commit whose SKILL.md matches the benchmark copy.
+Held-out sources r1 to r7 refetch byte-identical. Tuning sources s1, s3 and s5 have
+reference files that changed upstream after the benchmark, so their refetch differs.

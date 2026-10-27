@@ -17,7 +17,7 @@ source skill ──> 7 outputs (5 train, 2 held out) ──> reconstruct with ve
 ```
 fixtures/toy-01/     hidden 12-rule skill, checker, outputs (fully self-contained)
 bench/
-  sources.tsv        source skills (GitHub repo and path); not vendored
+  sources.tsv        source skills (repo, path, pinned commit); not vendored
   briefs.md          7 shared briefs, one per post type
   outputs/<id>/      the 7 outputs each source skill produced (train/, heldout/)
   runs/<ver>/<id>/   reconstructions: SKILL.md, report.md, ledger.md, history.md

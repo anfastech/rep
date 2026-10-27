@@ -1,6 +1,11 @@
 {
   "name": "rep",
-  "owner": { "name": "anfastech" },
+  "owner": {
+    "name": "anfastech"
+  },
+  "metadata": {
+    "description": "Skills for reverse engineering the prompt or skill behind AI outputs."
+  },
   "plugins": [
     {
       "name": "rep",

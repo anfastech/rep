@@ -1,13 +1,13 @@
-# id	repo	skill dir	role
-s1	sergebulaev/linkedin-skills	skills/linkedin-post-writer	tuning set
-s2	charlie947/social-media-skills	skills/post-writer	tuning set
-s3	coreyhaines31/marketingskills	skills/social	tuning set
-s4	OneWave-AI/claude-skills	social-repurposer	tuning set
-s5	samber/cc-skills	skills/substack-ghostwriting	tuning set
-r1	gooseworks-ai/goose-skills	skills/marketing/make-content	held out, round 1
-r2	OpenClaudia/openclaudia-skills	skills/thread-writer	held out, round 1
-r3	analystacademy/claude-skills	post	held out, round 2
-r4	duncan-buildroom/skills	linkedin-post	held out, round 2
-r5	hayotbekismoilov/All-Software	twitter-x-posts	held out, round 2
-r6	duncan-buildroom/freeskills	caption-writer	held out, round 3
-r7	LeonMelamud/agentic-media-stack	skills/ig-caption	held out, round 3
+# id	repo	skill dir	commit (SKILL.md matches the benchmark copy)	role
+s1	sergebulaev/linkedin-skills	skills/linkedin-post-writer	8f8bc4b40a2d5419b2dcf898772b85712cfbdf41	tuning set
+s2	charlie947/social-media-skills	skills/post-writer	0c3b0556fefae6f490069ff1893b839500f0c7fe	tuning set
+s3	coreyhaines31/marketingskills	skills/social	5110d1d5e9ad1624cf0106a9523a5a1e8ebc5bea	tuning set
+s4	OneWave-AI/claude-skills	social-repurposer	9d3dd456dc4656ee3065a146f35bf7079e13f91f	tuning set
+s5	samber/cc-skills	skills/substack-ghostwriting	f866b800353719270a9ea101a41c5e2a2618d460	tuning set
+r1	gooseworks-ai/goose-skills	skills/marketing/make-content	5de8433110ef2b3f7c6e52721501cfb736ee6e1f	held out, round 1
+r2	OpenClaudia/openclaudia-skills	skills/thread-writer	74f56dea26afcb820010964564b699207e3717c7	held out, round 1
+r3	analystacademy/claude-skills	post	333c0944e0f4aeba9cc2eb50322c24aed5b2a07c	held out, round 2
+r4	duncan-buildroom/skills	linkedin-post	0f7a89be97f5119b588743ca28a626ca16ecf91b	held out, round 2
+r5	hayotbekismoilov/All-Software	twitter-x-posts	2bb04d37cf4d9364f360b0ac6bc4238ed4a307da	held out, round 2
+r6	duncan-buildroom/freeskills	caption-writer	f9e4e649032da84ce19ff455f5b9817c1af2a319	held out, round 3
+r7	LeonMelamud/agentic-media-stack	skills/ig-caption	f5c9e5c8c20d1b8e830455008f60be9665741d9d	held out, round 3
