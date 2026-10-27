@@ -10,5 +10,6 @@
     "prompt-inversion",
     "reverse-engineering",
     "skills"
-  ]
+  ],
+  "license": "MIT"
 }

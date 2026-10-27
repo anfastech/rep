@@ -56,3 +56,7 @@ evals/                           toy fixture, benchmark, results
 ```
 
 Skill versions are git tags (`v0.1` to `v0.5`).
+
+## License
+
+MIT. Covers the skill, scripts and docs. Source skills listed in `evals/bench/sources.tsv` keep their own licenses and are not included.
