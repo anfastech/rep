@@ -2,7 +2,7 @@
 name: reverse-engineer-skill
 description: Use when given outputs made by an AI skill, prompt, template, or creator workflow (posts, captions, threads, newsletters, scripts) and asked to recover, reverse engineer, reconstruct, or clone the instructions that produced them, or to build a skill that writes "like these".
 metadata:
-  version: "0.3-prototype"
+  version: "0.4-prototype"
   modalities: text (carousel and video not built yet)
 ---
 
@@ -71,7 +71,9 @@ their split. Do not read held-out files before step 8.
      section order, fixed strings and required parts. A punctuation or
      wording habit seen N/N is a default, not a rule.
    - **conditional** (present only when a brief property holds): if/then rule
-     naming the property. Cite the outputs.
+     naming the property. Cite the outputs. Needs at least 2 outputs with
+     that property. Seen in 1 output only: Unknown ("does X change when the
+     brief is Y?"), not a rule.
    - **tendency** (k/N, no brief property explains it): "usually".
    - **range** (a number): write the observed range, then widen it. N outputs
      under-sample the true bound.
@@ -87,6 +89,8 @@ their split. Do not read held-out files before step 8.
    [templates/reconstructed-skill.md](templates/reconstructed-skill.md):
    - A **strict**: only observed and conditional rules.
    - B **menu**: different shapes become a named template menu with triggers.
+     A menu entry needs at least 2 outputs of that shape. A shape seen once
+     folds into the general template, and its trigger becomes an Unknown.
    - C **loose**: ranges widened, habits as defaults.
    Any example must be new, on a topic none of the outputs use. Never paste or
    lightly edit an original.
@@ -129,7 +133,7 @@ Report to the user:
 | A habit seen in 5 of 5 becomes a hard rule | Class it as a default |
 | A sample range becomes a hard limit | Class it as range or capped; widen it |
 | Writing a device the source likely bans into the template | Check it against P1 first |
-| Each brief type gets its own rule | One template menu with triggers |
+| Each brief type gets its own rule | Menu entry or conditional only with 2+ outputs of that type; else Unknown |
 | "Always include" for a section that could be optional | "Usually", plus a question |
 | Editing rules after the held-out test | Freeze; untested changes go in report.md only |
 | Topic words in rules | Topic is brief, unless it holds N/N across varied topics |
