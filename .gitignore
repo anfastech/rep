@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+*.pyc
+# raw local working state (replays, scratch, third-party skill copies)
+evals/_state/
+evals/bench/hidden/
+reverse-runs/

@@ -1,0 +1,57 @@
+41% of tickets, 3 screens · content/drafts/2026-10-27-support-tickets-onboarding-screens.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+We went through 18 months of support tickets. 41% of them came from the same 3 onboarding screens.
+
+Alternative hooks:
+1. We cut our support ticket volume by a third without adding a single support hire. We rewrote 3 screens.
+2. Almost half of our support tickets traced back to 3 screens in onboarding.
+
+Post:
+
+We went through 18 months of support tickets. 41% of them came from the same 3 onboarding screens.
+
+Three screens, all in the first part of a customer's setup, and they were producing two out of every five questions our support team answered.
+
+[STORY NEEDED: what was confusing on those screens, in one or two lines]
+
+So we rewrote them. Ticket volume dropped by a third.
+
+[STORY NEEDED: what the rewrite actually changed, e.g. wording, order of steps, defaults]
+
+What stays with me is where the problem was hiding. We had the data the whole time. It just sat in the ticket queue, one question at a time, until someone sorted it by where the customer was when they got stuck.
+
+[STORY NEEDED: how the team tagged 18 months of tickets by screen, who did it and how long it took]
+
+If your support load keeps growing, try this before you build anything new. Pull your last year of tickets, tag each one with the screen or step it started on, and look at the top three.
+
+#customersupport #onboarding #operations
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: support tickets point at a small number of fixable screens; sort them by where they start and fix the top few first.
+- Fakes: no invented detail. What was confusing, what changed and how the tagging was done are left as [STORY NEEDED] slots.
+- Intent and CTA: data-insight post; the close is a step the reader can run on their own tickets.
+- Swap test: passes on the 18 months, 41%, 3 screens and the one-third drop, which are the company's own numbers.
+- Readability: both numbers sit inside the first ~100 characters. Ends on the action.
+- AI-tell check: removed 1 rhetorical-question opener ("Want to cut tickets?"), 1 "not X, it's Y" line, 1 "the cheapest research you already own" (an opinion Maya did not supply). Alt hook 1 checked: "without adding a single support hire" is not in the brief, see claims.
+- Voice: provisional. No voice card or past posts for Maya. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: 41% of tickets, 3 screens   (sign-off: scoped sign-off this run, from the brief)
+- Kept: 18 months of tickets analysed; 41% from the same 3 onboarding screens; rewriting them cut ticket volume by a third. "Two out of every five" is 41% restated.
+- Softened: "first part of a customer's setup" (the brief says onboarding screens only; no claim about timing in minutes).
+- Cut: alt hook 1's "without adding a single support hire" is not in the brief. Restore only if Maya confirms it, else use alt hook 2 or the main hook.
+- Sourced: none needed; no world facts.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao)
+- [STORY NEEDED: what was confusing on those screens]
+- [STORY NEEDED: what the rewrite changed]
+- [STORY NEEDED: how the tickets were tagged and by whom]
+- [PROOF NEEDED: confirm alt hook 1's "no new support hire" before using it]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

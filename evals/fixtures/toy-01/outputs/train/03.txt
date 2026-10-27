@@ -1,0 +1,15 @@
+Rewriting your product is almost always the wrong call.
+
+Last year, I paused all features to rebuild the app in a new framework. Customers noticed nothing except the silence.
+
+1/ Users do not see your stack. They see what ships each week.
+
+2/ Fix the worst module first. Then decide if a rewrite still makes sense.
+
+3/ Set a hard deadline before you start. Mine slipped by four months.
+
+Cost of this lesson: four months and two good customers.
+
+What's the rewrite you are tempted to start right now?
+
+P.S. I write about this every Tuesday in The Margin.

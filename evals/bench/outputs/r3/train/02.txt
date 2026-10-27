@@ -1,0 +1,13 @@
+We pulled 18 months of support tickets and tagged each one by where the customer was in the product when they got stuck. I expected the tickets to be spread fairly evenly.
+
+They weren't. 41% of all tickets came from the same 3 onboarding screens, the ones a new customer sees in their first hour with us.
+
+When we read those tickets side by side, they were mostly the same few questions asked in slightly different words. For a year and a half we had treated that volume as something support simply had to absorb. Nobody had thought of it as a problem with those three screens, because each ticket on its own looked like a one-off.
+
+So we rewrote the screens. Total ticket volume dropped by about a third.
+
+The analysis took a few weeks. The rewrite took less time than that. The hard part was looking at the tickets by location instead of by date.
+
+If your support queue feels permanently full, try tagging a month of tickets by screen before you hire anyone else to answer them.
+
+I opened with the method and saved the 41% for the second paragraph so the number has some weight when it lands. Tell me if you'd rather lead with it.

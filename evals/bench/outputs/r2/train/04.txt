@@ -1,0 +1,154 @@
+## 1. Thread Outline
+
+Template: Tutorial Thread (10 tweets)
+- Hook: how to negotiate with a vendor when you have almost no leverage
+- Context: small companies, big vendors, leverage is more than size
+- Step 1: anchor on their renewal deadline
+- Step 2: bundle multi-year terms
+- Step 3: bring a credible alternative
+- Step 4: ask for service credits, not discounts
+- Common mistakes
+- Expected results
+- TL;DR
+- CTA: follow + retweet + reply
+
+## 2. Full Thread
+
+Tweet 1 (120 chars)
+
+How to negotiate with a vendor when you have almost no leverage:
+
+4 moves I use as head of ops.
+
+No big budget required.
+
+Tweet 2 (173 chars)
+
+Small companies hear "take it or leave it" a lot.
+
+We're 60 people.
+
+Most of our vendors are bigger than us.
+
+But leverage isn't only size.
+
+It's timing, terms, and options.
+
+Tweet 3 (177 chars)
+
+Step 1: Anchor on their renewal deadline.
+
+Vendors have quotas and quarter-ends.
+
+Your renewal date matters more to them than you think.
+
+Start talking 90 days before it, not 9.
+
+Tweet 4 (165 chars)
+
+Step 2: Bundle multi-year terms.
+
+A vendor values a 3-year commitment far more than 1 year.
+
+Offer the commitment.
+
+In return, ask for a price lock and better terms.
+
+Tweet 5 (163 chars)
+
+Step 3: Bring a credible alternative.
+
+Not a bluff.
+
+A real quote from a real competitor.
+
+If you won't switch, they'll know.
+
+If you could switch, they'll listen.
+
+Tweet 6 (190 chars)
+
+Step 4: Ask for service credits, not discounts.
+
+Discounts lower the contract value.
+
+Credits often don't.
+
+So credits are easier for your rep to approve.
+
+You get the value without a fight.
+
+Tweet 7 (197 chars)
+
+Common mistakes to avoid:
+
+→ Starting 2 weeks before renewal
+→ Bluffing about a competitor you never called
+→ Asking for "a better price" with no structure
+→ Negotiating without finance in the loop
+
+Tweet 8 (192 chars)
+
+What to expect:
+
+You won't win every point.
+
+But you'll stop accepting the first quote.
+
+And you'll trade what they value for what you need.
+
+That's what leverage looks like when you're small.
+
+Tweet 9 (199 chars)
+
+TL;DR:
+
+1. Anchor on their renewal deadline
+2. Bundle multi-year terms
+3. Bring a real alternative
+4. Ask for credits, not discounts
+
+Low leverage isn't no leverage.
+
+Save this for your next renewal.
+
+Tweet 10 (165 chars)
+
+Follow me for more practical ops playbooks.
+
+Retweet the first tweet to help a team with a renewal coming up.
+
+What's your best vendor negotiation move? Reply below.
+
+## 3. Hook Variations
+
+A. Listicle
+4 vendor negotiation moves that work even when you have zero leverage:
+
+B. Contrarian
+You don't need leverage to negotiate with a vendor.
+
+You need their calendar. Let me explain:
+
+C. Do this, not that
+Stop asking vendors for discounts.
+
+Ask for service credits instead.
+
+Here's why, plus 3 more moves for small teams:
+
+D. Curiosity
+There's a date in every vendor contract that gives you more power than your budget does.
+
+Most teams ignore it:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Wednesday, 9:00am ET. Ops, finance, and procurement leads are at their desks.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: a bonus tip. "Put your renewal dates on a shared calendar with a 90-day alert. Half of this playbook is just not being surprised."
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Answer every question about service credits in detail. Expect the most questions there.
+  - Ask repliers which step they'd try first.
+  - Retweet the hook once after 30 minutes if replies are slow.

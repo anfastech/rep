@@ -1,0 +1,33 @@
+**Saved to `~/captions/2026-10-27-scanning-app-rollout.md`**
+
+**Platform:** LinkedIn
+**Shape:** The lesson from a mistake. Something broke at scale and there's a clear "what I'd do now," which makes this the highest-trust shape.
+**First line pick:** The first line is the admission plus the damage. It stops the scroll with no context needed.
+
+```
+I rolled out a new warehouse scanning app to all 12 of our sites at once.
+
+Two of them went down for a full day.
+
+3,000 orders shipped late.
+
+What I believed: doing all 12 together would get it over with faster.
+
+What actually happened: two sites lost a whole day, and 3,000 customers waited on orders that should have already arrived.
+
+What I'd do now: pilot at one site first.
+
+Let it break somewhere small.
+
+Then roll it out to the other 11.
+
+How do you pick which site goes first?
+```
+
+**Runner-up first lines:**
+- "3,000 orders shipped late because I didn't want to wait."
+- "Pilot at one site first. I learned that the expensive way."
+
+**Comment keyword:** none (no link)
+
+**Next action:** Post it, and reply to every comment within the first hour.

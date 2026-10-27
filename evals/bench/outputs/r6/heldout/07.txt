@@ -1,0 +1,27 @@
+**Saved to `~/captions/2026-10-27-truck-delay-spreadsheet.md`**
+
+**Platform:** LinkedIn
+**Shape:** Show the thing. A working tool with a real result, built by someone on the team.
+**First line pick:** "A spreadsheet that predicts truck delays two days ahead" is concrete and a little surprising, and it credits the analyst up front.
+
+```
+A junior analyst on our team built a spreadsheet that predicts truck delays two days ahead.
+
+It's right about 80% of the time.
+
+It runs every morning now.
+
+Last year it saved us roughly $200,000 in penalties.
+
+No new platform. A simple spreadsheet.
+
+If you had two days' warning on a late truck, what would you do first?
+```
+
+**Runner-up first lines:**
+- "A simple spreadsheet saved us roughly $200,000 in penalties last year."
+- "Our best delay forecast doesn't come from software. It comes from a junior analyst's spreadsheet."
+
+**Comment keyword:** none (no link)
+
+**Next action:** Post it, and reply to every comment within the first hour.

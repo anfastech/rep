@@ -1,0 +1,13 @@
+Every field in your signup form costs you customers.
+
+Last Friday, I cut my signup form from nine fields to two. Signups rose by 35 percent in a week.
+
+1/ Ask only for an email and a password. Collect the rest later.
+
+2/ Every extra question is a reason to close the tab.
+
+3/ Move company size and role into onboarding. People answer once they see value.
+
+What's the one field you could delete today?
+
+P.S. I write about this every Tuesday in The Margin.

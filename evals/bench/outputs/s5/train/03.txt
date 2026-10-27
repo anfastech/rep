@@ -1,0 +1,148 @@
+SUBJECT LINE (chosen)
+I cancelled every recurring meeting for a month
+
+Alternatives
+1. Only 4 of our 22 meetings came back
+2. Your recurring meetings are mostly habit
+
+PREVIEW TEXT
+22 meetings came off the calendar. Only 4 earned their way back.
+
+
+==================== ISSUE ====================
+
+# I cancelled every recurring meeting for a month
+
+*22 meetings came off the calendar. Only 4 earned their way back.*
+
+Here's an unpopular opinion: **most companies hold too many recurring meetings, and nobody notices because each one looks harmless.**
+
+Thirty minutes here. A weekly sync there. Add them up and your best people spend a day a week reporting on work instead of doing it.
+
+So I ran a test. For one month, I cancelled every recurring meeting in operations. All 22 of them.
+
+[Subscribe button]
+
+## Why I did it
+
+Recurring meetings are easy to start and almost impossible to stop. Someone sets one up to solve a real problem. The problem goes away. The meeting stays.
+
+Nobody cancels it because cancelling feels rude. Nobody skips it because skipping feels risky. So it runs forever on autopilot, like a truck route nobody remembers booking.
+
+I wanted to know which of ours were still doing a job and which were just habit.
+
+## The rules
+
+I kept it simple:
+
+1. **Every recurring meeting came off the calendar** on the same Monday. No exceptions, including mine.
+2. **One-off meetings were fine.** If you needed to talk, you booked a call.
+3. **To bring a meeting back, you had to write one paragraph.** What decision does it make, or what problem does it catch, that nothing else does?
+
+That third rule did most of the work. It's easy to defend a meeting out loud. It's harder to write down what it's for.
+
+## What came back
+
+After a month, **4 of the 22 came back.**
+
+- My 1:1s with direct reports. Nothing replaces them.
+- The weekly site leads call, where problems cross sites and need a decision fast.
+- The incident review, because it's where we actually change how we work.
+- A monthly planning session, cut from 90 minutes to 45.
+
+The other 18 didn't come back. Most turned into a short written update in a shared channel. A few just ended, and nobody missed them.
+
+## What surprised me
+
+I expected people to fight for their meetings. Some did, at first. But once the month started, **almost nobody asked for one back unprompted.**
+
+The work didn't slow down. If anything, decisions got faster. When a meeting isn't sitting on the calendar, people solve the problem the day it shows up instead of saving it for Thursday.
+
+And people noticed the time. A few site leads told me they got back three or four hours a week. That's half a shift.
+
+## What I got wrong
+
+It wasn't all clean. Two things broke:
+
+**New hires lost a way to learn.** Some of those status meetings were where new people quietly picked up how things work. We added a short weekly onboarding session for anyone in their first 90 days.
+
+**Some people felt cut off.** A meeting is also a signal that you're in the loop. Written updates fixed most of that, but only once we made them predictable: same day, same format, every week.
+
+So my claim isn't "meetings are bad." It's that **a recurring meeting should have to justify itself, and most can't.**
+
+[Share button]
+
+* * *
+
+The thing to remember: if a meeting can't explain in one paragraph what it decides, it's a habit, not a meeting.
+
+## Run your own version
+
+You don't need a full month or a whole department. Try this:
+
+1. Pick one team and cancel every recurring meeting for two weeks.
+2. Ask for one written paragraph to bring any of them back.
+3. Write down what you actually missed.
+
+Then look at what's left on the calendar.
+
+## Your turn
+
+How many of your recurring meetings do you think would survive this? Reply with your guess. I'll share the most honest answers in a future issue.
+
+If this was useful, forward it to a manager whose calendar looks like a game of Tetris.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: make the experiment visible at a glance.
+   Description: a weekly calendar view almost entirely blank, with only four small blocks left, in a clean flat style.
+   Alt text: "A nearly empty weekly calendar with only four meetings left."
+
+2. Placement: inline, at the start of "What came back".
+   Purpose: give skimmers the result in one image.
+   Description: 22 small squares in a grid, 18 grayed out and crossed through, 4 filled in color and labeled.
+   Alt text: "Grid of 22 meetings, 18 crossed out, 4 kept."
+
+
+==================== NOTES TEASER ====================
+
+I cancelled all 22 recurring meetings in our ops team for a month. To bring one back, you had to write one paragraph on what it decides. Only 4 came back. How many of yours would survive that test?
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the number before the lesson: "After a month, 4 of the 22 came back."
+- Owns mistakes in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: lanes, handoffs, dock doors, truck routes
+
+## Things that would sound wrong
+- Inspirational framing ("failure is a gift"): would sound like a LinkedIn influencer instead of an operator
+- Passive voice about mistakes ("errors were made"): breaks her habit of ownership
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

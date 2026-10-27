@@ -1,0 +1,24 @@
+```
+Back from parental leave, or about to be? Tell me in the comments the one thing that changed for you.
+
+I'm returning to work after 6 months of parental leave, and three things are different.
+
+I delegate more. Six months away showed me the team could run without me checking every decision.
+
+I decide faster. I have fewer hours, so a decision that used to sit for a week now gets made in the meeting.
+
+I stopped answering Slack after 6pm.
+
+#parentalleave #workingparents #leadership
+```
+
+```
+CAPTION READY
+job:        A - the reel carries the hook (Maya on camera, "6 months away" in the first two seconds)
+visible:    101 of 125 characters used before the cut
+ask:        one, answer in the comments
+hashtags:   3
+search:     "returning to work" in line 3, "parental leave" in line 1 and line 3
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```

@@ -1,0 +1,553 @@
+{
+  "id": "r3",
+  "g_rules": [
+    {
+      "id": "G1",
+      "text": "Write in the user's own voice per a filled-in voice profile (name, role, topics, sample posts)",
+      "type": "persona",
+      "visible": "partly",
+      "X": "unknown-listed",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G2",
+      "text": "Match the user's listed distinctive traits and never use patterns from their NEVER list",
+      "type": "conditional",
+      "visible": "no",
+      "X": "unknown-listed",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G3",
+      "text": "Open with the most concrete, true, slightly-unexpected detail; no broad/abstract opening statement",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G4",
+      "text": "Write paragraphs, not single-sentence line stacks (unless voice profile says otherwise)",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "partial"
+    },
+    {
+      "id": "G5",
+      "text": "If request is open-ended, offer 2 versions labeled 'Option A / Option B' with angles; otherwise one draft",
+      "type": "conditional",
+      "visible": "no",
+      "X": "none",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G6",
+      "text": "After the post, add a single line noting the choice made and inviting feedback",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G7",
+      "text": "Pick the post structure that fits the material; don't force material into a structure",
+      "type": "structure",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G8",
+      "text": "Concrete Hook -> Real Point: hook is something that actually happened, not a constructed image, then connect to a point",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G9",
+      "text": "Observation -> Practical Tips: explain why it matters, give 3-5 numbered steps, end with a wry line",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G10",
+      "text": "Warm team/event update: name people specifically, be genuine, don't moralize or draw lessons",
+      "type": "structure",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "none"
+    },
+    {
+      "id": "G11",
+      "text": "Contrarian take + data: calm not combative, real numbers, end with a plain-English summary",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G12",
+      "text": "Tool/test breakdown: 'I tested X across N situations', structured, honest about limits, one clear verdict",
+      "type": "structure",
+      "visible": "no",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G13",
+      "text": "Deliver the full post ready to copy-paste",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G14",
+      "text": "Typical length 100-250 words; longer only if content warrants",
+      "type": "length",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G15",
+      "text": "Final gut-check: rewrite or cut any sentence that sounds like generic LinkedIn/corporate rather than the user; voice lives in specificity",
+      "type": "voice",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G16",
+      "text": "Avoid AI vocabulary verbs/adjectives (delve, leverage, navigate, foster, unlock, robust, seamless, pivotal, crucial, key, etc.)",
+      "type": "word-list",
+      "visible": "partly",
+      "X": "unknown-listed",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G17",
+      "text": "Cut AI stock phrases on sight (valuable insights, key takeaways, in today's landscape, testament to, game-changer, synergy, etc.)",
+      "type": "word-list",
+      "visible": "partly",
+      "X": "unknown-listed",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G18",
+      "text": "No negative parallelism ('It's not just X, it's Y')",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G19",
+      "text": "No rule-of-three parallel triplets",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "none",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G20",
+      "text": "No formulaic em dash for punched-up emphasis/restatement",
+      "type": "mechanics",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G21",
+      "text": "No bulleted lists with bold inline headers; use short paragraphs instead",
+      "type": "format",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G22",
+      "text": "No Title Case headings in posts; headings rare, sentence case if any",
+      "type": "format",
+      "visible": "partly",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G23",
+      "text": "No excessive boldface for emphasis",
+      "type": "format",
+      "visible": "partly",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G24",
+      "text": "No 'In summary'/'In conclusion'/'Overall' wrap-up closings; just stop after last substantive sentence",
+      "type": "structure",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "none"
+    },
+    {
+      "id": "G25",
+      "text": "No engagement-bait closings ('What do you think? Drop a comment!', 'Tag someone')",
+      "type": "cta",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G26",
+      "text": "No constructed setup-punchline humor; humor comes from flatly noticing specifics",
+      "type": "voice",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G27",
+      "text": "No excess enthusiasm ('Thrilled to share!', 'Excited to announce!', 'Awesome!')",
+      "type": "voice",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G28",
+      "text": "No performative gratitude; a single 'Thanks' does the job",
+      "type": "voice",
+      "visible": "partly",
+      "X": "none",
+      "Y": "partial"
+    },
+    {
+      "id": "G29",
+      "text": "No unasked-for reassurance ('rest assured')",
+      "type": "voice",
+      "visible": "no",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G30",
+      "text": "No reflexive apologizing ('Apologies for the long post')",
+      "type": "voice",
+      "visible": "no",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G31",
+      "text": "Use straight quotes, not curly quotes",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G32",
+      "text": "Plain prose by default; no excessive markdown",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G33",
+      "text": "Emojis sparingly or not at all; no stock emojis at the start of bullets",
+      "type": "mechanics",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    }
+  ],
+  "X": {
+    "r_items": [
+      {
+        "id": "R1",
+        "text": "Template: opening fact / turn-result / why paragraphs / optional limit-or-CTA / closing line / note to requester",
+        "section": "template",
+        "label": "grounded"
+      },
+      {
+        "id": "R2",
+        "text": "Open with the plain fact, not a hook trick: no question, no 'thrilled to announce', no stat-bomb; first paragraph ~15-40 words",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R3",
+        "text": "Stay with the brief's facts; don't invent causes, numbers, names, quotes; flag missing details in the note",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R4",
+        "text": "For story/experiment/data, first paragraph sets up action/method; hold key result for a short second paragraph",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R5",
+        "text": "Plain concrete calm first-person prose, past tense; body paragraphs 2-4 full sentences, not strings of one-liners",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R6",
+        "text": "Every paragraph adds a concrete point or honest observation; no filler; include a mechanism paragraph; announcements give one specific observation",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R7",
+        "text": "Optionally one limit-the-claim line, only for sweeping recommendations; not in reflections/thank-yous",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R8",
+        "text": "End on a short plain line tied to a concrete number/fact; vary form; no aphorisms or mirrored slogan pairs; announcements may end with thanks",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R9",
+        "text": "Full sentences; avoid fragments and punchy parallel constructions",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R10",
+        "text": "Separate tips -> intro, 'Here's what has worked' line, numbered items with reasons; personal changes in prose paragraphs; otherwise no lists",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R11",
+        "text": "Call to action only when the brief asks readers to do something",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R12",
+        "text": "Stats/money/percent/counts as digits; short durations may be words; never start a sentence with a digit",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R13",
+        "text": "No questions, exclamation marks, emojis, hashtags, markdown, em or en dashes",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R14",
+        "text": "Sentences mostly short-medium, mean ~9-15 words, rarely >32; natural contractions",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R15",
+        "text": "Post plus note ~150-260 words, 5-9 paragraphs, aim near 200",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R16",
+        "text": "After the post, blank line then a 2-sentence note to requester: 'I <past verb>...' craft choice + offer of alternative; no label",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R17",
+        "text": "Unknown: banned word list, persona backstory, platform name",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R18",
+        "text": "Unknown: whether the note is always present or toggled",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R19",
+        "text": "Unknown: behavior for unlike briefs (long, negative, multi-person)",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R20",
+        "text": "Unknown: whether there is a hard word limit",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      }
+    ]
+  },
+  "Y": {
+    "r_items": [
+      {
+        "id": "R1",
+        "text": "Templates by brief type: Narrative / Tips / Announcement, each ending with note to requester",
+        "section": "template",
+        "label": "grounded"
+      },
+      {
+        "id": "R2",
+        "text": "Output is post, blank line, note to requester; no separator or heading",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R3",
+        "text": "Note is 2-3 sentences, starts with 'I', names the main craft choice and why",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R4",
+        "text": "Note usually ends with one offer to adjust",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R5",
+        "text": "Open with the plain fact/situation in first person; no question opener, no 'excited to announce' opener",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R6",
+        "text": "End the post with a short plain takeaway or practical next step",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R7",
+        "text": "If the brief is a set of separate moves, use the Tips shape",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R8",
+        "text": "If the brief has an ask (hiring, sign-up), state it with where to act",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R9",
+        "text": "If a result broke an expectation, a one-line turn paragraph may follow the opening",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R10",
+        "text": "Don't invent facts; keep thin posts short rather than padding; mention missing fact in note only if it changed the post",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R11",
+        "text": "Calm, modest, plain tone; self-critical for mistakes",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R12",
+        "text": "Normal contractions, a few per post",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R13",
+        "text": "Sentences short to medium, each under ~26 words",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R14",
+        "text": "Post body ~120-200 words in 4-8 paragraphs; whole output ~150-240",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R15",
+        "text": "Digits for numbers; spell out at sentence start",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R16",
+        "text": "No questions, exclamation marks, emojis, hashtags, dashes as punctuation, bold or headers",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R17",
+        "text": "At most 2 contrast lines; no 'not X, it's Y' / 'X, not Y' reveals, no 'Here's the thing' bridges, no engagement bait",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R18",
+        "text": "Unknown: whether AI-tell devices are banned outright",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R19",
+        "text": "Unknown: per-user voice file (tone, banned words, CTAs)",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R20",
+        "text": "Unknown: whether no-dash/no-question pattern comes from skill",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R21",
+        "text": "Unknown: character limit / see-more cut target",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R22",
+        "text": "Unknown: length tiers",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R23",
+        "text": "Unknown: handling of links, tables, code, long briefs",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R24",
+        "text": "Unknown: whether note is skipped or replaced by alternatives/versions",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R25",
+        "text": "Unknown: voice-protection rules",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      },
+      {
+        "id": "R26",
+        "text": "Unknown: whether platform is always LinkedIn",
+        "section": "unknowns-skip",
+        "label": "n/a"
+      }
+    ]
+  }
+}

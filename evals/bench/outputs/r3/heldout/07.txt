@@ -1,0 +1,11 @@
+One of our junior analysts built a spreadsheet that predicts which trucks will be delayed, two days before it happens. It's right about 80% of the time.
+
+It runs every morning now. Our planners open it before they do anything else, and they reroute or rebook based on what it flags. Last year it saved us roughly $200,000 in late-delivery penalties.
+
+It's a simple spreadsheet. We didn't buy any software, and nobody wrote a project plan for it. Someone who looked at our delay data every day noticed patterns in it and wrote them down in a form the rest of us could use.
+
+I think about this when we discuss what our next big tooling investment should be. Some of the most useful work here comes from the people who are closest to the data, and they often aren't the ones in the room when we make those decisions.
+
+So, thank you. Two days' notice turned out to be worth a lot.
+
+I didn't name the analyst because the brief doesn't. If they're happy to be tagged, adding their name to the first line would make the post much stronger.

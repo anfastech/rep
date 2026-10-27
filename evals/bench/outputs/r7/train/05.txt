@@ -1,0 +1,24 @@
+```
+We opened our first office outside the US. It's in Lisbon, and we're hiring 15 more people there this year.
+
+Nine people have joined the Lisbon team so far.
+
+We build logistics software and we're 60 people today. The next 15 roles in Lisbon are software engineers and operations people.
+
+If you've been looking for engineering or ops jobs in Lisbon, the open roles are at the link in our bio.
+
+#lisbonjobs #techjobs #logistics
+```
+
+Alt text: Members of the Lisbon team in the new office.
+
+```
+CAPTION READY
+job:        B - single photo, line one is the hook
+visible:    107 of 125 characters used before the cut
+ask:        one, open roles via the link in bio
+hashtags:   3
+search:     "logistics software" in line 5, "jobs in Lisbon" in line 7
+first comment: none, the link lives in the bio, not the caption
+linter:     READY, checked by hand against caption.py's rules
+```

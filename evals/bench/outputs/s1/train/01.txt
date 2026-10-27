@@ -1,0 +1,19 @@
+Two of our 12 warehouses couldn't ship an order for a full day, and the call that caused it was mine.
+
+We had a new scanning app. It passed every test we ran before launch, so I signed off on rolling it out to all 12 sites on the same morning.
+
+Staggering it felt slow. I wanted the whole network on one system and I didn't want to run two processes side by side for weeks.
+
+By mid-morning two site managers were on the phone with me at once. Scanners weren't syncing and the trucks at both docks had nothing to load.
+
+We got both sites back the next day. By then 3,000 orders had shipped late.
+
+Every bug we hit that day would have shown up at a single site in a single shift. The other 11 sites could have covered the volume while we fixed it.
+
+So the rule on my team now: nothing goes to 12 sites until it has survived one. Real orders, a real shift, the people who will actually use it.
+
+It adds a few weeks to every rollout. I'll pay that every time after seeing what speed cost us.
+
+What rollout would you stage differently if you could run it again?
+
+#operations #logistics

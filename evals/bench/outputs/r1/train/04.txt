@@ -1,0 +1,60 @@
+Negotiating with little leverage · content/drafts/2026-10-27-vendor-negotiation-little-leverage.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+Most of our vendor negotiations start with the vendor holding more leverage than we do. These are the four moves I use anyway.
+
+Alternative hooks:
+1. Ask a vendor for service credits, not a discount. It's one of four moves I use when I have little leverage.
+2. A small customer can still negotiate a vendor renewal. Here's how I do it with little leverage.
+
+Post:
+
+Most of our vendor negotiations start with the vendor holding more leverage than we do. These are the four moves I use anyway.
+
+1. Anchor on their renewal deadline.
+Their renewal date is a date they care about. Build your timeline around it and start the conversation early enough that the date does some of the work for you.
+
+2. Bundle multi-year terms.
+Offer a longer commitment as something you're giving, and ask for better terms in return for it.
+
+3. Bring a credible alternative.
+It has to be an option you could actually move to. [STORY NEEDED: how Maya makes the alternative credible, e.g. a quote in hand, a pilot, a timeline]
+
+4. Ask for service credits, not discounts.
+[NAME: Maya's reason service credits beat discounts]
+
+None of these needs you to be the vendor's biggest account. Each one changes what the vendor stands to gain or lose by saying no.
+
+[STORY NEEDED: one negotiation where these worked, and what the outcome was]
+
+Save this for your next renewal.
+
+#procurement #negotiation #operations
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: you can negotiate well with little leverage by working the vendor's deadline, terms, alternatives and what you ask for.
+- Fakes: the four moves are Maya's from the brief. Why service credits beat discounts, how she makes an alternative credible, and a real example are left as [NAME] / [STORY NEEDED] slots. No invented claim about how vendors behave near quarter end.
+- Intent and CTA: how-to post; the close is "save this", which fits a list people come back to.
+- Swap test: weak until the story slot is filled. As written the moves are general advice; the example negotiation is what makes it Maya's.
+- Readability: numbered list used only for the four parallel moves. Hook names the reader's problem first.
+- AI-tell check: removed 1 "Here's the kicker", 1 colon reveal ("The trick? Timing."), 1 world-fact claim ("vendors discount hardest at quarter end", no source opened). No dashes.
+- Voice: provisional. No voice card or past posts for Maya. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: Negotiating with little leverage   (sign-off: product facts only; no brand claims in this post)
+- Kept: the four moves, as Maya's advice.
+- Softened: "Their renewal date is a date they care about" stays as a plain statement with no figure attached.
+- Cut: "vendors discount hardest at quarter end" (a world fact with no source opened this run; restore with a dated public source).
+- Sourced: none.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao)
+- [STORY NEEDED: how Maya makes the alternative credible]
+- [NAME: Maya's reason service credits beat discounts]
+- [STORY NEEDED: one negotiation where these worked, with the outcome]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

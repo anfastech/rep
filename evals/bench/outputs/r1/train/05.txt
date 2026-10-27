@@ -1,0 +1,59 @@
+Our first office outside the US · content/drafts/2026-10-27-lisbon-office.md
+Single post · LinkedIn · Maya Rao's profile (first person, speaking for the company) · voice provisional
+
+Hook (used below):
+We've opened our first office outside the US, in Lisbon. 9 people have joined so far, and we're hiring 15 more this year.
+
+Alternative hooks:
+1. We're hiring 15 engineers and ops people in Lisbon this year. Our first office outside the US is open.
+2. Lisbon is now home to our first office outside the US, and to 9 new colleagues.
+
+Post:
+
+We've opened our first office outside the US, in Lisbon. 9 people have joined so far, and we're hiring 15 more this year.
+
+[NAME: company name] has been a US-only company until now, so this is a big step for a team of our size.
+
+[STORY NEEDED: why Lisbon, in Maya's words]
+
+[STORY NEEDED: what a Lisbon team changes for customers, e.g. time zone cover for European clients, if true]
+
+The 9 people already there have joined across [NAME: teams or roles of the first 9 hires]. [STORY NEEDED: what the Lisbon team works on]
+
+The next 15 roles are in engineering and operations. As head of operations, I'll be working closely with the ops hires, and I'd like to meet people who know logistics.
+
+[NAME: what Maya wants candidates to know about working there]
+
+If you're in Lisbon, or would move there, and you work in engineering or operations, the open roles are in the first comment. You can also message me directly.
+
+#Lisbon #hiring #logistics
+
+First comment: Open roles in Lisbon: [PROOF NEEDED: careers page URL]
+
+Edit note
+- One argument: the company has opened its first non-US office in Lisbon and is hiring 15 more engineers and ops people there.
+- Fakes: why Lisbon, what the team works on and who the first 9 are are left as slots. "I'll be working closely with the ops hires" and "I'd like to meet people who know logistics" are added as Maya's stance; she must confirm both.
+- Intent and CTA: announcement with a hiring ask; the link goes in the first comment, not the body.
+- Readability: what's new, where and the hiring number all land in the first two sentences.
+- AI-tell check: removed 1 "We're thrilled to announce", 1 "exciting new chapter", 1 "journey". No dashes.
+- Voice: provisional. No voice card or past posts for Maya. This is a company announcement from a person's profile, so it uses "we" for the company and "I" only for Maya's own role. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: Our first office outside the US   (sign-off: scoped sign-off this run, from the brief)
+- Kept: first office in Lisbon; first outside the US; 9 hires so far; hiring 15 more engineers and ops roles this year.
+- Softened: "a team of our size" (no headcount in the post; the 60-person figure is held back until Maya confirms it can be public).
+- Cut: none.
+- Sourced: none needed; no world facts.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao)
+- [NAME: company name]
+- [STORY NEEDED: why Lisbon]
+- [NAME: teams or roles of the first 9 hires]
+- [STORY NEEDED: what the Lisbon team works on]
+- [STORY NEEDED: what a Lisbon team changes for customers]
+- [NAME: what Maya wants candidates to know]
+- [PROOF NEEDED: careers page URL for the first comment]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

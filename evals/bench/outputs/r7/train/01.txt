@@ -1,0 +1,24 @@
+```
+Comment PILOT and I'll send you the rollout checklist we now use before any new warehouse tool goes live.
+
+We rolled out a new warehouse scanning app to all 12 sites on the same day.
+
+Two sites went down for a full day. 3,000 orders shipped late.
+
+The app itself held up. What failed was launching at 12 sites at once, with nobody free to help the two that broke.
+
+Now every software rollout starts with a pilot at one site. It runs until the site lead calls it boring. Then we scale.
+
+#warehouseoperations #supplychain #logistics
+```
+
+```
+CAPTION READY
+job:        A - the reel carries the hook (Maya on camera, "3,000 orders shipped late" in the first two seconds)
+visible:    105 of 125 characters used before the cut
+ask:        one, comment PILOT (say PILOT out loud in the video too)
+hashtags:   3
+search:     "warehouse scanning app" in line 3, "software rollout" in line 9
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```

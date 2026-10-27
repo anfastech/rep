@@ -1,0 +1,140 @@
+SUBJECT LINE (chosen)
+How to negotiate with a vendor when you're small
+
+Alternatives
+1. 4 moves for vendor deals with little leverage
+2. Ask for service credits, not discounts
+
+PREVIEW TEXT
+You don't need size. You need their deadline, a real alternative, and the right ask.
+
+
+==================== ISSUE ====================
+
+# How to negotiate with a vendor when you're small
+
+*You don't need size. You need their deadline, a real alternative, and the right ask.*
+
+We're a 60-person company. When we sit across from a big software vendor, we are not their most important customer. We're not even close.
+
+For years I assumed that meant we took whatever price came in the renewal email. **It doesn't.** Small buyers have less weight, but they still have moves. Here are the four I use on every renewal.
+
+[Subscribe button]
+
+## 1. Anchor on their renewal deadline, not yours
+
+Your deadline is the day your contract ends. Theirs is the day their sales rep needs the deal booked, usually the end of their quarter.
+
+**Their deadline is the one that matters.** A rep with a quota and a quarter closing in two weeks has much more room to move than one with three months left.
+
+So find out when their quarter ends. Start talking about 90 days before your renewal, and aim to close in the last few weeks of their quarter. Don't rush to sign early. Signing early gives away the only clock you have.
+
+## 2. Bundle multi-year terms
+
+The one thing a small customer can offer that a vendor really wants is **predictable revenue.** A two or three year commitment is worth more to them than a few extra seats.
+
+Use that. Offer a longer term, but only in exchange for something:
+
+- A price lock for the full term
+- A cap on annual increases
+- Extra modules or support included at no added cost
+
+Never give the multi-year term away for free. It's your best card. Play it once, and get something real for it.
+
+## 3. Bring a credible alternative
+
+"We're looking at other options" is the most ignored sentence in sales. Every rep hears it every week.
+
+**Credible means you would actually switch.** That means you've taken a demo, you have a quote, and someone on your team has looked at what migration would take.
+
+You don't need to wave it around. Just mention it once, plainly, with one specific detail. Reps can tell the difference between a bluff and a plan.
+
+And if you aren't willing to switch, don't pretend. Get a real alternative first, or skip this move.
+
+## 4. Ask for service credits, not discounts
+
+This one took me the longest to learn.
+
+Discounts are hard for a rep to approve. They lower the deal value, they need sign-off from above, and they set a price the vendor has to live with next year. So reps fight them.
+
+**Service credits are easier to say yes to.** A credit if uptime drops below what they promised. A credit if support misses its response time. The headline price stays the same, so the rep's deal still looks good.
+
+And credits help you twice. They save money when the vendor slips, and they give the vendor a reason not to slip.
+
+[Share button]
+
+* * *
+
+## Putting it together
+
+Here's the short version I keep in our renewal checklist:
+
+1. Find the vendor's quarter end. Start 90 days before your renewal.
+2. Decide what a multi-year term is worth to you, and what you want for it.
+3. Get one real alternative: demo, quote, rough migration plan.
+4. Ask for credits tied to uptime and support, not a lower price.
+
+None of this needs a big logo or a big budget. It needs preparation and a bit of patience.
+
+The thing to remember: **when you have little leverage, use their timing and their needs, not your size.**
+
+## Your turn
+
+What's the best concession you've ever gotten from a vendor, and how did you get it? Hit reply. I'll pull the best tactics into a follow-up issue.
+
+If this was useful, forward it to whoever on your team owns your next software renewal.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: set up the "small buyer, big vendor" tension.
+   Description: a small chess piece facing a much larger one on a plain table, soft light, minimal background.
+   Alt text: "A small chess piece facing a much larger one across a table."
+
+2. Placement: inline, after "Putting it together".
+   Purpose: give readers something to save or screenshot.
+   Description: a clean four-item checklist card titled "Low-leverage renewal checklist" with the four steps from the issue.
+   Alt text: "Checklist: vendor quarter end, multi-year terms, real alternative, service credits."
+
+
+==================== NOTES TEASER ====================
+
+Small companies don't win vendor negotiations with size. They win with timing. Find out when your vendor's quarter ends, offer a multi-year term only for a price lock, and ask for service credits instead of a discount. Credits are easier for a rep to approve, and they keep the vendor honest.
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the plain fact before the lesson: "We're a 60-person company... We're not even close."
+- Owns mistakes in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: lanes, handoffs, dock doors, bottlenecks
+
+## Things that would sound wrong
+- Inspirational framing ("failure is a gift"): would sound like a LinkedIn influencer instead of an operator
+- Passive voice about mistakes ("errors were made"): breaks her habit of ownership
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

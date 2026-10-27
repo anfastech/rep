@@ -1,0 +1,28 @@
+```
+I cancelled all 22 of our recurring meetings for a month. Only 4 came back.
+
+Most companies hold too many recurring meetings. We were no different. Each one was added for a good reason and never questioned again.
+
+For one month, every recurring meeting came off the calendar. If a team wanted one back, they had to ask for it.
+
+4 of 22 came back. The other 18 were habits.
+
+If you want to fix your meeting culture, start from an empty calendar and make each meeting earn its slot back.
+
+Which recurring meeting on your calendar would you cancel first? Tell me in the comments.
+
+#meetings #productivity #operations
+```
+
+Alt text: A team calendar for one month with no recurring meetings on it.
+
+```
+CAPTION READY
+job:        B - single image, line one is the hook
+visible:    75 of 125 characters used before the cut
+ask:        one, answer the question in the comments
+hashtags:   3
+search:     "recurring meetings" in line 1 and line 3, "meeting culture" in line 9
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```

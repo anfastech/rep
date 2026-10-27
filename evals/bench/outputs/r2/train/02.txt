@@ -1,0 +1,171 @@
+## 1. Thread Outline
+
+Template: Case Study Thread (11 tweets)
+- Hook: 41% of tickets from 3 screens, rewrite cut volume by a third
+- Background: support growing faster than customers
+- Before: pull 18 months of tickets and tag them
+- Strategy: the finding, 3 onboarding screens
+- Implementation: rewrite 3 screens, not the product
+- Challenge: the tagging was the hard part
+- Results: ticket volume down by a third
+- Takeaway 1: tickets are product feedback
+- Takeaway 2: problems cluster
+- Replicate: 5-step playbook (doubles as summary)
+- CTA: follow + retweet + reply
+
+## 2. Full Thread
+
+Tweet 1 (143 chars)
+
+41% of our support tickets came from just 3 screens.
+
+We rewrote those 3 screens.
+
+Ticket volume dropped by a third.
+
+Here's how we found them:
+
+Tweet 2 (231 chars)
+
+Some background.
+
+I run operations at a 60-person logistics software company.
+
+Support volume was growing faster than our customer count.
+
+The obvious fix was hiring more agents.
+
+I wanted to know where the tickets came from first.
+
+Tweet 3 (122 chars)
+
+So we pulled 18 months of support tickets.
+
+Every single one.
+
+Then we tagged each ticket by where the customer got stuck.
+
+Tweet 4 (166 chars)
+
+The result surprised everyone.
+
+41% traced back to the same 3 onboarding screens.
+
+Not bugs.
+
+Not outages.
+
+3 confusing screens new customers saw in their first week.
+
+Tweet 5 (119 chars)
+
+We didn't redesign the product.
+
+We rewrote 3 screens.
+
+Plainer labels.
+
+Fewer choices.
+
+A clear next step on each one.
+
+Tweet 6 (156 chars)
+
+The hard part wasn't the rewrite.
+
+It was the tagging.
+
+18 months of tickets don't sort themselves.
+
+But without the tags, we'd have fixed the wrong things.
+
+Tweet 7 (142 chars)
+
+After the rewrite, ticket volume fell by a third.
+
+Same customers.
+
+Same product.
+
+Same support team.
+
+Just 3 screens that finally made sense.
+
+Tweet 8 (179 chars)
+
+Takeaway 1: support tickets are product feedback.
+
+Every ticket is a customer showing you where they got lost.
+
+Most teams close them and move on.
+
+Read them as a dataset instead.
+
+Tweet 9 (147 chars)
+
+Takeaway 2: problems cluster.
+
+You don't have 1,000 small problems.
+
+You have 3 screens causing 41% of the pain.
+
+Find the cluster before you hire.
+
+Tweet 10 (226 chars)
+
+How to run this yourself:
+
+1. Export at least 12 months of tickets
+2. Tag each by screen or step
+3. Rank by volume
+4. Fix the top 3
+5. Track ticket volume for 60 days
+
+Save this. It's the cheapest support fix you'll ever ship.
+
+Tweet 11 (172 chars)
+
+Follow me for more ops lessons backed by real data.
+
+Retweet the first tweet if your support queue needs this.
+
+Have you ever mined your tickets? Reply with what you found.
+
+## 3. Hook Variations
+
+A. Stat + insight
+We read 18 months of support tickets.
+
+41% pointed to the same 3 screens.
+
+Here's what happened when we fixed them:
+
+B. Contrarian
+Your support team doesn't need more agents.
+
+Ours needed 3 rewritten screens.
+
+Ticket volume fell by a third:
+
+C. Curiosity
+There's a dataset that tells you exactly what to fix in your product.
+
+Most companies delete it every day.
+
+It's your support queue:
+
+D. Result
+We cut support tickets by a third without hiring anyone.
+
+We just rewrote 3 screens. Here's how we picked them:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Tuesday or Thursday, 9:00am ET. SaaS ops and support leaders are planning their week.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: a simple screenshot of the tagging sheet layout (columns: ticket ID, screen, step, category). Bonus tip: "Tag with 1 person first, then check 50 tickets with a second person."
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Answer every "how did you tag them?" question in detail.
+  - Ask repliers what their top ticket source is.
+  - Retweet the hook once after 30 minutes if replies are slow.

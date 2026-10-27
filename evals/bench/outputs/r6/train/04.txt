@@ -1,0 +1,29 @@
+**Saved to `~/captions/2026-10-27-low-leverage-vendor-negotiation.md`**
+
+**Platform:** LinkedIn
+**Shape:** Show the thing. The "thing" here is the playbook itself, and there's no mistake or measured contrast to build on.
+**First line pick:** It flips the usual assumption (you need leverage) and hands over the first tactic right away.
+
+```
+You don't need much leverage to negotiate with a vendor. You need their renewal deadline.
+
+Here's how I run a vendor negotiation when I'm the smaller side of the table:
+
+Anchor on their renewal deadline. They need the deal closed too.
+
+Bundle multi-year terms. Offer a longer commitment in exchange for better terms.
+
+Bring a credible alternative. It has to be real.
+
+Ask for service credits, not discounts.
+
+Which of these have you tried on a vendor who wouldn't budge?
+```
+
+**Runner-up first lines:**
+- "Little leverage in a vendor negotiation? Start with their renewal deadline."
+- "Ask a vendor for service credits, not discounts."
+
+**Comment keyword:** none (no link)
+
+**Next action:** Post it, and reply to every comment within the first hour.

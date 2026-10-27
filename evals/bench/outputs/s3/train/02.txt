@@ -1,0 +1,15 @@
+41% of our support tickets over the last 18 months came from the same 3 onboarding screens.
+
+We pulled every ticket from that period and tagged each one by where the customer was in the product when they got stuck. I expected a long tail: a few common issues and hundreds of one-off edge cases spread across the product. The tickets clustered instead. Nearly half of them pointed back to three screens that every new customer sees in their first days with us.
+
+That position is why the numbers were so lopsided. A confusing label deep in a settings page bothers a few people. A confusing label on an onboarding screen bothers every new account, every month.
+
+So we rewrote those three screens. Ticket volume dropped by a third.
+
+For years we treated support volume as a staffing question and asked how many people we needed to answer the tickets. Tagging them by screen turned it into a product question with a very short list of answers. Rewriting three screens cost us far less than the headcount we would have added to keep up.
+
+If your support queue keeps growing, sort a few months of tickets by where in the product they start before you hire for it. The cluster might be smaller than you think.
+
+Has anyone else found their tickets this concentrated? I'd like to know whether three screens is unusual or common.
+
+#CustomerSupport #Operations #SaaS

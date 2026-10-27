@@ -1,0 +1,3 @@
+Use the reverse-engineer-skill skill (in .claude/skills/) on the outputs in ./outputs. They were all made by one unknown AI skill. The user already split them: ./outputs/train (study these) and ./outputs/heldout (held out). Name the target "target". Follow the skill's method fully, including blind replay with subagents, the held-out test and the leak check, and write everything under ./reverse-runs/target/.
+Work only inside the current directory. Do not read, search or fetch anything outside it, and do not search the web for the source skill.
+When finished, reply with one line: done, and the path of the exported SKILL.md.

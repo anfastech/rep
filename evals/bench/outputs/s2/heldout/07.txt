@@ -1,0 +1,33 @@
+The most valuable tool we built last year was a spreadsheet.
+
+A junior analyst on my team made it.
+
+No new platform. No big project. No budget request.
+
+Just a simple spreadsheet that looks at our data and predicts which trucks will be delayed, two days before it happens.
+
+It is right about 80% of the time.
+
+That sounds modest until you see what two days buys you in logistics. Two days is enough to reroute, rebook, warn the customer, and avoid the penalty.
+
+So we started using it.
+
+Now it runs every morning. The ops team checks it before anything else.
+
+Last year it saved us roughly $200,000 in penalties.
+
+I keep coming back to how this happened.
+
+Nobody asked for it. Nobody wrote a spec. A junior analyst saw a problem, had the data, and built the simplest thing that could work.
+
+If we had treated this as a proper project, it would still be in planning.
+
+Three things I took from it:
+
+The best ideas often come from the people closest to the data.
+Simple and used every day beats clever and still in progress.
+Juniors build great things when someone takes their work seriously.
+
+My job was not to build it. My job was to notice it, back it, and get it into the morning routine.
+
+Look at what your most junior people are building on the side. One of them might already have your next $200,000 idea.

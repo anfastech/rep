@@ -1,0 +1,34 @@
+I launched a new app at 12 sites in one day. Two of them went dark.
+
+Here's what happened:
+
+We built a new scanning app for our warehouses.
+
+It tested well. The team was excited.
+
+So I rolled it out everywhere at once.
+
+Two sites went down for a full day.
+
+Scanners stopped working. Work stopped with them.
+
+3,000 orders shipped late.
+
+The app wasn't the real problem.
+
+The rollout was. And the rollout was my call.
+
+Now every launch starts at one site.
+
+We fix what breaks there. Then we go wide.
+
+One site down is a bad day. Twelve sites at risk is a bad quarter.
+
+I wrote up the one-site pilot checklist we use now.
+
+Comment "PRETZEL" and I'll send you the link.
+
+PS - You'll launch something new this year no matter what. The question is whether it breaks one site or all of them.
+
+---
+Hook formula used: Confession / Gap Reveal — for A/B tracking. Strip before publishing.

@@ -1,0 +1,19 @@
+**Format:** Single promotional post + link in reply
+
+**Post text** (124 chars, including hashtag)
+```
+Our first office outside the US is open: Lisbon. 9 hires so far. 15 more engineers and ops roles to fill this year. #Lisbon
+```
+
+**Reply (post immediately after; link kept out of main post to avoid the ~50% link penalty)** (35 chars; URL counts as 23)
+```
+Open roles: [careers page URL]
+```
+
+**Hashtags:** #Lisbon
+
+**Image specs (attach to main post):**
+- 1200×675 (16:9), JPG, under 5MB
+- Team photo of the 9 Lisbon hires in the new office. Real people, no stock imagery.
+
+**Notes:** This is a promo post (10% bucket). Space it between value posts.

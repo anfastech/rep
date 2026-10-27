@@ -1,0 +1,30 @@
+I rolled out a new warehouse scanning app to all 12 of our sites on the same day.
+
+Two of them went down for a full day.
+
+3,000 orders shipped late.
+
+The app was fine. The plan was the problem.
+
+I had tested it. I had trained people. I had a rollback written down. What I did not have was a single site that had lived with it first.
+
+So every surprise hit everywhere at once. Every site lead was firefighting at the same time, and nobody had a working example to copy.
+
+Here is what a one-site pilot would have bought us:
+
+A real shift, with real volume, on real hardware.
+The small problems found while they were still small.
+A site lead who could tell the other 11 exactly what to expect.
+A rollback that touched one building, not twelve.
+
+All of that for the cost of a few weeks.
+
+Instead we paid with a day of downtime at two sites and 3,000 customers who got their orders late.
+
+Speed felt like the responsible choice. Everyone wanted the new app. Waiting felt like dragging my feet.
+
+It was not. Going everywhere at once only looks fast until something breaks.
+
+Now the rule on my team is simple. Nothing new goes to every site until it has survived one.
+
+Pilot at one site first. Then roll out.

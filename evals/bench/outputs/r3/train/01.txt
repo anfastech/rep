@@ -1,0 +1,11 @@
+I once rolled out a new warehouse scanning app to all 12 of our sites on the same day.
+
+Two of those sites went down for a full day. About 3,000 orders shipped late. I spent the rest of that week on the phone with customers, explaining something that had been entirely our choice.
+
+The app wasn't the real problem. We had tested it, and it did what it was supposed to do. What we hadn't tested was how it behaved at each individual site, with that site's own setup and people, on a normal busy day. With all 12 going live together, we found out at all 12 at the same time. We had no healthy site to compare against and nobody free to help.
+
+The fix is boring. Next time, one site goes first. It runs long enough for us to find what breaks, we fix it there, and then the next sites follow.
+
+That approach looks slower on a project plan. It is much faster than calling customers about 3,000 late orders.
+
+I kept this to one plain lesson and left out any detail about the cause that wasn't in the brief. I can make it more or less hard on myself if you want.

@@ -1,0 +1,54 @@
+Back from parental leave · content/drafts/2026-10-27-back-from-parental-leave.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+I'm back at work after 6 months of parental leave, and I don't work the way I did before I left.
+
+Alternative hooks:
+1. Since coming back from parental leave, I don't answer Slack after 6pm.
+2. I delegate more, I decide faster, and Slack stays closed after 6pm. Six months of parental leave did that.
+
+Post:
+
+I'm back at work after 6 months of parental leave, and I don't work the way I did before I left.
+
+The biggest change is how much I hand off. I delegate far more than I used to. [STORY NEEDED: one thing Maya used to hold onto that someone on the team now owns]
+
+Decisions come faster too. Where I'd once wait for one more data point, I now make the call and move. [STORY NEEDED: a recent decision Maya made faster than she would have before]
+
+And after 6pm, I stop answering Slack. The team knows it, and the work still gets done.
+
+[STORY NEEDED: what about the leave caused these changes, in Maya's words]
+
+None of this was a plan. I didn't sit down during leave and decide to change how I work. [NAME: Maya's take on whether these changes are permanent]
+
+If you're about to go on leave, or you've just come back from one, I'd like to hear what changed for you.
+
+#parentalleave #leadership #operations
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: time away changed how Maya works for the better: more delegation, faster decisions, a hard stop on Slack after 6pm.
+- Fakes: the three changes are Maya's from the brief. What caused them and her examples are left as slots. Three lines are added as her experience and need her yes: "Where I'd once wait for one more data point", "The team knows it, and the work still gets done", and "None of this was a plan. I didn't sit down during leave and decide to change how I work."
+- Intent and CTA: personal reflection; the close is a real question that invites replies.
+- Readability: the three changes are written in three different sentence shapes to avoid a parallel triplet.
+- AI-tell check: removed 1 "journey", 1 "Let that sink in", 1 colon reveal ("What changed? Everything."). Alt hook 2 is a deliberate triplet; it is the only one if chosen. No dashes.
+- Voice: provisional. No voice card or past posts for Maya. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: Back from parental leave   (sign-off: product facts only; personal story, no brand claims)
+- Kept: 6 months of parental leave; delegates more; decides faster; stopped answering Slack after 6pm.
+- Softened: "Where I'd once wait for one more data point" and "the work still gets done" are flagged as added detail for Maya to confirm or cut.
+- Cut: none.
+- Sourced: none; no world facts or parental-leave statistics used.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao): a personal story, published under her name.
+- [STORY NEEDED: one thing she now delegates]
+- [STORY NEEDED: a faster decision]
+- [STORY NEEDED: what about the leave caused the changes]
+- [NAME: whether the changes are permanent]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

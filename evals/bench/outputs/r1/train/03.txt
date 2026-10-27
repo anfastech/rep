@@ -1,0 +1,54 @@
+22 recurring meetings, 4 came back · content/drafts/2026-10-27-cancel-recurring-meetings.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+I cancelled every recurring meeting for a month. There were 22 of them. Only 4 came back.
+
+Alternative hooks:
+1. Most companies hold too many recurring meetings. I tested it by cancelling all 22 of ours for a month.
+2. 18 of our 22 recurring meetings never came back after I cancelled them for a month.
+
+Post:
+
+I cancelled every recurring meeting for a month. There were 22 of them. Only 4 came back.
+
+[NAME: whose meetings these were, Maya's own calendar or the whole ops team's]
+
+My view is that most companies hold too many recurring meetings. A recurring invite is easy to create and nobody's job to end, so they pile up. After this month I'm more sure of it.
+
+The other 18 simply never returned. [STORY NEEDED: what happened to the work those 18 meetings used to cover, e.g. a doc, a channel, or nothing at all]
+
+The 4 that did come back earned it. [STORY NEEDED: what those 4 have in common and how each one came back]
+
+Some meetings matter. 4 of ours clearly do. The point is that we didn't know which 4 until we stopped all of them.
+
+If your calendar feels full of standing meetings, try the same test for a month. Cancel the recurring ones and see which you actually rebuild.
+
+#operations #meetings #productivity
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: most recurring meetings would not be missed; the way to find the few that matter is to cancel them all and see what comes back.
+- Fakes: Maya's view ("most companies hold too many recurring meetings") is hers from the brief. Why the 4 came back and what replaced the 18 are left as [STORY NEEDED] slots. One line of reasoning ("easy to create and nobody's job to end") is added as her view; flag it for her to keep or cut.
+- Skeptic: "some meetings are essential" is answered with her own number: 4 of 22 were.
+- Intent and CTA: contrarian post; the close is a test the reader can run.
+- Swap test: passes on the 22 and 4.
+- AI-tell check: removed 1 rhetorical-question opener ("How many of your meetings would you miss?"), 1 colon reveal ("The result? 4."). One "not X, it's Y" shape kept at most once. No banned words. No dashes.
+- Voice: provisional. No voice card or past posts for Maya. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: 22 recurring meetings, 4 came back   (sign-off: scoped sign-off this run, from the brief)
+- Kept: cancelled every recurring meeting for a month; 22 meetings; 4 came back (18 did not, which is arithmetic). The opinion is Maya's.
+- Softened: "A recurring invite is easy to create and nobody's job to end" is reasoning, not a stat; flagged above for Maya's yes.
+- Cut: none.
+- Sourced: none; no world facts or meeting statistics used.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao)
+- [NAME: whose meetings these were]
+- [STORY NEEDED: what replaced the 18 meetings]
+- [STORY NEEDED: what the 4 that came back have in common]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

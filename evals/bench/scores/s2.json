@@ -1,0 +1,366 @@
+{
+  "id": "s2",
+  "g_rules": [
+    {
+      "id": "G1",
+      "text": "Use the tone from voice.md",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "partial",
+      "note": "R24 calm practical tone hardcodes one voice; no notion of a voice file"
+    },
+    {
+      "id": "G2",
+      "text": "Match sentence length and paragraph rhythm from voice.md",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial",
+      "note": "R8/R9 hardcode the observed rhythm"
+    },
+    {
+      "id": "G3",
+      "text": "Use the hook pattern that fits the chosen angle (hook style from voice.md)",
+      "type": "conditional",
+      "visible": "partly",
+      "recovered": "partial",
+      "note": "R10 gives one fixed hook rule; hook formula list listed as unknown"
+    },
+    {
+      "id": "G4",
+      "text": "End with the CTA style from voice.md",
+      "type": "cta",
+      "visible": "partly",
+      "recovered": "partial",
+      "note": "R23 describes observed closers"
+    },
+    {
+      "id": "G5",
+      "text": "Avoid every banned word, structure and pattern in voice.md's absence section",
+      "type": "word-list",
+      "visible": "partly",
+      "recovered": "unknown-listed",
+      "note": "Recovered lists 'a banned word or phrase list' as unknown"
+    },
+    {
+      "id": "G6",
+      "text": "Use about-me.md for audience and topic context (author persona)",
+      "type": "persona",
+      "visible": "yes",
+      "recovered": "unknown-listed",
+      "note": "Persona listed as unknown (fixed or per brief)"
+    },
+    {
+      "id": "G7",
+      "text": "Write in the chosen framework: PAS, How-to list, Story to lesson, or Contrarian take",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial",
+      "note": "R20 numbered how-to and R22 lesson block; no framework menu, PAS absent"
+    },
+    {
+      "id": "G8",
+      "text": "Build the post on one chosen angle using data points, contrarian takes, real examples, or misconceptions to challenge",
+      "type": "other",
+      "visible": "partly",
+      "recovered": "partial",
+      "note": "R14 contrast reframe only"
+    },
+    {
+      "id": "G9",
+      "text": "Output the post inside a plain code block",
+      "type": "format",
+      "visible": "no",
+      "recovered": "none",
+      "note": ""
+    },
+    {
+      "id": "G10",
+      "text": "Keep line breaks and formatting exactly as they should appear on LinkedIn",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full",
+      "note": "R8 blank line between blocks"
+    },
+    {
+      "id": "G11",
+      "text": "After the code block, add 2 to 3 sentences on why this hook and structure, citing voice.md patterns",
+      "type": "structure",
+      "visible": "no",
+      "recovered": "none",
+      "note": ""
+    },
+    {
+      "id": "G12",
+      "text": "Never invent facts, first-person experience or metrics; use supplied evidence",
+      "type": "other",
+      "visible": "no",
+      "recovered": "full",
+      "note": "R16"
+    },
+    {
+      "id": "G13",
+      "text": "Keep source notes separate from paste-ready copy",
+      "type": "format",
+      "visible": "partly",
+      "recovered": "none",
+      "note": ""
+    },
+    {
+      "id": "G14",
+      "text": "Do not replace a requested structure with a generic post framework",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none",
+      "note": ""
+    },
+    {
+      "id": "G15",
+      "text": "For a roster or step caption, map every required item; check order, duplicates, omissions",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none",
+      "note": ""
+    },
+    {
+      "id": "G16",
+      "text": "Never use em dashes",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full",
+      "note": "R4"
+    },
+    {
+      "id": "G17",
+      "text": "British English unless voice.md says otherwise",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "unknown-listed",
+      "note": "Listed as unknown ('favours' seen once)"
+    },
+    {
+      "id": "G18",
+      "text": "No hashtags unless voice.md uses them",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "partial",
+      "note": "R2 bans hashtags absolutely, misses the override"
+    },
+    {
+      "id": "G19",
+      "text": "No engagement bait CTAs unless they appear in voice.md",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "partial",
+      "note": "R6 bans absolutely, misses the override"
+    },
+    {
+      "id": "G20",
+      "text": "150 to 300 words unless the user requests otherwise",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "partial",
+      "note": "R7 says 205 to 265, narrower"
+    },
+    {
+      "id": "G21",
+      "text": "Deliverable is a LinkedIn post",
+      "type": "other",
+      "visible": "yes",
+      "recovered": "full",
+      "note": "Output line / description"
+    }
+  ],
+  "r_rules": [
+    {
+      "id": "R1",
+      "text": "Plain text only; no headings, bold, bullet symbols, links",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R2",
+      "text": "Never use emojis or hashtags",
+      "mark": "grounded",
+      "matches": "G18"
+    },
+    {
+      "id": "R3",
+      "text": "Never use contractions",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R4",
+      "text": "Never use em dashes, en dashes, or double hyphens",
+      "mark": "grounded",
+      "matches": "G16 (en dash and double hyphen part is env)"
+    },
+    {
+      "id": "R5",
+      "text": "Never use exclamation marks",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R6",
+      "text": "Never end on a question, poll, or request to comment or share",
+      "mark": "grounded",
+      "matches": "G19"
+    },
+    {
+      "id": "R7",
+      "text": "Length about 205 to 265 words",
+      "mark": "grounded",
+      "matches": "G20"
+    },
+    {
+      "id": "R8",
+      "text": "14 to 19 blocks, blank line between every block",
+      "mark": "grounded",
+      "matches": "G2, G10"
+    },
+    {
+      "id": "R9",
+      "text": "Short sentences averaging 8 to 10 words, mixed with 18 to 30 word sentences",
+      "mark": "grounded",
+      "matches": "G2"
+    },
+    {
+      "id": "R10",
+      "text": "Line 1 hook: one sentence, 7 to 20 words, fact or flat claim, not a question",
+      "mark": "grounded",
+      "matches": "G3"
+    },
+    {
+      "id": "R11",
+      "text": "Line 2 is one short line sharpening the hook",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R12",
+      "text": "Key number in the first three lines",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R13",
+      "text": "Numbers as digits",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R14",
+      "text": "At least one contrast reframe",
+      "mark": "grounded",
+      "matches": "G8"
+    },
+    {
+      "id": "R15",
+      "text": "First person; I for own choices, we for team; you near the end",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R16",
+      "text": "Admit mistakes when the brief has them; never invent facts",
+      "mark": "grounded",
+      "matches": "G12"
+    },
+    {
+      "id": "R17",
+      "text": "'Here is what ...' pivot in about half of posts",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R18",
+      "text": "One parallel triple or repeated word",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R19",
+      "text": "Parallel items as plain stacked lines, no bullets",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R20",
+      "text": "How-to brief: numbered list of 3 to 5 items",
+      "mark": "grounded",
+      "matches": "G7"
+    },
+    {
+      "id": "R20b",
+      "text": "Personal-change brief: count line, then statement plus explanation per change",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R21",
+      "text": "Announcement brief: news in hook, 'Why X?', roles open, thanks, forward line",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R22",
+      "text": "Block before close states the lesson plainly",
+      "mark": "grounded",
+      "matches": "G7"
+    },
+    {
+      "id": "R23",
+      "text": "Last line short, standalone, restates the lesson",
+      "mark": "grounded",
+      "matches": "G4"
+    },
+    {
+      "id": "R24",
+      "text": "Calm practical tone, no hype words or motivational sign-off",
+      "mark": "grounded",
+      "matches": "G1"
+    },
+    {
+      "id": "R25",
+      "text": "Fixed template: hook, sharpen, context, reframe, core, result, lesson, close",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R26",
+      "text": "Output is one LinkedIn post",
+      "mark": "grounded",
+      "matches": "G21"
+    }
+  ],
+  "counts": {
+    "g_total": 21,
+    "g_visible_yes": 8,
+    "g_visible_partly": 8,
+    "g_visible_no": 5,
+    "recovered_full": 4,
+    "recovered_partial": 9,
+    "unknown_listed": 3,
+    "missed": 5,
+    "recall_visible": 0.4688,
+    "recall_all": 0.4048,
+    "r_total": 27,
+    "grounded": 14,
+    "incidental": 13,
+    "incidental_env": 0,
+    "wrong": 0,
+    "precision": 0.5185
+  },
+  "missed_by_type": {
+    "format": 2,
+    "structure": 1,
+    "conditional": 2
+  },
+  "lessons": [
+    "Check whether the style is fixed or comes from a per-user profile file (voice file, about-me file). Consistent tone, rhythm, hook and CTA across outputs may be one instance of a configurable voice. Recover the dimensions it controls, not only the observed values.",
+    "Captured outputs drop the packaging around the deliverable: code-block wrapping, a rationale note after the draft, notes kept apart from paste-ready copy. Always ask what surrounds the artifact when it is handed over.",
+    "An absent feature (no hashtags, no engagement bait, US vs British spelling) is often a conditional default with an override, not an absolute ban. Phrase recovered bans as defaults and ask what overrides them.",
+    "When outputs fall into a few distinct shapes, look for a user-selected framework menu (PAS, how-to, story, contrarian) instead of writing one conditional per brief type. Treat observed length ranges as a floor for the real limits; stated ranges are usually wider."
+  ]
+}

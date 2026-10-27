@@ -1,0 +1,158 @@
+## 1. Thread Outline
+
+Template: Contrarian Take (10 tweets)
+- Hook: cancelled 22 recurring meetings, only 4 came back
+- Common wisdom: recurring meetings keep teams aligned
+- Why it's wrong: recurring meetings never have to justify themselves
+- Evidence: the 30-day experiment
+- More evidence: 18 of 22 stayed dead (82%)
+- What to do instead: the cancel-and-request rule
+- Expected results: time back, better surviving meetings
+- Objection: "won't we lose alignment?"
+- Conclusion + summary
+- CTA: reply with your number + follow + retweet
+
+## 2. Full Thread
+
+Tweet 1 (136 chars)
+
+I cancelled all 22 of my recurring meetings for a month.
+
+Only 4 came back.
+
+Most recurring meetings shouldn't exist.
+
+Here's the proof:
+
+Tweet 2 (141 chars)
+
+The common belief:
+
+Recurring meetings keep teams aligned.
+
+Weekly syncs. Standups. Check-ins.
+
+Skip them and things fall through the cracks.
+
+Tweet 3 (169 chars)
+
+Here's the problem.
+
+A recurring meeting never has to justify itself.
+
+It was useful once.
+
+Then it keeps showing up every week.
+
+Nobody asks if it still earns its hour.
+
+Tweet 4 (165 chars)
+
+So I ran a test.
+
+For 1 month, I cancelled every recurring meeting on my calendar.
+
+22 in total.
+
+One rule: if a meeting truly matters, someone will ask for it back.
+
+Tweet 5 (111 chars)
+
+After 30 days, 4 came back.
+
+18 stayed dead.
+
+That's 82% of my recurring meetings.
+
+Nobody asked for them back.
+
+Tweet 6 (171 chars)
+
+What to do instead:
+
+→ Cancel every recurring meeting for 30 days
+→ Let people request the ones they need
+→ Bring back only those
+→ Move everything else to written updates
+
+Tweet 7 (157 chars)
+
+What you get back:
+
+Hours on your calendar.
+
+Real blocks for deep work.
+
+And the 4 meetings that survive get better.
+
+Everyone knows why they're in the room.
+
+Tweet 8 (203 chars)
+
+"But won't people lose alignment?"
+
+Not if updates move to writing.
+
+A 5-line written update beats a 30-minute status call.
+
+And if alignment truly breaks, the meeting comes back.
+
+That's the whole test.
+
+Tweet 9 (193 chars)
+
+TL;DR:
+
+1. Recurring meetings run on habit, not need
+2. Cancel them all for 30 days
+3. Bring back only what people ask for
+4. Expect around 4 in 22 to survive
+
+Make every meeting earn its spot.
+
+Tweet 10 (197 chars)
+
+Try the 30-day test and tell me your number.
+
+How many of your recurring meetings would come back? Reply below.
+
+Follow me for more ops experiments.
+
+Retweet the first tweet to share the challenge.
+
+## 3. Hook Variations
+
+A. Contrarian
+Your recurring meetings aren't keeping your team aligned.
+
+They're keeping your calendar full.
+
+I tested it with 22 meetings:
+
+B. Challenge
+Cancel every recurring meeting for 30 days.
+
+How many would anyone ask to bring back?
+
+Mine: 4 out of 22.
+
+C. Stat
+82% of my recurring meetings were useless.
+
+I only found out because I cancelled all of them. Here's how:
+
+D. Bold claim
+Most recurring meetings run on habit, not need.
+
+I cut 22 down to 4. Nobody missed the other 18:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Monday, 8:00am ET. People are staring at a full week of meetings.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: "The message I sent before cancelling: 'All my recurring meetings are off for 30 days. If you need one back, tell me why and I'll add it.' Steal it."
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Reply to everyone who shares their own number.
+  - Engage the pushback replies politely. Disagreement drives reach.
+  - Quote-tweet the most surprising reply.

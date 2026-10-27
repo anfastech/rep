@@ -1,0 +1,170 @@
+## 1. Thread Outline
+
+Template: Case Study Thread (11 tweets)
+- Hook: junior analyst, spreadsheet, 2 days ahead, 80%, about $200,000 saved
+- Background: late trucks trigger penalties
+- Before: we found out about delays when they happened
+- Strategy: use past delays to predict future ones
+- Implementation: simple flags, 2 days out
+- Challenge: earning trust
+- Results: the numbers
+- Takeaway 1: simple beats sophisticated
+- Takeaway 2: good ideas don't check job titles
+- Replicate: 5-step playbook (doubles as summary)
+- CTA: follow + retweet + reply
+
+## 2. Full Thread
+
+Tweet 1 (174 chars)
+
+A junior analyst on my team built a spreadsheet.
+
+It predicts truck delays 2 days ahead.
+
+80% accuracy.
+
+Last year it saved us about $200,000 in penalties.
+
+Here's the story:
+
+Tweet 2 (184 chars)
+
+Some background.
+
+I run operations at a 60-person logistics software company.
+
+Late trucks cost us money.
+
+A missed delivery window can trigger a penalty.
+
+Those penalties add up fast.
+
+Tweet 3 (144 chars)
+
+Before the spreadsheet, we learned about delays when they happened.
+
+By then, the penalty was locked in.
+
+We were always reacting.
+
+Never ahead.
+
+Tweet 4 (156 chars)
+
+Then a junior analyst asked a simple question.
+
+What if past delays could predict future ones?
+
+No new software.
+
+No data science team.
+
+Just a spreadsheet.
+
+Tweet 5 (178 chars)
+
+The model is simple.
+
+It looks at patterns behind past delays.
+
+Then it flags trucks likely to run late, 2 days out.
+
+That's enough time to reroute, rebook, or warn the customer.
+
+Tweet 6 (195 chars)
+
+The hard part was trust.
+
+A spreadsheet from a junior analyst doesn't get adopted on day 1.
+
+It had to prove itself.
+
+So we checked its calls against what actually happened.
+
+It kept being right.
+
+Tweet 7 (150 chars)
+
+The results:
+
+→ Delays flagged 2 days ahead
+→ 80% accuracy
+→ Runs every morning
+→ About $200,000 in penalties saved last year
+
+All from 1 spreadsheet.
+
+Tweet 8 (151 chars)
+
+Takeaway 1: simple beats sophisticated.
+
+We didn't need machine learning.
+
+We needed someone who understood the problem.
+
+And a tool they already knew.
+
+Tweet 9 (159 chars)
+
+Takeaway 2: good ideas don't check job titles.
+
+The person closest to the data often sees the pattern first.
+
+Junior people included.
+
+Give them room to build.
+
+Tweet 10 (200 chars)
+
+How to replicate this:
+
+1. Pick 1 costly, repeating problem
+2. Pull the history behind it
+3. Find the early warning signs
+4. Build the simplest tool that flags them
+5. Run it every morning
+
+Save this.
+
+Tweet 11 (175 chars)
+
+Follow me for more ops wins from real teams.
+
+Retweet the first tweet to give a junior analyst some credit.
+
+What's the most valuable spreadsheet at your company? Reply below.
+
+## 3. Hook Variations
+
+A. Result + Timeframe
+A spreadsheet saved us about $200,000 last year.
+
+It was built by a junior analyst.
+
+Here's how it works:
+
+B. Contrarian
+You don't need AI to predict logistics delays.
+
+A junior analyst on my team did it with a spreadsheet. 80% accuracy:
+
+C. Curiosity
+The most valuable tool in our ops team isn't software we bought.
+
+It's a spreadsheet a junior analyst built. Here's why:
+
+D. Bold claim
+Our best forecasting model costs $0 and runs in a spreadsheet.
+
+It predicts truck delays 2 days ahead:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Thursday, 8:30am ET. Logistics and ops leaders are reviewing the week's performance.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: tag or shout out the analyst by name (with their permission) and add a screenshot of the morning flag view with real data hidden.
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Answer questions about which signals the sheet uses at a high level.
+  - Ask repliers to share their own "simple tool, big result" stories.
+  - Quote-tweet the best story.

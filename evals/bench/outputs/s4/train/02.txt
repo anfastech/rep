@@ -1,0 +1,189 @@
+# Content Repurposing: 41% of Our Support Tickets Came From 3 Screens
+
+## Source Summary
+**Original Format**: Data insight post
+**Key Message**: 18 months of support tickets showed 41% came from the same 3 onboarding screens; rewriting those screens cut ticket volume by a third.
+**Target Audience**: Operations, customer support, and product leaders at SaaS and software companies
+
+---
+
+## Twitter/X Thread (10 tweets)
+
+**Tweet 1/10** (Hook)
+We analyzed 18 months of support tickets.
+
+41% came from the same 3 screens.
+
+Not bugs. Not outages. Three onboarding screens.
+
+Here's what we found and what we changed. 🧵
+
+**Tweet 2/10**
+The starting point: support volume kept growing, and we assumed it was just growth.
+
+More customers, more tickets. Normal, right?
+
+So we stopped guessing and tagged every ticket from the last 18 months by where the customer got stuck.
+
+**Tweet 3/10**
+The pattern was hard to miss.
+
+41% of all tickets traced back to the same 3 onboarding screens.
+
+Almost half our support load, from a handful of pages every new customer sees in week one.
+
+**Tweet 4/10**
+Why does this matter?
+
+Every one of those tickets is a customer confused at the exact moment they're deciding if we were worth it.
+
+That's not a support problem. That's a first-impression problem.
+
+**Tweet 5/10**
+So we didn't hire more support staff.
+
+We didn't write more help docs.
+
+We rewrote the 3 screens.
+
+**Tweet 6/10**
+The fix was mostly words and order:
+
+• Plainer labels
+• Fewer steps per screen
+• Clearer instructions at the point of confusion
+
+The tickets told us exactly where people got stuck. We just had to listen.
+
+**Tweet 7/10**
+The result:
+
+Total ticket volume dropped by a third. 📉
+
+Not from one feature. Not from a new tool. From rewriting 3 screens.
+
+**Tweet 8/10**
+The lesson for any ops team:
+
+Your support queue is the best product feedback you own.
+
+Most teams read tickets one at a time. Read them in aggregate and the patterns jump out.
+
+**Tweet 9/10**
+How to try this yourself:
+
+1. Pull 12 to 18 months of tickets
+2. Tag each by the screen or step involved
+3. Rank by volume
+4. Fix the top 3 first
+
+You may find your biggest problem lives in a few places.
+
+**Tweet 10/10**
+41% of tickets. 3 screens. One-third less volume.
+
+When did you last read your support tickets as a dataset?
+
+Reply with the most surprising thing your queue has told you 👇
+
+#CustomerSupport #SaaS #Onboarding
+
+---
+
+## LinkedIn Post
+
+41% of our support tickets came from just 3 screens. 📊
+
+For a long time, we treated rising support volume as a cost of growth. More customers, more questions. We assumed the answer was more people.
+
+Then we looked at the data.
+
+We went through 18 months of support tickets and tagged each one by where the customer got stuck. The pattern was clear: 41% of all tickets came from the same 3 onboarding screens.
+
+Almost half of our support load was coming from the first pages every new customer sees.
+
+So we didn't add headcount. We didn't write another help article. We rewrote those 3 screens with plainer language, fewer steps, and clearer instructions right where people got confused.
+
+Ticket volume dropped by a third.
+
+Key takeaways:
+• Your support queue is product feedback. Read it in aggregate, not one ticket at a time.
+• Confusion during onboarding is a first-impression problem, not just a support cost.
+• Fix the source before you scale the response. Rewriting screens beat hiring.
+
+Most teams already have this data. It's sitting in the helpdesk, waiting to be counted.
+
+The work itself wasn't fancy. Tag the tickets, rank the sources, and fix the top few. But it changed how our support and product teams talk to each other. Tickets are now an input to the roadmap, not just a queue to clear.
+
+When did your team last analyze support tickets as a dataset? What did you find?
+
+**Hashtags**: #CustomerSupport #Operations #SaaS #CustomerExperience #ProductManagement
+
+---
+
+## Instagram Caption
+
+Almost half our support tickets came from 3 screens. 🤯
+
+We looked at 18 months of tickets and tagged each one by where customers got stuck.
+
+📊 41% traced back to the same 3 onboarding screens.
+
+Instead of hiring more support staff, we rewrote those screens:
+✏️ Plainer words
+➖ Fewer steps
+💡 Clearer instructions
+
+📉 Result: ticket volume dropped by a third.
+
+No new hires. No new tools. Just listening to what our customers had been telling us all along, one ticket at a time, and finally adding it all up. 🔍
+
+Your support queue isn't just a to-do list. It's a map of where your product confuses people.
+
+Save this for your next ops review, and tell us: when did you last read your tickets as data? 👇
+
+.
+.
+.
+#customersupport #customerexperience #saas #onboarding #ux #uxwriting #productmanagement #operations #dataanalysis #datadriven #startup #techstartup #b2bsaas #customersuccess #productdesign #businessgrowth #opsleadership #logisticstech
+
+**Visual Suggestion**: 4-slide carousel. Slide 1: large "41%" with the text "of our tickets came from 3 screens." Slide 2: simple bar chart showing the 3 screens against all other sources. Slide 3: before and after mockups of one onboarding screen. Slide 4: "Tickets down by one-third" with a downward arrow. For Stories: a quiz sticker asking "What % of tickets came from 3 screens?"
+
+---
+
+## Facebook Post
+
+Here's a number that surprised our whole team: 41%.
+
+That's how many of our support tickets, over 18 months, came from the same 3 onboarding screens. We rewrote those screens, and ticket volume dropped by a third.
+
+Sometimes the biggest fix is hiding in plain sight.
+
+Have you ever found one small change that solved a big problem at work? Tell us below 👇
+
+#CustomerExperience
+
+---
+
+## TikTok Script (if applicable)
+
+**Hook (0-3 sec)**: "Almost half our support tickets came from three screens."
+**Main Content (3-45 sec)**: "We pulled 18 months of support tickets and tagged every single one by where the customer got stuck. 41 percent came from the same three onboarding screens. So we didn't hire more support people. We rewrote the screens. Plainer words, fewer steps, clearer instructions. Ticket volume dropped by a third. Your support queue is free product feedback. You just have to count it."
+**CTA (45-60 sec)**: "Follow for more ops lessons from inside a logistics software company. And go check your ticket data."
+
+**On-Screen Text Ideas**:
+- "18 months of tickets"
+- "41% = 3 screens"
+- "We rewrote them"
+- "Tickets down by 1/3"
+
+**Audio Suggestion**: Trending "data reveal" or "plot twist" sound for the 41% moment; clean, upbeat instrumental for the rest.
+
+**Hashtags**: #FYP #saas #customersupport #techtok #productdesign
+
+---
+
+## Analytics Recommendations
+- Best posting times: LinkedIn, Tuesday to Thursday, 8 to 10 AM. Twitter/X, weekdays 9 AM to 12 PM. Instagram, weekdays 11 AM to 1 PM. Facebook, weekdays 1 to 3 PM. TikTok, 6 to 9 PM.
+- Engagement tactics: On LinkedIn, offer to share the ticket-tagging template in the comments. On Twitter/X, post the bar chart as an image reply to tweet 3. On Instagram, use the quiz sticker in Stories to tease the 41% stat. On Facebook, ask followers about small fixes with big results.
+- A/B testing ideas: Test "41% of tickets came from 3 screens" against "We cut support tickets by a third without hiring" as the hook. Test the chart visual against a before and after screenshot. Test a LinkedIn version that ends with an offer of the template against one that ends with a question.

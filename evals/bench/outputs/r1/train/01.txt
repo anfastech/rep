@@ -1,0 +1,57 @@
+Pilot at one site first · content/drafts/2026-10-27-pilot-one-site-first.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+We rolled out a new warehouse scanning app to all 12 of our sites at once. Two sites went down for a full day, and 3,000 orders shipped late.
+
+Alternative hooks:
+1. 3,000 orders shipped late because I rolled out a new scanning app to all 12 of our sites on the same day.
+2. Two of our 12 warehouses went down for a full day. The rollout plan was mine.
+
+Post:
+
+We rolled out a new warehouse scanning app to all 12 of our sites at once. Two sites went down for a full day, and 3,000 orders shipped late.
+
+I made the call to go live everywhere on the same day. [STORY NEEDED: in Maya's words, why going live everywhere at once looked right at the time]
+
+[STORY NEEDED: what broke at the two sites, and what the team did that day]
+
+Those were 3,000 real deliveries, and every one of them arrived late.
+
+The lesson I took from it is to pilot at one site first.
+
+At one site, a bad day stays one site's bad day. You find what breaks, you fix it there, and the other 11 sites never feel it. Then the next site goes live with those fixes already in.
+
+That's how our next rollout will run. [NAME: Maya's rule for when the second site follows the pilot, e.g. after how many clean days]
+
+If you're planning to switch every location to a new system on the same day, pick one site and start there.
+
+#operations #logistics
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: big-bang rollouts across every site turn one problem into a company-wide one; pilot at one site first. Every paragraph serves it.
+- Fakes: no invented detail. What broke, why the all-at-once call was made, and the pilot rule are left as [STORY NEEDED] / [NAME] slots for Maya to fill in her own words.
+- Intent and CTA: lesson post, so the close is a next step for the reader, not a demo ask.
+- Swap test: passes. The 12 sites, 2 outages and 3,000 late orders are Maya's own numbers.
+- Skeptic: "pilots slow everything down" is not answered yet; Maya's pilot rule slot is where that answer goes.
+- Readability: the hook lands both numbers inside the first ~140 characters, before "see more". Short paragraphs, mixed lengths. Ends on the action, not a recap.
+- AI-tell check: removed 1 colon reveal ("The lesson is plain: ..."), 1 invented feeling line ("That one's on me"). No banned words. No dashes.
+- Voice: provisional. No voice card or past posts for Maya; written plainly in first person from the brief's wording. Offer: paste 5 to 10 of Maya's LinkedIn posts and I'll build her voice card.
+
+Claims and facts: Pilot at one site first   (sign-off: scoped sign-off this run, from the brief)
+- Kept: 12 sites rolled out at once; 2 sites down for a full day; 3,000 orders shipped late; lesson "pilot at one site first". All are Maya's own account from the brief.
+- Softened: none.
+- Cut: "That one's on me" (an attitude Maya did not state; restore by Maya saying it herself).
+- Sourced: none needed; no world facts.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao): the post is in her voice and tells her story.
+- [STORY NEEDED: why going live everywhere at once looked right]
+- [STORY NEEDED: what broke at the two sites, and what the team did that day]
+- [NAME: Maya's rule for when the second site follows the pilot]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

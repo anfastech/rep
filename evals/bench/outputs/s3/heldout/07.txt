@@ -1,0 +1,17 @@
+A junior analyst on our team saved us roughly $200,000 last year with a spreadsheet.
+
+Late trucks are expensive for us. When a delivery misses its window, we pay a penalty, and by the time a delay is obvious, there's usually nothing left to do except pay it.
+
+The spreadsheet predicts which trucks will be late two days before it happens. It's right about 80% of the time. Two days is enough warning to reroute, rebook, or tell the customer early, and those penalties are what added up to the $200,000.
+
+It now runs every morning.
+
+It's wrong about one time in five, and we're fine with that. Acting early on a false alarm costs us a phone call. Missing a real delay costs us a penalty.
+
+I keep thinking about how simple it is. If we had scoped this as a formal project, it would have needed a budget and a quarter of planning before anyone looked at the data. One analyst looked at the data first and built something we could test the next morning.
+
+If someone junior on your team is building a tool on the side, ask to see it. Ours is now part of how we start every day.
+
+What's the most useful spreadsheet running in your operation?
+
+#Logistics #Operations #SupplyChain

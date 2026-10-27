@@ -1,0 +1,32 @@
+**Format:** Thread (5 posts)
+
+**Thread structure:**
+
+**1/5** (91 chars)
+```
+1/5 Two of our 12 warehouses went dark for a full day. 3,000 orders shipped late. My fault.
+```
+
+**2/5** (69 chars)
+```
+2/5 We launched a new scanning app at every site on the same morning.
+```
+
+**3/5** (106 chars)
+```
+3/5 Two sites couldn't scan at all. With every site live at once, there was no working site to learn from.
+```
+
+**4/5** (82 chars)
+```
+4/5 The lesson is boring: pilot at one site first. Fix what breaks. Then roll out.
+```
+
+**5/5** (73 chars, including hashtag)
+```
+5/5 Have you ever launched everywhere at once? How did it go? #Operations
+```
+
+**Hashtags:** #Operations (final post only)
+
+**Notes:** The hook avoids the word "thread." The thread closes on an open question to drive replies. Reply to early comments within the first 30 minutes.

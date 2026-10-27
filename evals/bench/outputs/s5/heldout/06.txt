@@ -1,0 +1,124 @@
+SUBJECT LINE (chosen)
+What 6 months away taught me about my job
+
+Alternatives
+1. I came back from leave a different manager
+2. I stopped answering Slack after 6pm
+
+PREVIEW TEXT
+I delegate more, decide faster, and log off at 6. None of it was planned.
+
+
+==================== ISSUE ====================
+
+# What 6 months away taught me about my job
+
+*I delegate more, decide faster, and log off at 6. None of it was planned.*
+
+I've been back at work for a few weeks now, after **six months of parental leave.**
+
+Before I left, I wrote a handover document that was 14 pages long. I was sure something would break while I was gone. Mostly, nothing did. That was humbling.
+
+This issue is a bit more personal than usual. It's about three things I do differently now, and why I don't plan to go back.
+
+[Subscribe button]
+
+## The team didn't need me the way I thought
+
+My first week back, I asked for a list of everything that went wrong while I was out. The list was short. Each problem had been handled, and most were handled the way I would have.
+
+A few were handled better.
+
+It's a strange feeling. **You find out how much of your job was actually you, and how much was habit.** For me, a lot more was habit than I'd like to admit.
+
+## 1. I delegate more
+
+Before leave, I said I delegated. What I really did was hand things off and then quietly take them back when they got interesting.
+
+While I was gone, nobody could hand anything back. So people just owned it. Site leads made calls I used to make. Our planning lead ran the quarterly review without me.
+
+When I came back, I didn't take those things back. **If it ran fine for six months without me, it doesn't need me now.** That freed up about a third of my week.
+
+## 2. I decide faster
+
+I have less time now. Daycare pickup is not negotiable, and it doesn't care about my calendar.
+
+So I stopped waiting for perfect information. Most decisions in ops can be undone. If a call is reversible, I make it with what I have and adjust later.
+
+**Slow decisions felt careful. Mostly they were just slow.** The team says things move faster now, and I haven't seen anything go worse because of it.
+
+## 3. I stopped answering Slack after 6pm
+
+This was the hardest one.
+
+Before leave, I answered messages late into the evening. I told myself it showed I was available. Really, it trained everyone to expect me at 9pm.
+
+Now I log off at 6. If something is truly urgent, people call me. In the weeks since I started, nobody has called. **The late-night messages weren't urgent. They were just there.**
+
+## What's still hard
+
+I don't want to make this sound tidy. Some days I feel behind. Some days I miss the version of me who knew every detail.
+
+But that version was a bottleneck. The team works better with me as a backstop than as a funnel.
+
+[Share button]
+
+* * *
+
+The thing I'll keep from all of this: **time away shows you which parts of your job were really yours.** You don't need six months off to check. You just need to ask what would happen if you stopped.
+
+## Your turn
+
+Have you ever come back from a long break and worked differently? What stuck, and what slipped back? Hit reply. I'd love to hear how other people handled it.
+
+If this was useful, forward it to a manager who's about to go on leave, or who just came back.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: set a warm, personal tone that differs from a usual ops issue.
+   Description: a laptop closing on a kitchen table in early evening light, a child's toy or small shoe next to it. Calm, natural colors.
+   Alt text: "A laptop being closed on a kitchen table in the evening, a child's toy beside it."
+
+
+==================== NOTES TEASER ====================
+
+I came back from six months of parental leave to find the team had handled almost everything without me. So I stopped taking work back, started deciding faster, and log off at 6. Nobody has called with an emergency yet.
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the plain fact before the lesson: "Mostly, nothing did. That was humbling."
+- Owns her own habits in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: bottlenecks, funnels, handoffs
+
+## Things that would sound wrong
+- Inspirational framing ("leave was a gift that transformed me"): would sound like a LinkedIn influencer instead of an operator
+- Oversharing private family detail: Maya keeps the personal brief and tied to work
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

@@ -1,0 +1,635 @@
+{
+ "id": "r7",
+ "g_rules": [
+  {
+   "id": "G1",
+   "text": "Decide Job A (video carries hook) or Job B (caption is the content) and state which",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "partial"
+  },
+  {
+   "id": "G2",
+   "text": "Job A: caption is not a second hook; line 1 is the ask, plainly",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G3",
+   "text": "Job A: body gives context that makes the ask make sense plus the search words",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "none"
+  },
+  {
+   "id": "G4",
+   "text": "Job B (photo, single image, carousel cover): line 1 is the hook",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G5",
+   "text": "Hook is concrete, short, cut off at a cliff rather than mid-clause",
+   "type": "voice",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G6",
+   "text": "Line 1 fits in the 125 visible characters before the cut",
+   "type": "length",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G7",
+   "text": "Line 1 never a greeting, never a hashtag, never an emoji as first character",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G8",
+   "text": "Body: short paragraphs with one line of white space between each",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G9",
+   "text": "Body has two to six paragraphs",
+   "type": "length",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G10",
+   "text": "Exactly one ask (comment a keyword, save, or DM)",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G11",
+   "text": "Hashtags: up to five, on their own line at the bottom, or none",
+   "type": "format",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G12",
+   "text": "Hashtags are specific topic labels; cut #viral #fyp #explorepage #foryou",
+   "type": "word-list",
+   "visible": "partly",
+   "X": "none",
+   "Y": "partial"
+  },
+  {
+   "id": "G13",
+   "text": "Max 2,200 chars; keep it short (~600 chars beats 1,800)",
+   "type": "length",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G14",
+   "text": "Two or three search terms worked into caption text as natural phrases a human would type, not as hashtags",
+   "type": "other",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G15",
+   "text": "No link in the caption; send to bio or DM",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G16",
+   "text": "Keyword ask uses one typeable word (no spaces, no emoji) and is said out loud in the video too",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "partial"
+  },
+  {
+   "id": "G17",
+   "text": "If there is a link, write the first comment separately and say so in the receipt",
+   "type": "conditional",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G18",
+   "text": "Emoji as punctuation not decoration; no more than 4 per 100 characters",
+   "type": "mechanics",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G19",
+   "text": "Write alt text for carousels and photos",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G20",
+   "text": "Receipt block 'CAPTION READY' with job, visible N of 125, ask, hashtags, search (phrase + line), linter fields",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G21",
+   "text": "Print the copy-ready caption block first, then the receipt",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G22",
+   "text": "Run /ig-human de-slop pass on the draft",
+   "type": "voice",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G23",
+   "text": "Run caption.py with search terms; fix every FAIL, decide every WARN out loud",
+   "type": "other",
+   "visible": "partly",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G24",
+   "text": "Hebrew: every line pure Hebrew or pure English; names/model names/URLs on own line",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G25",
+   "text": "Hebrew: Hebrew hashtags on one line, English hashtags on the next",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G26",
+   "text": "Hebrew: no em dashes",
+   "type": "conditional",
+   "visible": "no",
+   "X": "partial",
+   "Y": "partial"
+  }
+ ],
+ "X": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Input/output: fenced caption, optional alt-text line, fenced CAPTION READY card, in that order",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Job A: video shows/says hook in first two seconds; caption line 1 = the ask",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R3",
+    "text": "Job B (carousel cover, single image, photo): line 1 = the hook, 1-2 sentences, never over 125 chars",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Line 1 uses most of the visible space (~75-115 chars)",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R5",
+    "text": "Hook shape: the fact, then a short turn",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Job A line 1 also fills space: keyword, what they get, who it is for",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R7",
+    "text": "Blank line between every paragraph",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "Story-to-lesson template (with job A variant: ask first, 'Now every ...' last, no second ask)",
+    "section": "template",
+    "label": "incidental"
+   },
+   {
+    "id": "R9",
+    "text": "Numbered-list template",
+    "section": "template",
+    "label": "incidental"
+   },
+   {
+    "id": "R10",
+    "text": "Announcement template",
+    "section": "template",
+    "label": "incidental"
+   },
+   {
+    "id": "R11",
+    "text": "Exactly one ask",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R12",
+    "text": "Ask chosen by goal: lead magnet comment KEYWORD / save / question + tell me in comments / bio link",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R13",
+    "text": "No emojis",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R14",
+    "text": "No em or en dashes",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R15",
+    "text": "No exclamation marks",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R16",
+    "text": "No markdown",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R17",
+    "text": "No links",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R18",
+    "text": "Digits for data",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R19",
+    "text": "Contractions fine",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R20",
+    "text": "At most 3 sentences per paragraph",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R21",
+    "text": "Caption about 60-160 words",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R22",
+    "text": "At most 2 contrast lines per caption",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R23",
+    "text": "Close on a concrete ask, not an aphorism",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R24",
+    "text": "Hashtags: exactly 3, lowercase, last line",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R25",
+    "text": "Two search phrases people would search, one early (line 1 or 3), one later",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R26",
+    "text": "Alt text: carousel 'Alt text (cover slide):', single image 'Alt text:', reel none",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R27",
+    "text": "Alt text describes what is visible incl. chart result and listed items, 1-2 sentences",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R28",
+    "text": "CAPTION READY card skeleton with job/visible/ask/hashtags/search/first comment/linter",
+    "section": "template",
+    "label": "grounded"
+   },
+   {
+    "id": "R29",
+    "text": "Card ask for job A adds '(say KEYWORD out loud in the video too)'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R30",
+    "text": "Card first comment: 'none, no link' or bio variant",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R31",
+    "text": "Search line numbers count blank lines; repeated phrase 'in line 1 and line 3'",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R32",
+    "text": "Unknown: linter READY wording / what caption.py checks",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R33",
+    "text": "Unknown: other jobs beyond A and B",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R34",
+    "text": "Unknown: 3 hashtags fixed? 125 the only length limit?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R35",
+    "text": "Unknown: em dashes, rule of three, aphorisms, bridges, engagement bait banned?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R36",
+    "text": "Unknown: per-brand voice file",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R37",
+    "text": "Unknown: link in caption / real first comment handling",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R38",
+    "text": "Unknown: handover beyond three blocks",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   }
+  ]
+ },
+ "Y": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Template skeleton: hook / context / what we did / result / takeaway / one ask / 3 hashtags, alt text, B-only card",
+    "section": "template",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Middle blocks flexible (4-7 body lines); list and announcement variants",
+    "section": "template",
+    "label": "grounded"
+   },
+   {
+    "id": "R3",
+    "text": "Output exactly three parts in order: caption block, alt-text line, status card",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Each paragraph one line; one blank line between paragraphs",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R5",
+    "text": "Line 1 fits in 125 characters; on still posts line 1 is the hook",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Exactly one ask; card says 'ask: one, ...'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R7",
+    "text": "Caption ends with exactly 3 lowercase run-together hashtags; none elsewhere",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "No links in caption; link in bio; first comment card wording",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R9",
+    "text": "Two 2-word search phrases (plain words, not hashtags) reported by line number",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R10",
+    "text": "visible: = exact character count of line 1",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R11",
+    "text": "Alt text: carousel cover slide variant, single image variant, 1-2 sentences",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R12",
+    "text": "Card verbatim fixed parts, field order, values aligned",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R13",
+    "text": "Pick ask from goal: save / question + comments / bio link / comment KEYWORD",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R14",
+    "text": "At most 3 sentences per paragraph",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R15",
+    "text": "Hook uses most of 125 chars, often two sentences, most concrete number in it",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R16",
+    "text": "Ask on own line just above hashtags, no recap between",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R17",
+    "text": "Takeaway opens 'If you ...' / 'Before you ...'",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R18",
+    "text": "Context line often opens with 'Most ...'",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R19",
+    "text": "Numbered items: imperative instruction + 1-2 sentences why",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R20",
+    "text": "Hashtags: one niche tag plus broader field tags",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R21",
+    "text": "Voice: we/our, I, you; contractions; short plain sentences",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R22",
+    "text": "No emojis, no exclamation marks, no em or en dashes",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R23",
+    "text": "Digits for stats and counts",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R24",
+    "text": "Caption roughly 70-140 words",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R25",
+    "text": "Unknown: reels job A pattern (ask first, speak keyword) and other job letters",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R26",
+    "text": "Unknown: 3 hashtags fixed or range",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R27",
+    "text": "Unknown: what caption.py checks; banned-word list",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R28",
+    "text": "Unknown: when first comment is used",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R29",
+    "text": "Unknown: voice file, length tiers",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R30",
+    "text": "Unknown: contrast limits",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R31",
+    "text": "Unknown: dash/emoji/exclamation absence source",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   }
+  ]
+ }
+}

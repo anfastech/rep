@@ -1,0 +1,845 @@
+{
+  "id": "r2",
+  "g_rules": [
+    {
+      "id": "G1",
+      "text": "Tweet 1 is the hook: bold promise, surprising claim or emotional statement that stops the scroll",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G2",
+      "text": "Hook has no 'Thread:' or '[1/N]' numbering",
+      "type": "mechanics",
+      "visible": "yes",
+      "X": "full",
+      "Y": "none"
+    },
+    {
+      "id": "G3",
+      "text": "Hook stands alone as a great tweet",
+      "type": "other",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G4",
+      "text": "Hook formula menu: Result+Timeframe, Bold claim, Contrarian, Story opener, Listicle, Behind-the-scenes, Curiosity, Challenge",
+      "type": "word-list",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G5",
+      "text": "Context tweets 2-3: establish credibility, define problem, set expectations",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G6",
+      "text": "One idea per value tweet, never two",
+      "type": "structure",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G7",
+      "text": "Start each value tweet with a bold statement or number",
+      "type": "structure",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G8",
+      "text": "Concrete examples, not abstract advice",
+      "type": "voice",
+      "visible": "yes",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G9",
+      "text": "Vary value tweet format: tips, stories, data",
+      "type": "structure",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G10",
+      "text": "Each tweet valuable/understandable in isolation",
+      "type": "other",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G11",
+      "text": "Value tweet pattern menu: numbered tip, lesson+story, do this not that, stat+insight",
+      "type": "word-list",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G12",
+      "text": "Tweet N-1 is a scannable numbered TL;DR recap",
+      "type": "structure",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G13",
+      "text": "Summary ends with a save prompt ('Save this thread...')",
+      "type": "cta",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G14",
+      "text": "Final tweet is always a CTA",
+      "type": "cta",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G15",
+      "text": "Pair follow CTA with retweet request",
+      "type": "cta",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G16",
+      "text": "CTA menu: follow, 'Retweet the first tweet', reply question, link, engage",
+      "type": "word-list",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G17",
+      "text": "Links only in last tweet or first reply, never the hook",
+      "type": "conditional",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G18",
+      "text": "Max 15 words per sentence",
+      "type": "length",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G19",
+      "text": "Line break between every sentence, one thought per line",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G20",
+      "text": "No walls of text; split or cut dense tweets",
+      "type": "format",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G21",
+      "text": "Fragments are fine, they add punch",
+      "type": "voice",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G22",
+      "text": "Vary rhythm: alternate short punches and slightly longer lines",
+      "type": "voice",
+      "visible": "yes",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G23",
+      "text": "Emojis sparingly, 0-2 per tweet max",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G24",
+      "text": "Never start the hook tweet with an emoji",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G25",
+      "text": "No multiple emojis in a row / cluttered emoji text",
+      "type": "mechanics",
+      "visible": "no",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G26",
+      "text": "Arrow (flow) and check (lists) as thread markers",
+      "type": "mechanics",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G27",
+      "text": "Digits, not words, for numbers",
+      "type": "mechanics",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G28",
+      "text": "Specific numbers beat round ones",
+      "type": "voice",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G29",
+      "text": "Start value tweets with '1.', '2.' for scanability",
+      "type": "format",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G30",
+      "text": "Use dollar amounts and percentages to grab attention",
+      "type": "voice",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G31",
+      "text": "Length tiers 5-7/8-12/13-15, optimal 8-12, avoid 16+",
+      "type": "length",
+      "visible": "yes",
+      "X": "partial",
+      "Y": "full"
+    },
+    {
+      "id": "G32",
+      "text": "Story Thread template beats",
+      "type": "structure",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G33",
+      "text": "Listicle Thread template",
+      "type": "structure",
+      "visible": "no",
+      "X": "unknown-listed",
+      "Y": "unknown-listed"
+    },
+    {
+      "id": "G34",
+      "text": "Contrarian Take template beats",
+      "type": "structure",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G35",
+      "text": "Tutorial Thread template beats",
+      "type": "structure",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G36",
+      "text": "Case Study Thread template beats",
+      "type": "structure",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G37",
+      "text": "CTA matched to the thread's goal",
+      "type": "conditional",
+      "visible": "partly",
+      "X": "partial",
+      "Y": "partial"
+    },
+    {
+      "id": "G38",
+      "text": "No tweet exceeds 280 characters",
+      "type": "length",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G39",
+      "text": "Thread delivers on the hook's promise",
+      "type": "other",
+      "visible": "partly",
+      "X": "none",
+      "Y": "none"
+    },
+    {
+      "id": "G40",
+      "text": "Output section 1: Thread Outline, bullet plan of the arc",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G41",
+      "text": "Output section 2: Full Thread, each tweet numbered with character count, as posted",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G42",
+      "text": "Output section 3: 3-5 alternative hook variations",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G43",
+      "text": "Output section 4: posting time, all-at-once vs delays, recommended first reply, first-hour engagement plan",
+      "type": "format",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G44",
+      "text": "Posting time based on audience timezone",
+      "type": "conditional",
+      "visible": "yes",
+      "X": "full",
+      "Y": "full"
+    },
+    {
+      "id": "G45",
+      "text": "Thread teaches, inspires or entertains (ideally two)",
+      "type": "other",
+      "visible": "no",
+      "X": "none",
+      "Y": "none"
+    }
+  ],
+  "X": {
+    "r_items": [
+      {
+        "id": "R1",
+        "text": "4 sections with headers, no preamble or closing (rule 1)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R2",
+        "text": "Outline first line 'Template: <name> (N tweets)' (template)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R3",
+        "text": "Outline one 'Role: note' bullet per tweet (rule 2)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R4",
+        "text": "Header 'Tweet N (X chars)', real count, every tweet under 280 (rule 3)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R5",
+        "text": "Each sentence on its own line, blank line between (rule 4)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R6",
+        "text": "Only short fragment pairs may share a line, max 3 per thread (rule 4)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R7",
+        "text": "No thread numbering like '1/' (rule 4)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R8",
+        "text": "Tweet 1 hook: 3-4 short lines, most concrete number/result first (rule 5)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R9",
+        "text": "Second-to-last tweet 'TL;DR:' numbered list; case study playbook replaces it (rule 6)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R10",
+        "text": "Last tweet CTA: follow, retweet first tweet, reply question; links as [link] (rule 7)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R11",
+        "text": "Exactly 4 hook variations A-D with type labels, different angles (rule 8)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R12",
+        "text": "Posting instructions 4 bullets; local time when audience abroad (rule 9)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R13",
+        "text": "Time format '8:30am ET'; fixed text for bullet 2 and first engagement sub-bullet (rule 9/template)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R14",
+        "text": "Length 10-12 for template threads, 7-9 for announcements (rule 10)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R15",
+        "text": "Story Thread skeleton (menu)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R16",
+        "text": "Case Study skeleton (menu)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R17",
+        "text": "Contrarian Take skeleton (menu)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R18",
+        "text": "Tutorial skeleton (menu)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R19",
+        "text": "No-match announcement uses 'Format:' and short skeleton (menu)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R20",
+        "text": "Short list of items: each item its own tweet opening with its number (untested change)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R21",
+        "text": "Tweets 100-240 chars (default 1)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R22",
+        "text": "Sentences about 6-12 words (default 2)",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R23",
+        "text": "Hook and variations end with a colon teaser (default 3)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R24",
+        "text": "Context tweet opens 'Some context.' then states author role (default 4)",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R25",
+        "text": "Exactly 1 arrow list per thread, 2-4 items, never more (default 5)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R26",
+        "text": "Summary ends with save prompt (default 6)",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R27",
+        "text": "First person, plain words, contrast pairs, repeated openers (default 7)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R28",
+        "text": "10-18 contractions per package (default 8)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R29",
+        "text": "List items are fragments with no end period (default 9)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R30",
+        "text": "Digits for counts; 'one' kept as word in phrases (default 10)",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R31",
+        "text": "Include a Contrarian hook variation (default 11)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R32",
+        "text": "No hashtags, no exclamation marks, no bold (default 12)",
+        "section": "defaults",
+        "label": "incidental"
+      },
+      {
+        "id": "R33",
+        "text": "No em dashes (default 12)",
+        "section": "defaults",
+        "label": "incidental-env"
+      },
+      {
+        "id": "R34",
+        "text": "At most 1 emoji, only when meaningful (default 12)",
+        "section": "defaults",
+        "label": "grounded"
+      },
+      {
+        "id": "R35",
+        "text": "Engagement: 30-minute re-share fallback or quote-tweet best reply (default 13)",
+        "section": "defaults",
+        "label": "incidental"
+      }
+    ],
+    "counts": {
+      "recovered_full": 19,
+      "recovered_partial": 13,
+      "unknown_listed": 1,
+      "missed": 12,
+      "recall_visible": 0.607,
+      "recall_all": 0.567,
+      "coverage_with_unknowns": 0.578,
+      "r_total": 35,
+      "grounded": 22,
+      "incidental": 12,
+      "incidental_env": 1,
+      "wrong": 0,
+      "precision_all": 0.647,
+      "precision_rules_section": 0.85
+    },
+    "missed_by_type": {
+      "other": 4,
+      "voice": 4,
+      "structure": 1,
+      "word-list": 1,
+      "mechanics": 2
+    }
+  },
+  "Y": {
+    "r_items": [
+      {
+        "id": "R1",
+        "text": "Pick template by brief type; adjust count; swap middle beats for brief parts 'Change 1..' (step 1)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R2",
+        "text": "Story Thread beats (step 1 table)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R3",
+        "text": "Case Study beats (step 1 table)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R4",
+        "text": "Contrarian Take beats (step 1 table)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R5",
+        "text": "Tutorial beats (step 1 table)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R6",
+        "text": "Announcement 'Format: Short announcement thread', 7-9 tweets (step 1 table)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R7",
+        "text": "Outline CTA beat written 'CTA: follow + retweet + reply' (rule 3/template)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R8",
+        "text": "Exactly 4 sections with fixed headers, no title/preamble/after (rule 1)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R9",
+        "text": "Outline: template line then one 'Label: note' bullet per tweet (rule 2)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R10",
+        "text": "Thread length about 8-12 tweets (rule 4)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R11",
+        "text": "Header 'Tweet N (X chars)', exact count (rule 5)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R12",
+        "text": "Most tweets 110-230 chars, never above 250, 3-7 lines (rule 6)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R13",
+        "text": "One sentence or fragment per line, blank line between (rule 7)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R14",
+        "text": "Lists on consecutive lines; arrow for unordered, '1.' for ordered; colon lead-in (rule 8)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R15",
+        "text": "Lines 4-11 words, none past 14; fragments fine; parallel repetition (rule 9)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R16",
+        "text": "Every count as digits, % and thousands commas (rule 10)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R17",
+        "text": "Contractions, plain words, I/we by type, 'you' for reader (rule 11)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R18",
+        "text": "No hashtags, no exclamation marks (rule 12)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R19",
+        "text": "No em dashes or en dashes (rule 12)",
+        "section": "rules",
+        "label": "incidental-env"
+      },
+      {
+        "id": "R20",
+        "text": "No emojis except one relevant emoji in an announcement hook (rule 13)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R21",
+        "text": "Hook: 3-5 lines, concrete number/result first, colon pointer, 'How to' for tutorial (rule 14)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R22",
+        "text": "Tweet 2 context: framing line, who the author is, situation; contrarian opens 'The common belief:' (rule 15)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R23",
+        "text": "Middle tweets one beat each, labeled 'Step 1:', 'Takeaway 1:' etc. (rule 16)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R24",
+        "text": "Contrarian objection tweet opens with quoted objection (rule 17)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R25",
+        "text": "Second-to-last tweet numbered TL;DR (or case study playbook), save line (rule 18)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R26",
+        "text": "Last tweet CTA: follow me, retweet first tweet, reply question; announcement swaps to action (rule 19)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R27",
+        "text": "Missing link written as [link] (rule 20)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R28",
+        "text": "Exactly 4 hook variations A-D with type labels (rule 21)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R29",
+        "text": "Hook types from the formula list (rule 22)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R30",
+        "text": "Include a Contrarian variation unless announcement (rule 22)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R31",
+        "text": "Most variations end with a colon (rule 23)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R32",
+        "text": "Posting instructions: 4 bullets in fixed order (rule 24)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R33",
+        "text": "Fixed bullet text and '9:00am ET' time format (rules 24, 25, 27)",
+        "section": "rules",
+        "label": "incidental"
+      },
+      {
+        "id": "R34",
+        "text": "Posting time weekday + ET + why; local time for non-US audience (rule 25)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R35",
+        "text": "First reply is a concrete bonus or the link (rule 26)",
+        "section": "rules",
+        "label": "grounded"
+      },
+      {
+        "id": "R36",
+        "text": "Engagement tactics incl. quote-tweet best reply, re-share hook at 30 min (rule 27)",
+        "section": "rules",
+        "label": "incidental"
+      }
+    ],
+    "counts": {
+      "recovered_full": 22,
+      "recovered_partial": 9,
+      "unknown_listed": 1,
+      "missed": 13,
+      "recall_visible": 0.631,
+      "recall_all": 0.589,
+      "coverage_with_unknowns": 0.6,
+      "r_total": 36,
+      "grounded": 26,
+      "incidental": 9,
+      "incidental_env": 1,
+      "wrong": 0,
+      "precision_all": 0.743,
+      "precision_rules_section": 0.743
+    },
+    "missed_by_type": {
+      "mechanics": 3,
+      "other": 4,
+      "voice": 4,
+      "structure": 1,
+      "word-list": 1
+    }
+  }
+}

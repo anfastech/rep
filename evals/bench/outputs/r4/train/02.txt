@@ -1,0 +1,27 @@
+I read 18 months of support tickets. 41% came from 3 screens.
+
+Here's what we did:
+
+Most of our tickets weren't bugs.
+
+They were people getting stuck in the same spots.
+
+→ We pulled every ticket from 18 months
+→ We tagged each one by where it started
+→ 41% traced back to the same 3 setup screens
+→ We rewrote those 3 screens in plain words
+→ No new tools. No new hires. Just clearer screens.
+→ Ticket volume dropped by a third
+
+The biggest support problem isn't your support team.
+
+It's the screens that keep sending people to them.
+
+I put our ticket tagging sheet into one template.
+
+Comment "OTTER" and I'll send you the link.
+
+PS - If your team answers the same question every week, you're already paying for it. You're just not fixing anything.
+
+---
+Hook formula used: Results-First / Before-After Transformation — for A/B tracking. Strip before publishing.

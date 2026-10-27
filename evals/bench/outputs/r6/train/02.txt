@@ -1,0 +1,29 @@
+**Saved to `~/captions/2026-10-27-onboarding-screens-tickets.md`**
+
+**Platform:** LinkedIn
+**Shape:** Before and after. There's a real, measured contrast: 41% of tickets traced to 3 screens, then volume down by a third.
+**First line pick:** The 41% / 3 screens line wins because the number and the strange concentration make people stop.
+
+```
+41% of our support tickets came from the same 3 onboarding screens.
+
+We went through 18 months of tickets to find that.
+
+Not 3 features. Not 3 bugs. 3 screens new customers see while getting set up.
+
+So we rewrote those screens.
+
+Ticket volume dropped by a third.
+
+The support fix didn't happen in support. It happened in the product.
+
+When did you last read your own onboarding screens like a brand-new customer?
+```
+
+**Runner-up first lines:**
+- "We read 18 months of support tickets. Most of the pain lived on 3 screens."
+- "Rewriting 3 screens cut our support tickets by a third."
+
+**Comment keyword:** none (no link)
+
+**Next action:** Post it, and reply to every comment within the first hour.

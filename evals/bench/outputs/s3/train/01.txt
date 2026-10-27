@@ -1,0 +1,15 @@
+I rolled out a new warehouse scanning app to all 12 of our sites at once. Two of them went down for a full day, and 3,000 orders shipped late.
+
+My reasoning at the time seemed sound. One cutover meant one round of training and one rough week, instead of stretching the change across months. The team wanted the new app, and a staggered launch felt like dragging out something we had already agreed on.
+
+When two sites hit problems, there was nowhere to look for answers. Every site had switched on the same day, so nobody had run the app on real volume yet, and there was no spare team that knew it well enough to help. Those two warehouses lost the day. Customers waited, and our support team spent the next week explaining delays that started with my decision.
+
+Now every new system goes to one site first. That site runs it on real orders until the floor team finds it boring. We fix what broke there, then move to the next few sites, then the rest.
+
+On a project plan this looks slower. Measured against a day of cleanup and 3,000 late orders, it is much faster.
+
+The pilot also gives the other 11 sites something they didn't have last time. When a question comes up, someone who has already scanned thousands of packages with the app can answer it.
+
+If you've run a rollout across many sites, how did you pick the first one?
+
+#Operations #Logistics #ChangeManagement

@@ -1,0 +1,28 @@
+A junior analyst on my team saved us $200,000 with a spreadsheet.
+
+Here's what they built:
+
+A simple sheet that predicts truck delays.
+
+Two days ahead. Right 80% of the time.
+
+It runs every morning now.
+
+We see delays coming and fix them early.
+
+Last year it saved us about $200,000 in late penalties.
+
+No fancy software. No big project. Just one curious person asking a good question.
+
+You don't need a data team to fix this.
+
+You need someone who looks at the numbers every day.
+
+I shared the basic setup in a short guide.
+
+Comment "PENGUIN" and I'll send you the link.
+
+PS - If you're paying late penalties every month, you're already paying for the fix. You're just not getting it.
+
+---
+Hook formula used: Results-First + Permission Removal — for A/B tracking. Strip before publishing.

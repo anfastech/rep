@@ -1,0 +1,8 @@
+{
+  "name": "rep",
+  "description": "Reverse engineer prompt: rebuild the skill or prompt behind a set of AI outputs.",
+  "version": "0.4.0",
+  "author": { "name": "anfastech" },
+  "repository": "https://github.com/anfastech/rep",
+  "keywords": ["prompt-inversion", "reverse-engineering", "skills"]
+}

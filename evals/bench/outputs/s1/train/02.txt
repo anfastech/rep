@@ -1,0 +1,21 @@
+41% of our support tickets over the last 18 months came from 3 onboarding screens.
+
+I would have bet against that. My story was a long tail of small issues, each one a few percent of volume and none of them worth a project.
+
+Then we went back through 18 months of tickets and tagged each one by the screen the customer was on when they got stuck. Nobody on the team enjoyed that week.
+
+The tagging showed this:
+
+→ 41% of all tickets landed on the same 3 screens
+→ all 3 were in onboarding, the first thing a new customer touches
+→ the other 59% were spread across everything else we've built
+
+New customers weren't struggling with logistics software. They were struggling with three pages we wrote early and never went back to.
+
+So we rewrote those 3 screens and left everything else alone.
+
+Ticket volume dropped by a third.
+
+The uncomfortable part is how long I repeated the long tail story without checking it. The answer was sitting in our help desk the whole time, one export away.
+
+If you pulled 18 months of your own tickets tomorrow, which screen would you bet comes out on top?

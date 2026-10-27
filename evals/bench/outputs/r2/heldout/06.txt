@@ -1,0 +1,143 @@
+## 1. Thread Outline
+
+Template: Story Thread (10 tweets)
+- Hook: back from 6 months of parental leave, 3 things changed
+- Context: how Maya ran ops before leave
+- Problem: worried the team would stall without her
+- Change 1: delegates more
+- Change 2: decides faster
+- Change 3: no Slack after 6pm
+- Lesson: leave showed which work only she can do
+- Apply: hand off 1 thing this week
+- TL;DR
+- CTA: reply + follow + retweet
+
+## 2. Full Thread
+
+Tweet 1 (130 chars)
+
+I just came back from 6 months of parental leave.
+
+I'm not the same manager I was.
+
+3 things changed, and I'm keeping all of them:
+
+Tweet 2 (131 chars)
+
+Before leave, I ran operations like a lot of heads of ops do.
+
+In every thread.
+
+On every decision.
+
+Online until late most nights.
+
+Tweet 3 (136 chars)
+
+Then I was gone for 6 months.
+
+I worried the team would stall.
+
+They didn't.
+
+They made calls without me.
+
+Most of them were good calls.
+
+Tweet 4 (147 chars)
+
+1. I delegate more.
+
+Before, I kept work because doing it myself felt faster.
+
+Now I hand it off early.
+
+The team already proved they can carry it.
+
+Tweet 5 (154 chars)
+
+2. I decide faster.
+
+I used to wait for one more data point.
+
+Now I have less time and more clarity.
+
+A good decision today beats a perfect one next week.
+
+Tweet 6 (137 chars)
+
+3. I stopped answering Slack after 6pm.
+
+No exceptions for "quick questions."
+
+Nothing has broken.
+
+Most 9pm messages can wait until 9am.
+
+Tweet 7 (143 chars)
+
+The lesson:
+
+Leave didn't make me less effective.
+
+It showed me which parts of my job only I can do.
+
+The list was much shorter than I thought.
+
+Tweet 8 (122 chars)
+
+You don't need 6 months away to learn this.
+
+Pick 1 thing you'd hand off if you vanished tomorrow.
+
+Hand it off this week.
+
+Tweet 9 (196 chars)
+
+TL;DR:
+
+1. Delegate before you're forced to
+2. Decide with less data
+3. Set a hard Slack cutoff
+4. Your team can carry more than you think
+
+Save this for your next "I'll just do it myself" moment.
+
+Tweet 10 (173 chars)
+
+If you've come back from leave, what changed for you? Reply below.
+
+Follow me for honest notes on running ops.
+
+Retweet the first tweet for a parent heading back this month.
+
+## 3. Hook Variations
+
+A. Story opener
+6 months ago I left for parental leave as a busy, always-online head of ops.
+
+I came back a different manager. Here's what changed:
+
+B. Contrarian
+Parental leave made me better at my job.
+
+Not despite the time away. Because of it:
+
+C. Listicle
+3 things I changed after 6 months of parental leave:
+
+D. Bold claim
+The best management training I ever got was 6 months away from work.
+
+Here's what it taught me:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Sunday evening, 7:00pm ET, or Monday, 8:00am ET. Reflective threads do well when people are thinking about the week ahead.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: "The Slack rule in practice: notifications off at 6pm, and 1 line in my profile so nobody waits on me."
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Reply warmly to every parent who shares their own story.
+  - Ask managers which of the 3 changes they find hardest.
+  - Quote-tweet the most honest reply.

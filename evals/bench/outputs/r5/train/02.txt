@@ -1,0 +1,30 @@
+**Format:** Thread (4 posts) + chart image
+
+**Thread structure:**
+
+**1/4** (56 chars)
+```
+1/4 41% of our support tickets came from just 3 screens.
+```
+
+**2/4** (88 chars)
+```
+2/4 We went through 18 months of tickets. The same 3 onboarding screens kept showing up.
+```
+
+**3/4** (82 chars)
+```
+3/4 We rewrote those 3 screens. No new features. Ticket volume dropped by a third.
+```
+
+**4/4** (102 chars, including hashtag)
+```
+4/4 Before you add support staff, sort your tickets by screen. What would yours show? #CustomerSupport
+```
+
+**Hashtags:** #CustomerSupport (final post only)
+
+**Image specs (attach to 1/4):**
+- 1200×675 (16:9), PNG, under 5MB
+- Bar chart of ticket share by screen, with the 3 onboarding screens highlighted at 41% combined
+- Optional second panel showing ticket volume before and after the rewrite (−33%)

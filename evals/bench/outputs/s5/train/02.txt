@@ -1,0 +1,146 @@
+SUBJECT LINE (chosen)
+41% of our tickets came from 3 screens
+
+Alternatives
+1. We read 18 months of support tickets
+2. How rewriting 3 screens cut tickets by a third
+
+PREVIEW TEXT
+We thought support needed more people. It needed better onboarding screens.
+
+
+==================== ISSUE ====================
+
+# 41% of our tickets came from 3 screens
+
+*We thought support needed more people. It needed better onboarding screens.*
+
+Last spring our support lead asked me for two more hires. The queue kept growing, response times were slipping, and the team was tired.
+
+It was a fair ask. Before I said yes, I wanted to know what was actually filling the queue. So we pulled **18 months of support tickets** and read them.
+
+[Subscribe button]
+
+## How we looked
+
+Most ticket reports sort by category: billing, bug, how-to, feature request. Those labels tell you what the customer asked. They don't tell you where they got stuck.
+
+So we added one tag to every ticket: **the screen the customer was on when the problem started.** Two people spent most of a week on it. Boring work. Worth every hour.
+
+We didn't need fancy tools. A spreadsheet export, a shared tag list, and a rule that if you weren't sure, you marked it "unknown" instead of guessing.
+
+## What we found
+
+When we sorted by screen, one pattern jumped out.
+
+**41% of all tickets came from the same 3 onboarding screens.** Not the hard parts of the product. Not the complex routing features. Three setup screens every new customer sees in their first week.
+
+The tickets were almost all the same shape:
+
+- "What do I put in this field?"
+- "I skipped this step. Now nothing works."
+- "Is this setting for my warehouse or my carrier?"
+
+None of these were bugs. The screens worked exactly as built. They just assumed the customer already knew what we knew.
+
+## Why nobody had noticed
+
+Each ticket on its own looked reasonable. A new customer asks a setup question. Support answers it. Ticket closed, customer happy.
+
+Nobody saw the pile because **the pile was spread across 18 months and a dozen category labels.** Billing looked like billing. How-to looked like how-to. Only the screen tag showed that a big share of them started in the same three places.
+
+That's the part that stung. We'd been paying for this problem every week and filing it under "normal support load."
+
+## What we changed
+
+We didn't redesign the product. We rewrote three screens. Here's what that meant in practice:
+
+1. **One decision per screen.** One of the three asked customers to make four setup choices at once. We split it up.
+2. **Plain words in every field label.** We swapped our internal terms for the words customers used in their tickets. Their tickets told us exactly what to call things.
+3. **An example next to every field.** If a field needs a format, we show one filled in.
+4. **A warning before skipping a required step.** One sentence telling people what breaks later if they skip it.
+
+Product and support wrote the new copy together. Support knew the questions. Product knew the constraints. It took a few weeks, not a quarter.
+
+## The result
+
+After the new screens went live, **total ticket volume dropped by about a third.** Same customer growth. Same support team.
+
+We didn't make those two hires. The team that was underwater now has room to work on the tickets that actually need a person.
+
+[Share button]
+
+* * *
+
+The thing to remember: support tickets are product feedback with a timestamp. Sort them by where people got stuck, not just by what they asked.
+
+## Try it yourself
+
+You can run a small version of this in a week:
+
+1. Export the last 6-12 months of tickets.
+2. Tag each one with the screen or step where the problem started.
+3. Sort by tag and look at the top three.
+
+I'd bet one of them surprises you.
+
+## Your turn
+
+Have you ever looked at your tickets this way? What did you find in the top three? Hit reply. I'm collecting examples for a follow-up issue.
+
+If this was useful, forward it to someone who's about to ask for more support headcount.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: signal "data story" before a word is read.
+   Description: a clean bar chart look, many short gray bars and three tall bars highlighted in one accent color, on a plain light background.
+   Alt text: "Chart with three tall highlighted bars standing out from many short gray ones."
+
+2. Placement: inline, at the end of "What we found".
+   Purpose: show the 41% visually for skimmers.
+   Description: a single horizontal bar split into two parts, 41% labeled "3 onboarding screens" and 59% labeled "everything else".
+   Alt text: "Bar showing 41% of support tickets came from 3 onboarding screens."
+
+
+==================== NOTES TEASER ====================
+
+We tagged 18 months of support tickets by the screen where the problem started. 41% came from the same 3 onboarding screens. We rewrote them and ticket volume dropped by a third, with no new hires. Have you ever sorted your tickets by where people got stuck?
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the number before the lesson: "41% of all tickets came from the same 3 onboarding screens."
+- Owns mistakes in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: lanes, handoffs, dock doors, bottlenecks
+
+## Things that would sound wrong
+- Inspirational framing ("failure is a gift"): would sound like a LinkedIn influencer instead of an operator
+- Passive voice about mistakes ("errors were made"): breaks her habit of ownership
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

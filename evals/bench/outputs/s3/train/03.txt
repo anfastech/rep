@@ -1,0 +1,17 @@
+Unpopular opinion: most companies hold too many recurring meetings, and nobody notices because each one looks reasonable on its own.
+
+I tested this on myself. I cancelled every recurring meeting for a month and told people to bring back only the ones they missed. When the month ended, 4 of the 22 came back.
+
+Three reasons I think this happens everywhere:
+
+A recurring meeting outlives the problem it was created for. Someone sets up a weekly sync during a launch or a hard quarter, the pressure passes, and the invite keeps renewing.
+
+Nobody owns the decision to end it. Declining feels rude, and cancelling a meeting someone else created feels worse, so the default is to keep showing up.
+
+The cost is spread thin. Thirty minutes a week looks small on one calendar. Multiply it by everyone in the room and by 22 invites, and it is a real share of the team's week.
+
+What I'd recommend instead is a reset. Cancel every recurring meeting for a fixed period, say a month, and let people rebuild only the ones they ask for. The 4 that came back for us earned their place because someone wanted them back. The other 18 haven't been missed.
+
+What's the oldest recurring meeting on your calendar, and do you still remember why it started?
+
+#Operations #Leadership #Productivity

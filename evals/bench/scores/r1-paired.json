@@ -1,0 +1,921 @@
+{
+ "id": "r1",
+ "g_rules": [
+  {
+   "id": "G1",
+   "text": "Single post: hook first, plus exactly 2 alternative hooks",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G2",
+   "text": "Single post skips brief, units table and calendar (unless a source asset)",
+   "type": "structure",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G3",
+   "text": "Voice source order: account card, else brand card, else fallback order; label 'voice provisional'",
+   "type": "conditional",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G4",
+   "text": "Never open voice interview for one post; offer to build a voice card afterwards",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G5",
+   "text": "Every piece carries an edit note",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G6",
+   "text": "Every piece carries a claims check: kept, softened, cut, and what would restore each cut",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G7",
+   "text": "Handover order: title and path; piece; edit note; claims check; open gaps",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G8",
+   "text": "Open gaps tagged [PROOF NEEDED: ...], [CUSTOMER APPROVAL NEEDED], [NAME: ...], PERSON YES NEEDED",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G9",
+   "text": "Fixed closing line: Nothing is published, you edit and post; offer two-week posting calendar, ask for it next",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G10",
+   "text": "Claims sign-off basis stated: signed-off <date> | scoped sign-off this run | product facts only",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G11",
+   "text": "Opinions, stories, first-person experience only from the human/named person; never write unsupplied 'we believe/I've learned'; leave [NAME: your take] slots",
+   "type": "persona",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G12",
+   "text": "Anything published under or quoting a named person carries PERSON YES NEEDED (<name>)",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "full"
+  },
+  {
+   "id": "G13",
+   "text": "Sponsored/affiliate/gifted/collab piece: apply disclosure rules",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G14",
+   "text": "Claims block format: 'Claims and facts <piece> (sign-off: ...)' then Kept, Softened, Cut (restore), Sourced (url, date opened), Disclaimers added, Person yes needed: <name>|none",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G15",
+   "text": "World fact needs a public source opened this run, cited inline with date; else cut or make it a plain instruction; never from memory",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "full"
+  },
+  {
+   "id": "G16",
+   "text": "Competitor fact dated and sourced",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G17",
+   "text": "Quote only with link to its page; else paraphrase without quote marks or cut",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G18",
+   "text": "Price/plan/offer checked live; saved price is a lead, not copy",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G19",
+   "text": "Limitation about us only from product record or human; never inferred",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G20",
+   "text": "Sensitive topic: resource line or [RESOURCE LINE NEEDED]; no product tie-in; drop dated framing",
+   "type": "conditional",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "none"
+  },
+  {
+   "id": "G21",
+   "text": "Third-party IP or real person's name/likeness only with confirmed permission; else generic",
+   "type": "conditional",
+   "visible": "partly",
+   "X": "unknown-listed",
+   "Y": "partial"
+  },
+  {
+   "id": "G22",
+   "text": "Brand's own past posts and site copy are voice examples, not proof",
+   "type": "other",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G23",
+   "text": "Show cuts in plain words; never name internal steps, tools or playbooks",
+   "type": "voice",
+   "visible": "partly",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G24",
+   "text": "LinkedIn on a person's profile: first person, story or earned lesson, only from their own words",
+   "type": "persona",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G25",
+   "text": "LinkedIn on a company page: 'we' voice, no first-person story",
+   "type": "conditional",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G26",
+   "text": "First ~2 lines (~140 to 210 chars before 'see more') must make someone expand",
+   "type": "structure",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G27",
+   "text": "Short paragraphs, but not one sentence per line throughout",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "partial"
+  },
+  {
+   "id": "G28",
+   "text": "LinkedIn post 900 to 1,800 characters",
+   "type": "length",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G29",
+   "text": "Link goes in first comment, or is dropped; never in body",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G30",
+   "text": "0 to 3 hashtags",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G31",
+   "text": "Length follows intent; never pad",
+   "type": "length",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G32",
+   "text": "Edit note carries One argument, Swap test, Fakes, Intent and CTA (substance Q1, 3, 8, 9)",
+   "type": "structure",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G33",
+   "text": "One argument: a disagreeable one-sentence thesis; every section advances it; cut unneeded sections",
+   "type": "structure",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "full"
+  },
+  {
+   "id": "G34",
+   "text": "'So what?' after each paragraph; rewrite or cut",
+   "type": "other",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G35",
+   "text": "Swap test: if it works with a competitor's name, add own data/opinion or say it is generic",
+   "type": "other",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G36",
+   "text": "Information gain judged only against competitor content in hand; else 'not checked'",
+   "type": "other",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G37",
+   "text": "Skeptic: answer the strongest objection in the piece",
+   "type": "other",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G38",
+   "text": "Order: strongest point early",
+   "type": "structure",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G39",
+   "text": "Fakes: remove unsupplied anecdotes, customers, stats; replace with [PROOF NEEDED]/[STORY NEEDED] or cut; every proof unit traces to the brief",
+   "type": "other",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G40",
+   "text": "CTA matches intent; no demo ask on learn piece; offer next useful step",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G41",
+   "text": "Hedge once where genuinely uncertain; no stacked hedges; take a verdict",
+   "type": "voice",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G42",
+   "text": "Hook promises what is delivered in first 100 words; leads with reader's pain/want, never own weakness or rival comparison",
+   "type": "structure",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G43",
+   "text": "Lede: claim or tension by sentence two; no scene-setting; no 'In today's'",
+   "type": "structure",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G44",
+   "text": "Paragraphs <=4 lines, one idea each; bold at most once per section; lists only for parallel items",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G45",
+   "text": "Sentences average <=18 words with variation; grade 7 to 9 B2B (a check)",
+   "type": "voice",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G46",
+   "text": "Ending: no recap; end on implication, next action or held-back line",
+   "type": "cta",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G47",
+   "text": "Voice match against 3 example lines via fallback order; apply voice-guide Do/Don'ts and learnings; remove guessed humour",
+   "type": "voice",
+   "visible": "partly",
+   "X": "unknown-listed",
+   "Y": "partial"
+  },
+  {
+   "id": "G48",
+   "text": "AI-tell banned word list (delve, unlock, leverage, journey, game-changer, ...)",
+   "type": "word-list",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G49",
+   "text": "AI-tell banned phrase list (In today's, Moreover, Here's the kicker, Let that sink in, Ready to...?, ...)",
+   "type": "word-list",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G50",
+   "text": "'Not X, it's Y' / 'not just X but Y' at most once per piece",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G51",
+   "text": "No rhetorical-question openers",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G52",
+   "text": "No self-answered questions ('Why? Because...')",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "none",
+   "Y": "partial"
+  },
+  {
+   "id": "G53",
+   "text": "No colon reveals ('The result? ...')",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G54",
+   "text": "No triplet adjective lists or three parallel clauses in a row",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "none",
+   "Y": "partial"
+  },
+  {
+   "id": "G55",
+   "text": "Em dashes rare, at brand's own rate",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "none",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G56",
+   "text": "Not every paragraph the same length",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "none"
+  },
+  {
+   "id": "G57",
+   "text": "Not every section ends in a summary sentence",
+   "type": "mechanics",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G58",
+   "text": "No bolded phrases scattered through every paragraph",
+   "type": "mechanics",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G59",
+   "text": "No invented dialogue in quote marks",
+   "type": "mechanics",
+   "visible": "no",
+   "X": "none",
+   "Y": "partial"
+  },
+  {
+   "id": "G60",
+   "text": "No Title Case hooks on social",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G61",
+   "text": "A tell is allowed if the brand's own real writing uses it",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G62",
+   "text": "Report removed tells with counts in the notes ('removed: 3 x leverage, 2 x colon reveals')",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  }
+ ],
+ "X": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Exact template layout (header, hooks, post, hashtags, first comment, edit note, claims, open gaps, closing line)",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Rule 1: line 1 title + draft path; title 3 to 6 words, number-led when data",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R3",
+    "text": "Rule 2: format line; ', speaking for the company' on company announcements",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Rule 3: 'voice provisional' when no card or past posts",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R5",
+    "text": "Rule 4: hook 2 to 3 sentences, key number/claim within ~140 chars, no question or colon reveal",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Rule 5: hook types: result/failure flat, or reader's problem plus promise",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R7",
+    "text": "Rule 6: exactly 2 alt hooks, different angles, flag anything not in brief",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "Rule 7: body opens with the hook word for word",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R9",
+    "text": "Rule 8: body 130 to 220 words, 6 to 10 blocks of 1 to 3 sentences, mixed sentence lengths, no chopped fragments",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R10",
+    "text": "Rule 9: never invent detail; [STORY NEEDED]/[NAME]/[PROOF NEEDED] slots; added stances flagged",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R11",
+    "text": "Rule 10: may add plain reasoning lines, flagged in Fakes/Softened if stance",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R12",
+    "text": "Rule 11: five intent structures (lesson, data, opinion, how-to, announcement)",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R13",
+    "text": "Rule 12: close is one reader action, not a recap; 'If you're...' default; how-to 'Save this'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R14",
+    "text": "Rule 13: 2 to 3 lowercase hashtags, one the author's field",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R15",
+    "text": "Rule 14: links never in body; first comment or 'none (no link in this post)'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R16",
+    "text": "Rule 15: no emojis, exclamation marks, em/en dashes or double hyphens",
+    "section": "rules",
+    "label": "incidental-env"
+   },
+   {
+    "id": "R17",
+    "text": "Rule 16: use contractions",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R18",
+    "text": "Rule 17: data as numerals, small counts may be spelled",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R19",
+    "text": "Rule 18: first person; 'I' for author, 'we' for company",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R20",
+    "text": "Rule 19: no hype list, rhetorical-question openers, colon reveals, <=1 'not X, it's Y'; no unsourced world facts",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R21",
+    "text": "Rule 20: edit note terse, fixed bullet order, five always present",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R22",
+    "text": "Rule 21: Skeptic bullet when an obvious objection",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R23",
+    "text": "Rule 22: Swap test passes/weak; omit for announcements",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R24",
+    "text": "Rule 23: Readability bullet: where key numbers land before 'see more', ends on action",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R25",
+    "text": "Rule 24: AI-tell check: cut tells, report 2 to 3 removals with counts and quotes",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R26",
+    "text": "Rule 25: Voice bullet ends with offer to build a card from 5 to 10 posts",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R27",
+    "text": "Rule 26: claims header format; scope 'scoped sign-off this run' vs 'product facts only'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R28",
+    "text": "Rule 27: six claims bullets in fixed order; restore note for cuts; non-public facts held back",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R29",
+    "text": "Rule 28: open gaps: PERSON YES NEEDED first, then slots in order",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R30",
+    "text": "Rule 29: fixed closing line",
+    "section": "rules",
+    "label": "grounded"
+   }
+  ],
+  "counts": {
+   "recovered_full": 21,
+   "recovered_partial": 19,
+   "unknown_listed": 3,
+   "missed": 19,
+   "recall_visible": 0.649,
+   "recall_all": 0.492,
+   "coverage_with_unknowns": 0.516,
+   "r_total": 30,
+   "grounded": 25,
+   "incidental": 4,
+   "incidental_env": 1,
+   "wrong": 0,
+   "precision_all": 0.862,
+   "precision_rules_section": 0.862
+  },
+  "missed_by_type": {
+   "conditional": 6,
+   "other": 3,
+   "voice": 2,
+   "length": 1,
+   "mechanics": 7
+  }
+ },
+ "Y": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Exact template layout incl. 'voice <provisional|from voice card>'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Post shapes table by intent (lesson, data, contrarian, how-to, announcement) with closes",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R3",
+    "text": "Rule 1: every template block in order, labels verbatim",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Rule 2: header line 2; speaking for the company; 'we' for company, 'I' for person",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R5",
+    "text": "Rule 3: hook 2 to 3 sentences, key fact within ~140 chars before 'see more'; opens the post verbatim",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Rule 4: exactly 2 alt hooks, different angles; flag anything not in brief",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R7",
+    "text": "Rule 5: never invent facts, events, numbers, feelings or quotes; typed slots; about 3",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "Rule 6: plain reasoning may be written without a slot; stance flagged in Fakes",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R9",
+    "text": "Rule 7: one argument per post; every paragraph serves it",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R10",
+    "text": "Rule 8: paragraphs 1 to 3 sentences; post 150 to 200 words",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R11",
+    "text": "Rule 9: draft once, edit against tells; report removals quoting first draft",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R12",
+    "text": "Rule 10: end on a reader action matched to intent; never a recap",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R13",
+    "text": "Rule 11: numbered list only for parallel items",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R14",
+    "text": "Rule 12: 2 to 3 hashtags, lowercase, one the person's field",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R15",
+    "text": "Rule 13: links never in body; first comment holds it; else 'none'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R16",
+    "text": "Rule 14: edit note bullet order, lengths, which always present",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R17",
+    "text": "Rule 15: AI-tell list: colon reveals, rhetorical openers, <=1 'not X, it's Y', kicker, invented feelings, hype, unsourced world facts, unsupplied opinions",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R18",
+    "text": "Rule 16: six claims rows in order; restore note; world fact needs dated source opened this run or cut",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R19",
+    "text": "Rule 17: open gaps: PERSON YES NEEDED first, slots in order",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R20",
+    "text": "Rule 18: voice provisional with offer; with a voice card follow it",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R21",
+    "text": "Rule 19: fixed closing line; never publish",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R22",
+    "text": "Default 1: plain sentences, mean 12 to 17 words; contractions fine",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R23",
+    "text": "Default 2: no emojis, exclamation marks, body questions, em/en dashes or double hyphens",
+    "section": "defaults",
+    "label": "incidental-env"
+   },
+   {
+    "id": "R24",
+    "text": "Default 3: close usually starts 'If you ...'",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R25",
+    "text": "Default 4: person's numbers restated once in body",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R26",
+    "text": "Untested 1: hook can be 1 sentence, up to ~150 chars",
+    "section": "untested",
+    "label": "grounded"
+   },
+   {
+    "id": "R27",
+    "text": "Untested 2: Reflection shape closing on a genuine question",
+    "section": "untested",
+    "label": "incidental"
+   },
+   {
+    "id": "R28",
+    "text": "Untested 3: Swap test and Skeptic optional; skip both on a reflection (contradicts swap test always in edit note)",
+    "section": "untested",
+    "label": "wrong"
+   },
+   {
+    "id": "R29",
+    "text": "Untested 4: at most 1 rule-of-three per post; vary sentence shapes",
+    "section": "untested",
+    "label": "grounded"
+   },
+   {
+    "id": "R30",
+    "text": "Untested 5: second PERSON YES NEEDED for another named person",
+    "section": "untested",
+    "label": "grounded"
+   }
+  ],
+  "counts": {
+   "recovered_full": 23,
+   "recovered_partial": 20,
+   "unknown_listed": 2,
+   "missed": 17,
+   "recall_visible": 0.691,
+   "recall_all": 0.532,
+   "coverage_with_unknowns": 0.548,
+   "r_total": 30,
+   "grounded": 23,
+   "incidental": 5,
+   "incidental_env": 1,
+   "wrong": 1,
+   "precision_all": 0.793,
+   "precision_rules_section": 0.905
+  },
+  "missed_by_type": {
+   "conditional": 7,
+   "other": 3,
+   "voice": 2,
+   "length": 1,
+   "mechanics": 4
+  }
+ },
+ "g_total": 62,
+ "visible": {
+  "yes": 32,
+  "partly": 15,
+  "no": 15
+ }
+}

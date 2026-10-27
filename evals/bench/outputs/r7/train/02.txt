@@ -1,0 +1,28 @@
+```
+41% of our support tickets came from the same 3 onboarding screens. We'd been staffing around it for 18 months.
+
+I went back through 18 months of support tickets. Most weren't bug reports. They were customers stuck in setup, asking what to do next.
+
+We rewrote those three screens. Same product, new words and layout.
+
+Support ticket volume dropped by a third.
+
+Before you hire more support staff, read the tickets. Part of the answer may be sitting in your customer onboarding.
+
+Save this for the next time someone asks for more support headcount.
+
+#customersupport #saas #productdesign
+```
+
+Alt text (cover slide): Bar chart of 18 months of support tickets by source. Three onboarding screens make up 41% of the total.
+
+```
+CAPTION READY
+job:        B - carousel cover, line one is the hook
+visible:    111 of 125 characters used before the cut
+ask:        one, save it
+hashtags:   3
+search:     "support tickets" in line 1 and line 3, "customer onboarding" in line 9
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```

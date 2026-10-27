@@ -1,0 +1,135 @@
+SUBJECT LINE (chosen)
+Two warehouses went dark for a day
+
+Alternatives
+1. 3,000 late orders and one bad rollout plan
+2. Why I'll never launch at 12 sites again
+
+PREVIEW TEXT
+The scanning app worked. The rollout plan didn't. Here's what we do differently now.
+
+
+==================== ISSUE ====================
+
+# Two warehouses went dark for a day
+
+*The scanning app worked. The rollout plan didn't.*
+
+At 6:40 on a Monday morning, one of our site leads called me. Nobody on his floor could scan a single package. Twenty minutes later, a second site called with the same problem.
+
+By the end of that day, **3,000 orders had shipped late**. The cause was me.
+
+[Subscribe button]
+
+## What we were trying to do
+
+We'd spent months building a new warehouse scanning app. The old one was slow, froze on busy shifts, and made pickers tap through three screens to confirm one item.
+
+The new one was better. Testing went well. So I made the call to switch all 12 sites over on the same weekend. One cutover, one training push, one rough week, done.
+
+That was the plan. Here's what happened.
+
+## What actually broke
+
+Ten sites were fine. Two weren't.
+
+Those two had a device and printer setup that none of our test environments matched. The app installed. It just fell over once real volume hit. **Our testing covered the app. It didn't cover the sites.**
+
+Because every site switched at once, we had no clean fallback. The old app was already gone. Support was split twelve ways. And the people who knew the old process best were busy learning the new one.
+
+Both sites were down for a full day. Supervisors printed pick lists and walked orders to the dock by hand. It was as bad as it sounds.
+
+## The real mistake
+
+It's tempting to call this a testing gap. It wasn't, really. Every rollout has something you didn't test. That part is normal.
+
+**The mistake was making every site find it at the same time.** A big-bang launch turns one unknown into twelve emergencies on the same morning. You also lose the best asset a rollout has: a team that has already been through it.
+
+If we'd started with one site, the problem shows up at one location on day one. We fix it, write it down, and the next 11 sites never see it.
+
+## What we do now
+
+We rewrote our rollout playbook after this. Short version:
+
+1. **Pilot at one site first.** Pick a site with average volume and a site lead who will tell you the truth. Not your best site. Not your worst.
+2. **Run the pilot for two full weeks.** One week hides too much. You want a peak day and a slow day in there.
+3. **Keep the old system installed.** Rollback should be a decision, not a project.
+4. **Write down every surprise.** That list becomes the checklist for site two.
+5. **Then go in waves.** Two or three sites at a time, with someone from the pilot site on call.
+
+It's slower on paper. A full rollout now takes us weeks instead of a weekend.
+
+The weekend version cost us 3,000 late orders, a day of overtime at two sites, and a week of apology calls to customers. The slow version costs us patience. I'll take that trade every time.
+
+## What I'd tell myself back then
+
+Speed felt like the responsible choice. Everyone hated the old app. Dragging the change out seemed unfair to the sites still stuck on it.
+
+But **a fast rollout isn't the same as a fast result.** The quickest way to get 12 sites onto a new system is to make sure only one of them lives through the first version.
+
+[Share button]
+
+* * *
+
+So here's the one thing to keep: pilot at one site first. Let one team find the problems so the other eleven don't have to.
+
+## Your turn
+
+What's the worst rollout you've lived through, and what would you change? Hit reply and tell me. I read every one.
+
+If this was useful, forward it to someone who's about to push a new system to more than one site at once.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: set the tone of a bad morning on the floor.
+   Description: a quiet warehouse aisle in early light, a handheld scanner resting on a stack of boxes with a red error on its screen. Muted colors, no people's faces.
+   Alt text: "A warehouse handheld scanner showing an error screen on a stack of boxes."
+
+2. Placement: inline, at the start of "What we do now".
+   Purpose: make the pilot-then-waves idea visible in one glance.
+   Description: a simple two-row diagram. Top row: 12 site icons all switching at once, two turning red. Bottom row: 1 pilot site, then a wave of 3, then 4, then 4, all green.
+   Alt text: "Diagram comparing a 12-site big-bang launch with a one-site pilot followed by waves."
+
+
+==================== NOTES TEASER ====================
+
+We once switched 12 warehouses to a new scanning app on the same weekend. Two went down for a full day, and 3,000 orders shipped late. Every rollout has something you didn't test; the only question is whether one site finds it or twelve find it at once.
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the number before the lesson: "3,000 orders had shipped late. The cause was me."
+- Owns mistakes in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: lanes, handoffs, dock doors, bottlenecks
+
+## Things that would sound wrong
+- Inspirational framing ("failure is a gift"): would sound like a LinkedIn influencer instead of an operator
+- Passive voice about mistakes ("errors were made"): breaks her habit of ownership
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

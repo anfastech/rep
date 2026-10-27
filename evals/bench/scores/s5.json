@@ -1,0 +1,622 @@
+{
+  "id": "s5",
+  "g_rules": [
+    {
+      "id": "G1",
+      "text": "Newsletter output has chosen subject line plus 2 alternatives",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G2",
+      "text": "Output includes preview text",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G3",
+      "text": "Full issue in markdown, formatted for email readability",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G4",
+      "text": "Output includes image suggestions with placement notes",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G5",
+      "text": "Notes teaser is 2-3 sentences",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G6",
+      "text": "Ghostwriting: output includes the voice guide used",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G7",
+      "text": "Voice guide follows template: name, Created, Sources used, Core (register, sentence length, humor, confidence), Vocabulary (uses, avoids, technical level), Structural patterns (opens, closes, paragraphs, lists/prose), Signature moves, Things that would sound wrong",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G8",
+      "text": "Anti-pattern lines read '[anti-pattern]: would sound like [wrong voice] instead of [right voice]'",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G9",
+      "text": "Signature moves each give a specific pattern with an example from source material",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G10",
+      "text": "Voice guide holds 10-15 markers with examples",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G11",
+      "text": "Write in the client's voice, not your own; use the voice guide as a per-paragraph checklist",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G12",
+      "text": "Do not over-polish; if the client speaks in fragments, keep fragments",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G13",
+      "text": "Voice is defined by absence: never add things the client never uses (e.g. exclamation marks)",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G14",
+      "text": "Do not make the client sound more formal or professional than they are",
+      "type": "voice",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G15",
+      "text": "Subject line: specificity beats vagueness",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G16",
+      "text": "Subject line promises a clear benefit or reveal",
+      "type": "other",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G17",
+      "text": "Subject line 6-10 words",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G18",
+      "text": "If dev audience: technical keywords, 'How to' and numbers, no urgency or scarcity tactics",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G19",
+      "text": "Front-load the interesting part of the subject (~35-40 chars visible on mobile, under 60 chars)",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G20",
+      "text": "Preview text complements, does not repeat, the subject line",
+      "type": "other",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G21",
+      "text": "Preview text is about 90 characters, acting as the subhead",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G22",
+      "text": "Subtitle (email preview line) under 10 words",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G23",
+      "text": "Hook is 2-3 opening sentences built on a named strategy (credibility, counter-narrative, curiosity, surprise, data) and hooks within the first 2 sentences",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G24",
+      "text": "After the hook, a 1-2 paragraph context: why this matters now, what prompted it",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G25",
+      "text": "Body structure depends on content type",
+      "type": "conditional",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G26",
+      "text": "Takeaway of 1-2 sentences: the one thing to remember",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G27",
+      "text": "CTA of 1-2 sentences asking a specific action; reply-inviting question preferred",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G28",
+      "text": "End with a genuine question that invites replies",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G29",
+      "text": "Share prompt: forward it to a colleague who [specific situation]",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G30",
+      "text": "If recommendation partnerships exist, weave in natural cross-references",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G31",
+      "text": "Notes teaser stands alone as valuable, not just a link",
+      "type": "other",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G32",
+      "text": "Email paragraphs 2-3 sentences max",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G33",
+      "text": "Code in email: inline under 5 lines, fenced 5-10 with language hint, over 10 link to Gist with excerpt; backticks for identifiers",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G34",
+      "text": "TL;DR at top for issues over 1500 words",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G35",
+      "text": "Subheadings every 200-400 words (email: 300-400)",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G36",
+      "text": "H2 for major sections, H3 for subsections, never deeper than H3",
+      "type": "format",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G37",
+      "text": "Bold the key phrase of each section so skimmers get the argument; 1-2 per section, do not over-bold",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G38",
+      "text": "Descriptive link anchor text, never 'click here'; no URL shorteners",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G39",
+      "text": "Place important links early in the issue",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G40",
+      "text": "Lists sparingly: numbered for steps, bullets for comparisons or roundups; never for every section or for flowing prose",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G41",
+      "text": "Horizontal rules only for major topic shifts, max 2-3 per issue",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G42",
+      "text": "Blockquotes for quotes, a key insight, or a TL;DR",
+      "type": "format",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G43",
+      "text": "Never put critical information only in an image or embed",
+      "type": "other",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G44",
+      "text": "Images sparingly: 1-3 suggestions, a strong cover image first, at most 1-2 inline",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G45",
+      "text": "Each image suggestion gives Placement, Purpose, Description",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G46",
+      "text": "Always include alt text for images",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G47",
+      "text": "Images break up text every 500-800 words",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G48",
+      "text": "Diagrams and charts add value for technical content",
+      "type": "other",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G49",
+      "text": "Button text 3-5 words; max 1-2 buttons per issue",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G50",
+      "text": "Suggest special blocks: subscribe button after the hook, share button after the strongest insight",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G51",
+      "text": "Poll block: suggest for engagement, max one per post",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G52",
+      "text": "Footnotes sparingly in email",
+      "type": "format",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G53",
+      "text": "Keep body under ~3000 words (Gmail clips at 102KB)",
+      "type": "length",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G54",
+      "text": "Length set by tier: Short 500-800, Standard 1000-1500, Deep dive 2000+",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G55",
+      "text": "Humanize: strip filler words, predictable cadence, over-hedging, hollow transitions, inflated language",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G56",
+      "text": "Ghostwriting captures the client's existing insights, not invented ones",
+      "type": "persona",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G57",
+      "text": "Audience shapes register and depth (junior devs vs CTOs)",
+      "type": "conditional",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G58",
+      "text": "Objective shapes the CTA, hook angle, and where depth or link sits",
+      "type": "conditional",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G59",
+      "text": "If adapting existing content: cut 30-50% for newsletter, add personal layer, front-load value, add CTA",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    }
+  ],
+  "r_rules": [
+    {
+      "id": "R1",
+      "text": "Build voice guide first; from transcripts if given, else infer from briefs and say so in Sources used",
+      "mark": "grounded"
+    },
+    {
+      "id": "R2",
+      "text": "Refresh rules for an existing guide (keep Core, refresh Signature moves)",
+      "mark": "incidental"
+    },
+    {
+      "id": "R3",
+      "text": "Package parts in fixed order: subject, alternatives, preview, issue, images, Notes teaser, voice guide",
+      "mark": "grounded"
+    },
+    {
+      "id": "R4",
+      "text": "==== banner strings and two blank lines before each",
+      "mark": "incidental"
+    },
+    {
+      "id": "R5",
+      "text": "[Subscribe button] after intro, [Share button] near end",
+      "mark": "grounded"
+    },
+    {
+      "id": "R6",
+      "text": "1: one chosen subject plus exactly two alternatives covering different angles",
+      "mark": "grounded"
+    },
+    {
+      "id": "R7",
+      "text": "2: subject plain, specific, 5-10 words, no question marks or colons",
+      "mark": "grounded"
+    },
+    {
+      "id": "R8",
+      "text": "3: preview 1-3 sentences, 10-18 words, names what the subject does not",
+      "mark": "grounded"
+    },
+    {
+      "id": "R9",
+      "text": "4: H1 repeats subject verbatim, italic preview line under it",
+      "mark": "incidental"
+    },
+    {
+      "id": "R10",
+      "text": "5: intro 2-4 short paragraphs, 60-110 words, one bolded key fact",
+      "mark": "grounded"
+    },
+    {
+      "id": "R11",
+      "text": "6: first sentence a specific moment, number, or flat claim; opener by brief type",
+      "mark": "grounded"
+    },
+    {
+      "id": "R12",
+      "text": "7: 3-7 H2 sections, short sentence-case, no puns",
+      "mark": "grounded"
+    },
+    {
+      "id": "R13",
+      "text": "8: section order follows brief type",
+      "mark": "grounded"
+    },
+    {
+      "id": "R14",
+      "text": "9: downside gets own first-person section",
+      "mark": "incidental"
+    },
+    {
+      "id": "R15",
+      "text": "10: bold one key line per section, 5-12 total",
+      "mark": "grounded"
+    },
+    {
+      "id": "R16",
+      "text": "11: numbered lists for steps, bullets for examples, 3-5 items",
+      "mark": "grounded"
+    },
+    {
+      "id": "R17",
+      "text": "12: end matter order; one-sentence takeaway 'The thing to remember:'",
+      "mark": "grounded"
+    },
+    {
+      "id": "R18",
+      "text": "13: optional Try it yourself section for rerunnable experiments",
+      "mark": "incidental"
+    },
+    {
+      "id": "R19",
+      "text": "14: Your turn: one question, hit reply, small promise",
+      "mark": "grounded"
+    },
+    {
+      "id": "R20",
+      "text": "15: forward line to a specific colleague",
+      "mark": "grounded"
+    },
+    {
+      "id": "R21",
+      "text": "16: sign off with first name",
+      "mark": "incidental"
+    },
+    {
+      "id": "R22",
+      "text": "17: issue 550-700 words",
+      "mark": "grounded"
+    },
+    {
+      "id": "R23",
+      "text": "18: first person I/we, address reader as you 10-30 times, active voice for mistakes",
+      "mark": "incidental"
+    },
+    {
+      "id": "R24",
+      "text": "19: short sentences and fragments, paragraphs 1-3 sentences",
+      "mark": "grounded"
+    },
+    {
+      "id": "R25",
+      "text": "20: use contractions",
+      "mark": "incidental"
+    },
+    {
+      "id": "R26",
+      "text": "21a: no emojis, hashtags, exclamation marks",
+      "mark": "incidental"
+    },
+    {
+      "id": "R27",
+      "text": "21b: no em dashes, en dashes, double hyphens",
+      "mark": "incidental-env"
+    },
+    {
+      "id": "R28",
+      "text": "22: numbers before lesson, plain verbs, metaphors from author's field",
+      "mark": "incidental"
+    },
+    {
+      "id": "R29",
+      "text": "23: no inspirational framing or hype",
+      "mark": "grounded"
+    },
+    {
+      "id": "R30",
+      "text": "24: two images (cover + inline tied to H2), Placement/Purpose/Description/Alt text",
+      "mark": "grounded"
+    },
+    {
+      "id": "R31",
+      "text": "25: flat descriptions, chart or diagram for data, no strangers' faces",
+      "mark": "grounded"
+    },
+    {
+      "id": "R32",
+      "text": "26: Notes teaser one standalone first-person paragraph, 35-55 words",
+      "mark": "grounded"
+    },
+    {
+      "id": "R33",
+      "text": "27: voice guide fixed headings and bullet counts, anti-pattern 'would sound like X instead of Y'",
+      "mark": "grounded"
+    },
+    {
+      "id": "R34",
+      "text": "28: issue obeys the guide's hard limits",
+      "mark": "grounded"
+    }
+  ],
+  "counts": {
+    "g_total": 59,
+    "g_visible_yes": 33,
+    "g_visible_partly": 13,
+    "g_visible_no": 13,
+    "recovered_full": 24,
+    "recovered_partial": 17,
+    "unknown_listed": 0,
+    "missed": 18,
+    "recall_visible": 0.707,
+    "recall_all": 0.551,
+    "r_total": 34,
+    "grounded": 23,
+    "incidental": 10,
+    "incidental_env": 1,
+    "wrong": 0,
+    "precision": 0.697
+  },
+  "missed_by_type": {
+    "length": 5,
+    "voice": 1,
+    "conditional": 6,
+    "mechanics": 3,
+    "format": 2,
+    "other": 1
+  },
+  "lessons": [
+    "Platform mechanics rules (code-block limits, link placement, anchor text, TL;DR thresholds, button word counts) never fire on short non-technical samples. Ask the user directly which conditional formatting rules exist for content types not in the sample.",
+    "Length tiers hide behind a single observed range. When every output lands in one band, ask whether that band is one choice among several (short, standard, deep) rather than encoding it as the fixed rule.",
+    "Voice-fidelity rules (do not over-polish, do not formalize, respect what the author never does) shape ghostwritten output but leave no trace when the author is invented. Ask how voice is protected, not only what the voice guide looks like.",
+    "Structural numbers stated as caps (paragraph max 3 sentences, max 2-3 dividers, 1-2 bold per section, 10-15 voice markers) get recovered as observed ranges that can exceed the cap. Check whether an observed range should be stated as a hard ceiling."
+  ]
+}

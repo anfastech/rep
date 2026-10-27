@@ -1,0 +1,11 @@
+{
+  "name": "rep",
+  "owner": { "name": "anfastech" },
+  "plugins": [
+    {
+      "name": "rep",
+      "source": "./",
+      "description": "Reverse engineer prompt: rebuild the skill or prompt behind a set of AI outputs."
+    }
+  ]
+}

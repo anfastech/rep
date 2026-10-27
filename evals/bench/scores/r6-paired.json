@@ -1,0 +1,599 @@
+{
+ "id": "r6",
+ "g_rules": [
+  {
+   "id": "G1",
+   "text": "Write in the user's brand voice from their profile",
+   "type": "persona",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G2",
+   "text": "Never invent facts or results about the user; use only provided info",
+   "type": "other",
+   "visible": "partly",
+   "X": "none",
+   "Y": "full"
+  },
+  {
+   "id": "G3",
+   "text": "Keep the user's exact phrases; don't clean them into marketing language",
+   "type": "voice",
+   "visible": "partly",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G4",
+   "text": "Pick exactly one of four post shapes; never blend two",
+   "type": "structure",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G5",
+   "text": "State which shape was picked and why, in one line",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G6",
+   "text": "Show the thing: say what it is, who it's for, one honest detail about making it",
+   "type": "conditional",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G7",
+   "text": "Lesson from a mistake: what I believed -> what actually happened -> what I'd do now",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G8",
+   "text": "Before and after requires a real visible/measurable contrast",
+   "type": "conditional",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G9",
+   "text": "Honest progress update shape: where it is -> one hard part -> what's next; unfinished allowed, fake finished not",
+   "type": "conditional",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G10",
+   "text": "Banned openers: Excited to share, I'm thrilled to announce, So I've been thinking, Hey everyone, Quick post about",
+   "type": "word-list",
+   "visible": "partly",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G11",
+   "text": "First line starts at the sharpest moment; no wind-up/throat-clearing",
+   "type": "voice",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "full"
+  },
+  {
+   "id": "G12",
+   "text": "First line specific and concrete; a number, strange detail or admission; not cleverness",
+   "type": "mechanics",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G13",
+   "text": "Write three candidate first lines, pick the strongest, say why in one line",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G14",
+   "text": "One idea per line, blank line between lines, no paragraph blocks",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G15",
+   "text": "Instagram: 4-8 short lines, first line works before cut, up to 5 specific hashtags at bottom",
+   "type": "conditional",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G16",
+   "text": "LinkedIn: 6-12 short lines, a bit more context on who it helps, no corporate register or 'humbled to'",
+   "type": "length",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G17",
+   "text": "X: under 280 characters, cut non-load-bearing words, no hashtags",
+   "type": "conditional",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G18",
+   "text": "TikTok: 1-2 lines supporting the video, plus a question inviting comments",
+   "type": "conditional",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G19",
+   "text": "With a link on Instagram/TikTok: no raw link; use 'Comment KEYWORD and I'll send you the link'",
+   "type": "cta",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G20",
+   "text": "Comment keyword is one word, all caps, related to the thing",
+   "type": "cta",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G21",
+   "text": "On LinkedIn and X a link in the post is fine (keyword still gets more replies)",
+   "type": "cta",
+   "visible": "no",
+   "X": "unknown-listed",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G22",
+   "text": "No link: end with a real question about the thing, not 'what do you think?'",
+   "type": "cta",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G23",
+   "text": "Exactly one CTA per post",
+   "type": "cta",
+   "visible": "yes",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G24",
+   "text": "Cut any line that only exists to sound impressive",
+   "type": "voice",
+   "visible": "partly",
+   "X": "partial",
+   "Y": "partial"
+  },
+  {
+   "id": "G25",
+   "text": "Every sentence should be something you'd say to a friend at a table",
+   "type": "voice",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G26",
+   "text": "Banned words: unlock, leverage, elevate, game-changer, journey, thrilled, humbled",
+   "type": "word-list",
+   "visible": "no",
+   "X": "none",
+   "Y": "unknown-listed"
+  },
+  {
+   "id": "G27",
+   "text": "Save to ~/captions/YYYY-MM-DD-<short-slug>.md",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G28",
+   "text": "File contains platform, shape, copy-ready caption block, two runner-up first lines, comment keyword",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G29",
+   "text": "Tell the user the path and the single next action: post it, reply to every comment within the first hour",
+   "type": "format",
+   "visible": "yes",
+   "X": "full",
+   "Y": "full"
+  },
+  {
+   "id": "G30",
+   "text": "Show what was made, not how the person feels",
+   "type": "voice",
+   "visible": "partly",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G31",
+   "text": "If nothing built and nothing learned, don't write a post; say so",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G32",
+   "text": "If input is thin, use Honest progress update",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G33",
+   "text": "If audience unclear or caption generic, hand off to positioning-filter",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G34",
+   "text": "If 3+ distinct points, hand off to thread-writer instead",
+   "type": "conditional",
+   "visible": "no",
+   "X": "none",
+   "Y": "none"
+  },
+  {
+   "id": "G35",
+   "text": "Never invent a metric; numbers only if measured",
+   "type": "mechanics",
+   "visible": "partly",
+   "X": "none",
+   "Y": "full"
+  }
+ ],
+ "X": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Template skeleton: Saved line, Platform, Shape+reason, First line pick, caption code block, 2 runner-ups, Comment keyword, Next action",
+    "section": "template",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Check shapes in fixed order (mistake, before/after, show) and use first whose trigger holds",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R3",
+    "text": "Lesson from a mistake shape: trigger + believed/happened/do-now skeleton",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Before and after shape: requires measured contrast; skeleton",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R5",
+    "text": "Show the thing shape: thing stated plainly; playbook/news skeletons",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Fields in template order; Next action line verbatim",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R7",
+    "text": "Date = today; slug 3-5 kebab words naming topic",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "One line per paragraph, blank line between every line",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R9",
+    "text": "Short sentences under ~15 words, max 2 per line; don't join action and result with 'and'",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R10",
+    "text": "Caption ~55-100 words, 5-10 lines",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R11",
+    "text": "First line 11-17 words, works with no context, leads with most concrete number/fact",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R12",
+    "text": "Last line: one specific question about reader's own experience",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R13",
+    "text": "First person: I for own decisions, we for team results",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R14",
+    "text": "Two quoted runner-up first lines, each a different angle",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R15",
+    "text": "No link -> comment keyword 'none (no link)'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R16",
+    "text": "No emojis, hashtags, exclamation marks, dashes, or markdown in caption",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R17",
+    "text": "Numbers as digits",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R18",
+    "text": "Contractions and plain spoken sentences",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R19",
+    "text": "At most 2 contrast moves and 1 triple per caption",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R20",
+    "text": "No slogan-style closing line; lesson lines plain and specific",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R21",
+    "text": "More shapes than three?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R22",
+    "text": "Comment keyword format with a link?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R23",
+    "text": "Bridges, engagement bait, aphorisms banned?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R24",
+    "text": "Other platforms, limits, length tiers, per-user voice file?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   }
+  ]
+ },
+ "Y": {
+  "r_items": [
+   {
+    "id": "R1",
+    "text": "Template skeleton (Platform fixed to LinkedIn): Saved line, Shape+reason, First line pick, caption block, 2 runner-ups, Comment keyword, Next action",
+    "section": "template",
+    "label": "grounded"
+   },
+   {
+    "id": "R2",
+    "text": "Check shapes in fixed order and take first that fits",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R3",
+    "text": "Lesson from a mistake shape: trigger + moves",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R4",
+    "text": "Before and after shape: measured contrast; moves",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R5",
+    "text": "Show the thing: state plainly, name audience; playbook/announcement forms",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R6",
+    "text": "Output exactly the template, fixed lines verbatim",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R7",
+    "text": "Saved line: today's date + 3-6 word kebab slug",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R8",
+    "text": "Shape line: name + one ~10-25 word justification; mention ruled-out higher shape",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R9",
+    "text": "First line pick: one sentence on the hook, don't re-quote it",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R10",
+    "text": "Each sentence own line, blank line between; plain text, no markdown/bullets/numbers",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R11",
+    "text": "First line: most concrete fact or flipped assumption, 12-16 words, <100 chars, no warm-up",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R12",
+    "text": "Second line short, adds stakes or proof",
+    "section": "rules",
+    "label": "incidental"
+   },
+   {
+    "id": "R13",
+    "text": "Last line: one specific question about readers' experience or for help; only question",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R14",
+    "text": "Exactly 2 quoted runner-up first lines, different angles, 8-15 words, form tendency",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R15",
+    "text": "No link -> comment keyword 'none (no link)'",
+    "section": "rules",
+    "label": "grounded"
+   },
+   {
+    "id": "R16",
+    "text": "Caption ~55-100 words, 5-10 lines; don't pad",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R17",
+    "text": "Use only the notes' facts; no added setup lines, no invented numbers",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R18",
+    "text": "Digits for numbers, words at sentence start",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R19",
+    "text": "First person, contractions, short plain sentences",
+    "section": "defaults",
+    "label": "grounded"
+   },
+   {
+    "id": "R20",
+    "text": "No emojis, hashtags, exclamation marks or dashes",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R21",
+    "text": "At most 2 contrast lines and 1 closing takeaway line",
+    "section": "defaults",
+    "label": "incidental"
+   },
+   {
+    "id": "R22",
+    "text": "More shapes / order / mistake skeleton fixed?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R23",
+    "text": "Behavior with a link?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R24",
+    "text": "Other platforms with own limits?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R25",
+    "text": "Per-user voice file? Banned words? Length tiers?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R26",
+    "text": "AI-tell devices banned or capped? Dashes rule or setting?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   },
+   {
+    "id": "R27",
+    "text": "Next action ever different?",
+    "section": "unknowns-skip",
+    "label": "n/a"
+   }
+  ]
+ }
+}

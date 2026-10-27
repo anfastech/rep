@@ -1,0 +1,171 @@
+## 1. Thread Outline
+
+Template: Story Thread (10 tweets)
+- Hook: 12 sites, 1 day, 2 sites down, 3,000 late orders
+- Context: who Maya is and why the new scanning app looked safe
+- Problem: day 1, 2 sites can't scan
+- Turning point: 3,000 orders stuck, no way to contain it
+- Action: post-mortem with every site lead
+- Obstacle: small bug, huge blast radius
+- Lesson: pilot at 1 site first
+- Apply: the wave rollout we use now
+- TL;DR
+- CTA: follow + retweet + reply
+
+## 2. Full Thread
+
+Tweet 1 (152 chars)
+
+I rolled out a new app to 12 warehouses on the same day.
+
+2 of them went down for 24 hours.
+
+3,000 orders shipped late.
+
+Here's what I'd do differently:
+
+Tweet 2 (211 chars)
+
+Some context.
+
+I run operations at a 60-person logistics software company.
+
+We built a new warehouse scanning app.
+
+It was faster than the old one.
+
+Testing looked clean.
+
+So I pushed it to all 12 sites at once.
+
+Tweet 3 (129 chars)
+
+Day 1, first shift.
+
+2 sites couldn't scan.
+
+No scans, no picks.
+
+No picks, no shipments.
+
+Both sites stood still for a full day.
+
+Tweet 4 (175 chars)
+
+By the end of that day, 3,000 orders were late.
+
+Customers were calling.
+
+Site leads were calling.
+
+And I realized something ugly.
+
+I had bet all 12 sites on one untested day.
+
+Tweet 5 (159 chars)
+
+We got both sites back up.
+
+Then I ran a post-mortem with every site lead.
+
+The question wasn't "what broke?"
+
+It was "why did we find out everywhere at once?"
+
+Tweet 6 (164 chars)
+
+The bug was small.
+
+The blast radius was huge.
+
+Found at 1 site, it's a bad afternoon.
+
+Found across 12 sites, it's 3,000 late orders.
+
+Same bug. Different rollout.
+
+Tweet 7 (202 chars)
+
+The lesson: pilot at 1 site first.
+
+Not because your software is bad.
+
+Because every warehouse is different.
+
+Different hardware. Different Wi-Fi. Different habits.
+
+A pilot finds what your tests can't.
+
+Tweet 8 (146 chars)
+
+How we roll out now:
+
+→ 1 pilot site
+→ Fix what breaks
+→ 3 more sites
+→ Then the rest
+
+Slower on paper.
+
+Much faster than a day of zero shipments.
+
+Tweet 9 (210 chars)
+
+TL;DR:
+
+1. Big-bang rollouts multiply small bugs
+2. Every site is its own test environment
+3. Pilot at 1 site first
+4. Expand in waves
+5. Plan the rollback before the launch
+
+Save this before your next rollout.
+
+Tweet 10 (192 chars)
+
+If this saves you a bad week, follow me for more honest ops lessons.
+
+Retweet the first tweet so another ops lead skips my mistake.
+
+What's the worst rollout you've lived through? Reply below.
+
+## 3. Hook Variations
+
+A. Story opener
+3,000 orders shipped late because of one decision I made.
+
+I launched a new app at all 12 warehouses on the same day.
+
+Here's the lesson it cost us:
+
+B. Bold claim
+Launching at every site at once feels efficient.
+
+It cost us 3,000 late orders and 2 dead warehouses for a day.
+
+Here's why:
+
+C. Contrarian
+The fastest way to roll out new software is to go slow.
+
+I learned this the expensive way:
+
+D. Result + Timeframe
+2 warehouses down.
+
+24 hours.
+
+3,000 late orders.
+
+All from one rollout plan. Here's what went wrong:
+
+## 4. Posting Instructions
+
+- Suggested posting time: Tuesday or Wednesday, 8:30am ET. Ops and logistics leaders scroll before their first standup.
+- Post all at once as a native thread. No delays between tweets.
+- Recommended first reply: "The rollout checklist we use now, in 1 line: pilot site, 2 weeks, fix list closed, then waves of 3." Pin it as the first reply.
+- Engagement plan for the first hour:
+  - Stay online for 60 minutes after posting.
+  - Reply to every comment, especially other rollout horror stories.
+  - Quote-tweet the best reply with your own take.
+  - Retweet the hook once from your account after 30 minutes if replies are slow.

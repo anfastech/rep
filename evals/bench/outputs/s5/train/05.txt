@@ -1,0 +1,129 @@
+SUBJECT LINE (chosen)
+We opened an office in Lisbon
+
+Alternatives
+1. Our first office outside the US is in Lisbon
+2. We're hiring 15 people in Lisbon this year
+
+PREVIEW TEXT
+Nine people are already there. Here's why we went, and what opening it taught me.
+
+
+==================== ISSUE ====================
+
+# We opened an office in Lisbon
+
+*Nine people are already there. Here's why we went, and what opening it taught me.*
+
+This one is news, so I'll say it plainly: **we've opened our first office outside the US, in Lisbon.**
+
+Nine people already work there. We're hiring 15 more this year, across engineering and operations.
+
+If you've been reading this newsletter for a while, you know I don't do announcements often. This one gets an issue because opening the office was one of the biggest ops projects I've run, and I learned a lot doing it.
+
+[Subscribe button]
+
+## Why Lisbon
+
+We looked at a handful of cities. Lisbon won for three plain reasons.
+
+**The talent was there.** We met strong engineers and ops people who wanted to work on hard logistics problems, not just another consumer app.
+
+**The time zone works.** Lisbon overlaps with our US team for a few hours every day. That's enough for a real handoff, not just an email thrown over the wall at midnight.
+
+**People wanted to stay.** Several early candidates told us they'd moved there on purpose and planned to build a career there. That matters more than any cost spreadsheet.
+
+## What opening an office actually involves
+
+From the outside, a new office looks like a lease and a welcome lunch. From the inside, it's mostly paperwork and process.
+
+A few things I'd tell anyone doing this for the first time:
+
+**Set up the boring parts before the first hire.** Local entity, payroll, contracts, benefits, equipment. If any of these are late, your first nine people find out on day one.
+
+**Write things down before you need them.** Our US team ran on a lot of hallway knowledge. That doesn't cross an ocean. We spent weeks turning "ask Dave" into actual documents, and the US team benefits from them too.
+
+**Plan the handoff, not just the hours.** Overlap time is precious. We protect it for decisions and handoffs, and push status updates into writing.
+
+## Who's there now
+
+The first nine are a mix of engineers and operations people. Some came from logistics companies, some from software, a couple from neither.
+
+**They aren't a satellite team.** They own real parts of the product and real parts of our operations. That was a rule from the start. A second office that only gets leftover work stops being worth having.
+
+## We're hiring 15 more
+
+Over the rest of this year, we're hiring 15 more people in Lisbon. **Engineering and operations roles**, at several levels.
+
+If you want to work on software that moves real freight, and you'd rather your work show up on a loading dock than in a slide deck, take a look.
+
+[Button: See open roles]
+
+[Share button]
+
+* * *
+
+The thing to remember, if you're planning your own first international office: **it's an operations project first and a real estate project second.** Get the process right and the space is the easy part.
+
+## Your turn
+
+Two asks this week.
+
+If you've opened a first office in another country, what do you wish someone had told you? Hit reply. I'm still learning this one.
+
+And if you know someone in Lisbon who'd be a great fit, forward this to them. A warm intro from a reader beats any job board.
+
+Maya
+
+
+==================== IMAGE SUGGESTIONS ====================
+
+1. Placement: cover image.
+   Purpose: make the news feel real and local at a glance.
+   Description: the new Lisbon team in their office, relaxed group photo by a window with city rooftops behind them. Use a real team photo, not stock.
+   Alt text: "The nine-person Lisbon team in the new office."
+
+2. Placement: inline, at the start of "Why Lisbon".
+   Purpose: show the time-zone overlap in one picture.
+   Description: a simple timeline bar for a workday in Lisbon and one in a US time zone, with the shared hours highlighted.
+   Alt text: "Timeline showing daily overlap hours between the Lisbon and US teams."
+
+
+==================== NOTES TEASER ====================
+
+We just opened our first office outside the US, in Lisbon. Nine people are there, and we're hiring 15 more engineers and ops roles this year. Biggest lesson so far: a new office is an operations project first and a real estate project second.
+
+
+==================== VOICE GUIDE USED ====================
+
+VOICE GUIDE: Maya Rao
+Created: 2026-10-26
+Sources used: issue briefs only. No transcripts or past issues were supplied, so validate these markers against her published issues.
+
+## Core voice characteristics
+- Register: casual professional. Sounds like an ops lead talking in the hallway, not on a keynote stage.
+- Avg sentence length: 11-14 words, with frequent short fragments.
+- Humor: dry, mostly at her own expense.
+- Confidence: declarative. Says what happened and what she does now. Hedges only on things she hasn't tested.
+
+## Vocabulary
+- Uses: sites, the floor, orders, rollout, the numbers, plain verbs (cut, ship, fix, kill, pull)
+- Avoids: synergy, "leverage" as a verb, "excited to announce", game-changer, journey, exclamation marks, em dashes
+- Technical level: assumes ops literacy; explains software terms in one clause
+
+## Structural patterns
+- Opens with: a specific moment or number, stated flat
+- Closes with: one direct question to readers, signed "Maya"
+- Paragraphs: 1-3 sentences
+- Uses prose for stories; numbered lists only for steps
+
+## Signature moves
+- Puts the plain fact first, even in news: "This one is news, so I'll say it plainly."
+- Owns mistakes in first person, never passive voice
+- Bolds the one-line rule in each section so skimmers get the argument
+- Pulls metaphors from logistics: lanes, handoffs, dock doors, loading docks
+
+## Things that would sound wrong
+- Inspirational framing ("failure is a gift"): would sound like a LinkedIn influencer instead of an operator
+- Hype announcement language ("thrilled to share"): reads as PR, not Maya
+- Stacked hedges ("I think it might perhaps"): dilutes her declarative tone

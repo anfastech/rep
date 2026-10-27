@@ -1,0 +1,21 @@
+Roughly $200,000 in late-delivery penalties never hit our books last year, because a junior analyst on our team built a spreadsheet.
+
+To that analyst: thank you. This one's for you.
+
+The spreadsheet predicts which trucks will be late two days before it happens. It gets it right about 80% of the time.
+
+It's a simple spreadsheet, and it now runs every morning before most of us have opened our laptops.
+
+Before it existed, we usually found out a truck was late on the day it was late. At that point the penalty was already coming and all we could do was apologize.
+
+Two days of warning changes the options. There's time to reroute, to call the customer and reset the date, to move the load to a carrier who can make it.
+
+80% can sound modest. On a delivery that's about to miss its window, being right 4 times out of 5 is worth a lot of money.
+
+What I keep thinking about is who built it. A junior person saw a problem we'd been paying for and built something small that fixed most of it.
+
+Some of the best operations tools I've seen started as someone's spreadsheet. This one is now part of how we run every day.
+
+Who on your team built something small that ended up running the place?
+
+#logistics

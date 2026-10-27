@@ -1,0 +1,628 @@
+{
+ "id": "s4",
+ "g_rules": [
+  {
+   "id": "G1",
+   "text": "Use the Output Format template: H1 'Content Repurposing: [Original Title]', Source Summary, Twitter/X, LinkedIn, Instagram, Facebook, TikTok, Analytics, separated by ---",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G2",
+   "text": "Source Summary has Original Format, Key Message (one sentence), Target Audience",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G3",
+   "text": "Extract 3-5 core takeaways",
+   "type": "other",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G4",
+   "text": "Use data and statistics to add credibility",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G5",
+   "text": "Thread is 1 hook tweet + 5-10 follow-ups (template shows 10)",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G6",
+   "text": "Each tweet under 280 characters",
+   "type": "length",
+   "visible": "partly",
+   "recovered": "full"
+  },
+  {
+   "id": "G7",
+   "text": "Thread numbers 1/10, 2/10",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G8",
+   "text": "Strong hook in first tweet",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G9",
+   "text": "Strategic line breaks in tweets",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G10",
+   "text": "Thread hashtags 2-3 max",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G11",
+   "text": "Thread ends with CTA and engagement prompt",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G12",
+   "text": "Final tweet is summary and CTA",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G13",
+   "text": "LinkedIn professional tone",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G14",
+   "text": "LinkedIn 1300-1700 characters (measured 1361-1470)",
+   "type": "length",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G15",
+   "text": "LinkedIn starts with hook question or bold statement",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G16",
+   "text": "LinkedIn strategic line breaks and emojis",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G17",
+   "text": "LinkedIn 3-5 industry hashtags",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G18",
+   "text": "LinkedIn storytelling elements",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G19",
+   "text": "LinkedIn ends with discussion prompt",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G20",
+   "text": "LinkedIn 'Key takeaways:' with bullet points",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G21",
+   "text": "Instagram caption 125-150 words (measured body 123-130)",
+   "type": "length",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G22",
+   "text": "Instagram first line must hook",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G23",
+   "text": "Instagram line breaks and emojis",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G24",
+   "text": "Instagram 10-20 hashtags (template 15-20)",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G25",
+   "text": "Instagram call to action",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G26",
+   "text": "Instagram visual suggestion for image or carousel",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G27",
+   "text": "Consider Instagram Stories format",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G28",
+   "text": "Instagram dot spacer lines before hashtags",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G29",
+   "text": "Instagram main message 3-4 short paragraphs with emojis",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G30",
+   "text": "Facebook conversational tone",
+   "type": "voice",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G31",
+   "text": "Facebook length 40-80 characters or 200+ (measured 305-431)",
+   "type": "length",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G32",
+   "text": "Facebook asks questions, encourages comments",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G33",
+   "text": "Facebook use native features such as polls",
+   "type": "other",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G34",
+   "text": "Facebook 1-2 hashtags",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G35",
+   "text": "TikTok section only if applicable",
+   "type": "conditional",
+   "visible": "partly",
+   "recovered": "unknown-listed"
+  },
+  {
+   "id": "G36",
+   "text": "TikTok hook in first 3 sec, 30-60 sec timed script",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G37",
+   "text": "TikTok on-screen text concepts",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G38",
+   "text": "TikTok trending audio suggestion",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G39",
+   "text": "TikTok 3-5 hashtags incl #FYP",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G40",
+   "text": "Analytics: posting times, engagement tactics, A/B testing ideas",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G41",
+   "text": "Maintain core message across platforms, don't distort",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G42",
+   "text": "Adapt tone for each platform's culture",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G43",
+   "text": "Optimize for mobile viewing",
+   "type": "format",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G44",
+   "text": "Strategic emojis, don't overdo",
+   "type": "mechanics",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G45",
+   "text": "Strong hook for every version",
+   "type": "other",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G46",
+   "text": "Research current hashtag performance",
+   "type": "other",
+   "visible": "no",
+   "recovered": "none"
+  }
+ ],
+ "r_rules": [
+  {
+   "id": "R1",
+   "text": "No new facts; numbers match source",
+   "mark": "grounded",
+   "matches": "G41"
+  },
+  {
+   "id": "R2",
+   "text": "Template headers, labels, order exact",
+   "mark": "grounded",
+   "matches": "G1"
+  },
+  {
+   "id": "R3",
+   "text": "Always fill TikTok section",
+   "mark": "wrong",
+   "matches": "G35"
+  },
+  {
+   "id": "R4",
+   "text": "Repeat same facts across all platforms",
+   "mark": "grounded",
+   "matches": "G41"
+  },
+  {
+   "id": "R5",
+   "text": "No em/en dashes; ranges with 'to'",
+   "mark": "incidental-env",
+   "matches": ""
+  },
+  {
+   "id": "R6",
+   "text": "Numbers as digits",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R7",
+   "text": "Plain words, short sentences, contractions",
+   "mark": "incidental-env",
+   "matches": ""
+  },
+  {
+   "id": "R8",
+   "text": "First person I/we, reader as you",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R9",
+   "text": "No exclamation marks except celebratory",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R10",
+   "text": "Total 1100-1450 words",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R11",
+   "text": "Mention author context; home-field tag",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R12",
+   "text": "H1 is source headline in title case",
+   "mark": "grounded",
+   "matches": "G1"
+  },
+  {
+   "id": "R13",
+   "text": "Source Summary fields",
+   "mark": "grounded",
+   "matches": "G2"
+  },
+  {
+   "id": "R14",
+   "text": "Exactly 10 tweets, 2-4 paragraphs, under 280 chars",
+   "mark": "grounded",
+   "matches": "G5,G6,G9"
+  },
+  {
+   "id": "R15",
+   "text": "Tweet 1 hook + punch lines + promise with thread emoji",
+   "mark": "grounded",
+   "matches": "G8"
+  },
+  {
+   "id": "R16",
+   "text": "Tweets 2-9 beat structure, rhetorical questions",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R17",
+   "text": "Assumption beat before reveal",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R18",
+   "text": "'Lesson N:' tweet per lesson",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R19",
+   "text": "Tweet 9 'Try it yourself' steps",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R20",
+   "text": "Tweet 10 recap, question, CTA, 3 hashtags",
+   "mark": "grounded",
+   "matches": "G10,G11,G12"
+  },
+  {
+   "id": "R21",
+   "text": "Thread emoji usage limits",
+   "mark": "grounded",
+   "matches": "G44"
+  },
+  {
+   "id": "R22",
+   "text": "LinkedIn one-line hook with emoji",
+   "mark": "grounded",
+   "matches": "G15"
+  },
+  {
+   "id": "R23",
+   "text": "LinkedIn storytelling paragraphs",
+   "mark": "grounded",
+   "matches": "G18"
+  },
+  {
+   "id": "R24",
+   "text": "Key takeaways 3-4 bullets",
+   "mark": "grounded",
+   "matches": "G20"
+  },
+  {
+   "id": "R25",
+   "text": "How-to keycap emoji steps",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R26",
+   "text": "LinkedIn reflective paragraphs, end with question",
+   "mark": "grounded",
+   "matches": "G19"
+  },
+  {
+   "id": "R27",
+   "text": "LinkedIn exactly 5 hashtags",
+   "mark": "grounded",
+   "matches": "G17"
+  },
+  {
+   "id": "R28",
+   "text": "LinkedIn 230-290 words",
+   "mark": "grounded",
+   "matches": "G14"
+  },
+  {
+   "id": "R29",
+   "text": "Instagram hook with emojis",
+   "mark": "grounded",
+   "matches": "G22"
+  },
+  {
+   "id": "R30",
+   "text": "Instagram emoji-led line block",
+   "mark": "grounded",
+   "matches": "G23"
+  },
+  {
+   "id": "R31",
+   "text": "Instagram paragraphs + save/comment CTA",
+   "mark": "grounded",
+   "matches": "G25"
+  },
+  {
+   "id": "R32",
+   "text": "Instagram 190-230 words incl hashtags and visual",
+   "mark": "grounded",
+   "matches": "G21"
+  },
+  {
+   "id": "R33",
+   "text": "Dot lines + 18-19 lowercase hashtags",
+   "mark": "grounded",
+   "matches": "G24,G28"
+  },
+  {
+   "id": "R34",
+   "text": "Visual Suggestion carousel + Stories sticker",
+   "mark": "grounded",
+   "matches": "G26,G27"
+  },
+  {
+   "id": "R35",
+   "text": "Facebook 50-80 words, friendly, question opener",
+   "mark": "grounded",
+   "matches": "G30,G31"
+  },
+  {
+   "id": "R36",
+   "text": "Facebook ends with question + 1 hashtag",
+   "mark": "grounded",
+   "matches": "G32,G34"
+  },
+  {
+   "id": "R37",
+   "text": "TikTok three timed quoted lines",
+   "mark": "grounded",
+   "matches": "G36"
+  },
+  {
+   "id": "R38",
+   "text": "TikTok 4-5 on-screen text bullets",
+   "mark": "grounded",
+   "matches": "G37"
+  },
+  {
+   "id": "R39",
+   "text": "TikTok trending audio suggestion",
+   "mark": "grounded",
+   "matches": "G38"
+  },
+  {
+   "id": "R40",
+   "text": "TikTok #FYP + 4 lowercase tags",
+   "mark": "grounded",
+   "matches": "G39"
+  },
+  {
+   "id": "R41",
+   "text": "Analytics 3 labeled bullets",
+   "mark": "grounded",
+   "matches": "G40"
+  },
+  {
+   "id": "R42",
+   "text": "Posting time order and default times",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R43",
+   "text": "Engagement tactics one per platform",
+   "mark": "grounded",
+   "matches": "G40"
+  },
+  {
+   "id": "R44",
+   "text": "A/B ideas 'Test A against B', hooks first",
+   "mark": "incidental",
+   "matches": ""
+  },
+  {
+   "id": "R45",
+   "text": "Analytics no emojis or exclamation marks",
+   "mark": "incidental",
+   "matches": ""
+  }
+ ],
+ "counts": {
+  "g_total": 46,
+  "g_visible_yes": 37,
+  "g_visible_partly": 7,
+  "g_visible_no": 2,
+  "recovered_full": 27,
+  "recovered_partial": 14,
+  "unknown_listed": 1,
+  "missed": 4,
+  "recall_visible": 0.7727,
+  "recall_all": 0.7391,
+  "r_total": 45,
+  "grounded": 29,
+  "incidental": 13,
+  "incidental_env": 2,
+  "wrong": 1,
+  "precision": 0.6744
+ },
+ "missed_by_type": {
+  "voice": 1,
+  "other": 2,
+  "format": 1
+ },
+ "lessons": [
+  "A template label like '(if applicable)' or 'optional' marks a conditional rule. Ask when it applies instead of writing 'always include' from outputs that all include it.",
+  "Source limits are often stated in another unit (characters, not words) or for a narrower span (caption body, not caption plus hashtags). Measure several units and report a loose range, not the tight observed band.",
+  "Tone words per channel (professional, conversational) and process advice (research hashtags, use native features, format for mobile) leave weak traces. List them as probes to confirm.",
+  "Exact counts seen in every output (3 hashtags, 5 hashtags, 18-19 tags) often sit inside a wider allowed range. Write 'up to N' or 'N to M' and flag the range as unconfirmed."
+ ]
+}

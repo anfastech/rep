@@ -1,0 +1,30 @@
+**Format:** Thread (4 posts) + image
+
+**Thread structure:**
+
+**1/4** (69 chars)
+```
+1/4 A junior analyst's spreadsheet saved us about $200,000 last year.
+```
+
+**2/4** (78 chars)
+```
+2/4 It predicts truck delays two days ahead. It's right about 80% of the time.
+```
+
+**3/4** (97 chars)
+```
+3/4 Simple spreadsheet, no new tools. It runs every morning and flags trucks before they're late.
+```
+
+**4/4** (107 chars, including hashtag)
+```
+4/4 Best ideas often come from people closest to the work. Who on your team deserves a shout-out? #Logistics
+```
+
+**Hashtags:** #Logistics (final post only)
+
+**Image specs (attach to 1/4):**
+- 1200×675 (16:9), PNG, under 5MB
+- Screenshot or mock of the morning delay-forecast sheet, with sensitive data blurred
+- Overlay callouts: "2 days ahead" · "80% accurate" · "~$200K saved"

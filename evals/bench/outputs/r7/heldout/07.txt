@@ -1,0 +1,24 @@
+```
+Send this to the analyst on your team who builds things nobody asked for.
+
+One of our junior analysts built a simple spreadsheet that predicts truck delays two days ahead. It's right about 80% of the time.
+
+It runs every morning now, so we see a late truck coming while there's still time to act.
+
+Last year it saved us roughly $200,000 in late delivery penalties.
+
+Some of the best ops tools I've seen started as one person's spreadsheet.
+
+#logistics #supplychain #trucking
+```
+
+```
+CAPTION READY
+job:        A - the reel carries the hook ("$200,000 saved by a spreadsheet" on screen in the first two seconds)
+visible:    73 of 125 characters used before the cut
+ask:        one, share it
+hashtags:   3
+search:     "truck delays" in line 3, "late delivery penalties" in line 7
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```

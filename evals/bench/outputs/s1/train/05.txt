@@ -1,0 +1,19 @@
+Last year, every person at our company worked in the US.
+
+This year, 9 of them work in Lisbon.
+
+We've opened our first office outside the US, and we plan to hire 15 more engineers and ops people there before the year is out.
+
+For a company of 60, a second country is a big bet. I run operations, so most of what can go wrong lands on my desk: payroll in a new country, a time zone gap with our US teams and new people learning how we work mostly over video.
+
+Not all of that is solved. Some of it we're figuring out week by week with the first 9 people, and they've been patient with us.
+
+What I didn't expect is how much the Lisbon team is already changing the US side. Questions we stopped asking years ago are getting asked again, by people who weren't there when we decided the answer.
+
+That's the part I'm most excited about. We're no longer one office with a few remote people. We're a company that works across two places, on purpose.
+
+If you've opened a first office abroad, what do you wish you'd set up before hire number 10?
+
+P.S. The open engineering and ops roles in Lisbon are in the first comment.
+
+#Lisbon #hiring

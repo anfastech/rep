@@ -1,0 +1,673 @@
+{
+  "id": "s1",
+  "g_rules": [
+    {
+      "id": "G1",
+      "text": "Build the post on one hook formula skeleton (F1-F20), picked by engagement goal then topic",
+      "type": "structure",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G2",
+      "text": "Never blend two hooks in one post",
+      "type": "structure",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G3",
+      "text": "If the writer is a founder, pick a founder angle (A1-A10) first and let it name the formula",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G4",
+      "text": "If an interview spine is given: Moment opens, Number is proof, Correction is the turn, Opposition fixes audience, Ask closes",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G5",
+      "text": "If the voice profile is filled, match its fingerprint, hard rules and CTA/link style",
+      "type": "conditional",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G6",
+      "text": "Never invent figures, hedges or confessions the author did not supply; source details from the story bank or ask",
+      "type": "other",
+      "visible": "no",
+      "recovered": "partial"
+    },
+    {
+      "id": "G7",
+      "text": "Length follows user-picked tier (short 300-500, medium 900-1300, long 1500-1900 chars); default 900-1300 chars",
+      "type": "length",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G8",
+      "text": "Hard maximum 3,000 characters",
+      "type": "length",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G9",
+      "text": "Hook lives in the first 210 chars (write for ~140 mobile)",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G10",
+      "text": "Line 1 is a statement or number, never a question",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G11",
+      "text": "Prefer a number-first line 1 with an odd-precision number; invert question hooks into the answering number",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G12",
+      "text": "Never open with 'Here's what/how' or 'Stop X, start Y'",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "partial"
+    },
+    {
+      "id": "G13",
+      "text": "Zero reveal bridges ('The result?', 'Plot twist:', 'The catch?'); write reveal as a plain sentence with a number",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G14",
+      "text": "At most one contrast per post (incl. 'not X, it's Y')",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G15",
+      "text": "At most one triple per post, made of sourced numbers or named acts, never adjectives",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G16",
+      "text": "Double line breaks between ideas; 1-2 sentence paragraphs",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G17",
+      "text": "Close with a specific, experience-anchored question that names the topic",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G18",
+      "text": "Never close with 'What do you think?' / 'Thoughts?'",
+      "type": "cta",
+      "visible": "partly",
+      "recovered": "full"
+    },
+    {
+      "id": "G19",
+      "text": "Zero questions before the close (no pseudo-Socratic 'Why? Because...')",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G20",
+      "text": "Add a one-line P.S. when there is a real follow-up or link pointer",
+      "type": "cta",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G21",
+      "text": "0-2 hashtags, placed at the end",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G22",
+      "text": "No external links in body; point to the first comment",
+      "type": "format",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G23",
+      "text": "Em dashes allowed at about 1 per 100 words (1-2 per post), not pushed to zero; excess replaced by comma, colon or parentheses, never a period",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G24",
+      "text": "No en dashes between clauses and no double dashes",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G25",
+      "text": "Use '..' as a soft pause",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G26",
+      "text": "Capitalize names of people, companies and products",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G27",
+      "text": "Sentence starts may be lowercase for natural voice",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G28",
+      "text": "AI vocabulary blacklist scored by paragraph density (leverage, fundamentally, significant, crucial, robust, landscape, streamline, delve, etc.)",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "unknown-listed"
+    },
+    {
+      "id": "G29",
+      "text": "2026 LinkedIn tell layer banned (quietly, 'X matters.', compound, 'a signal', 'the work', load-bearing, 'let that sink in')",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "unknown-listed"
+    },
+    {
+      "id": "G30",
+      "text": "Banned phrases: 'In today's fast-paced world', 'Game-changer', 'deep dive', 'at the end of the day', 'needle-moving', 'It's not just X, it's Y'",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "unknown-listed"
+    },
+    {
+      "id": "G31",
+      "text": "No curiosity-teaser phrases ('what nobody tells you', 'what most people miss', 'the real question is')",
+      "type": "word-list",
+      "visible": "no",
+      "recovered": "unknown-listed"
+    },
+    {
+      "id": "G32",
+      "text": "No announced candor ('Let me be honest', 'Confession:', 'honestly?'); state the dated uncomfortable fact flat with no framing sentence",
+      "type": "word-list",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G33",
+      "text": "Specific numbers beat adjectives; at least 1 number per 100 words",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G34",
+      "text": "At least one odd-precision number with a named referent",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G35",
+      "text": "At least one named entity (person, company, date, city, tool)",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G36",
+      "text": "At least one first-person concrete or sensory detail",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G37",
+      "text": "At least one contradiction or self-correction stated as fact",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G38",
+      "text": "One opinion with stakes that someone could disagree with",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "partial"
+    },
+    {
+      "id": "G39",
+      "text": "At least one moment of real vulnerability, failure or concrete stakes",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G40",
+      "text": "Write from personal first-person experience; 'How I' over 'How to'",
+      "type": "voice",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G41",
+      "text": "Lead with the strongest point; real failure in the first 3 lines, no warm-up",
+      "type": "structure",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G42",
+      "text": "No staccato stacks or one-word paragraphs; at most 2 standalone fragments",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "full"
+    },
+    {
+      "id": "G43",
+      "text": "Natural rhythm: a long sentence next to a short one is fine; never manufacture or alternate variance across the post",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G44",
+      "text": "No hedging stacks (perhaps, might, could potentially, it seems)",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G45",
+      "text": "Passive voice under ~8-10% of clauses",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G46",
+      "text": "No '-ing' clause sentence openers; no nominalisations",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G47",
+      "text": "No curly quotes; straight quotes only",
+      "type": "mechanics",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G48",
+      "text": "No Oxford commas in casual posts",
+      "type": "mechanics",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G49",
+      "text": "No perfectly parallel structure across a list",
+      "type": "format",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G50",
+      "text": "Flesch reading ease above 55 (conversational)",
+      "type": "mechanics",
+      "visible": "yes",
+      "recovered": "unknown-listed"
+    },
+    {
+      "id": "G51",
+      "text": "Aim for 1,000+ chars and 20+ sentences (reach lift)",
+      "type": "length",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G52",
+      "text": "Use line breaks, bold and lists for scannability",
+      "type": "format",
+      "visible": "partly",
+      "recovered": "partial"
+    },
+    {
+      "id": "G53",
+      "text": "Make content save-worthy: framework, template or specific data",
+      "type": "other",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G54",
+      "text": "One sharp insight, not three vague ones",
+      "type": "voice",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G55",
+      "text": "Every abstract line is backed by a specific (date, amount, name, percent) within two lines",
+      "type": "other",
+      "visible": "partly",
+      "recovered": "none"
+    },
+    {
+      "id": "G56",
+      "text": "No engagement-bait closers or comment gates ('tag someone who needs this', 'comment X to get Y')",
+      "type": "cta",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G57",
+      "text": "Never frame LinkedIn as inferior in a LinkedIn post",
+      "type": "other",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G58",
+      "text": "Mention the user's own product at most once, only as natural conclusion, never as pitch",
+      "type": "persona",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G59",
+      "text": "No all-caps first line",
+      "type": "structure",
+      "visible": "no",
+      "recovered": "none"
+    },
+    {
+      "id": "G60",
+      "text": "Formula caveats: confession needs a dated fact with substance in first 3 lines; curiosity gap pays off within 2 lines; permission slip / false binary need a dated fact and are the only contrast",
+      "type": "conditional",
+      "visible": "partly",
+      "recovered": "none"
+    }
+  ],
+  "r_rules": [
+    {
+      "id": "R1",
+      "text": "Fixed template order: hook, setup, events, result, why, 'So' change, honest cost, question",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R2",
+      "text": "Plain text; each paragraph its own block separated by one blank line",
+      "mark": "grounded",
+      "matches": "G16"
+    },
+    {
+      "id": "R3",
+      "text": "Paragraphs 1-3 sentences, mostly 2",
+      "mark": "grounded",
+      "matches": "G16"
+    },
+    {
+      "id": "R4",
+      "text": "Length about 170-250 words, 8-10 prose blocks",
+      "mark": "grounded",
+      "matches": "G7"
+    },
+    {
+      "id": "R5",
+      "text": "Sentence mean 11-16 words, one long sentence ok, no stacked fragments, at most 2 sentences under 6 words",
+      "mark": "grounded",
+      "matches": "G42,G43"
+    },
+    {
+      "id": "R6",
+      "text": "No emojis",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R7",
+      "text": "No exclamation marks",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R8",
+      "text": "No em dashes",
+      "mark": "incidental-env",
+      "matches": "G23 (contradicted)"
+    },
+    {
+      "id": "R9",
+      "text": "No en dashes",
+      "mark": "grounded",
+      "matches": "G24"
+    },
+    {
+      "id": "R10",
+      "text": "No bold",
+      "mark": "wrong",
+      "matches": "G52"
+    },
+    {
+      "id": "R11",
+      "text": "No headers",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R12",
+      "text": "No quotes",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R13",
+      "text": "No parentheses",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R14",
+      "text": "No semicolons",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R15",
+      "text": "No URLs in the post",
+      "mark": "grounded",
+      "matches": "G22"
+    },
+    {
+      "id": "R16",
+      "text": "Line 1 is a single statement, never a question",
+      "mark": "grounded",
+      "matches": "G10"
+    },
+    {
+      "id": "R17",
+      "text": "Lead with the most concrete thing: a number, the result, or a plain admission; no warm-up",
+      "mark": "grounded",
+      "matches": "G11,G41"
+    },
+    {
+      "id": "R18",
+      "text": "Hook about 10-25 words, up to 2 sentences",
+      "mark": "grounded",
+      "matches": "G9"
+    },
+    {
+      "id": "R19",
+      "text": "First person singular for decisions, 'we' for company",
+      "mark": "grounded",
+      "matches": "G40"
+    },
+    {
+      "id": "R20",
+      "text": "Mention author's role only in passing, never open with it",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R21",
+      "text": "State what you expected, then how reality differed",
+      "mark": "grounded",
+      "matches": "G37"
+    },
+    {
+      "id": "R22",
+      "text": "Digits for counts and stats, reuse figures across the post",
+      "mark": "grounded",
+      "matches": "G33,G34"
+    },
+    {
+      "id": "R23",
+      "text": "Key result gets its own short block, one per post",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R24",
+      "text": "Introduce the change with one paragraph starting 'So'",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R25",
+      "text": "State lesson as decision/rule/claim; never label it ('here's what I learned')",
+      "mark": "grounded",
+      "matches": "G12,G38"
+    },
+    {
+      "id": "R26",
+      "text": "Exactly one honest beat (cost, unsolved part, mistake)",
+      "mark": "grounded",
+      "matches": "G39"
+    },
+    {
+      "id": "R27",
+      "text": "Use contractions; plain words, short declarative sentences, calm tone",
+      "mark": "incidental-env",
+      "matches": null
+    },
+    {
+      "id": "R28",
+      "text": "Data findings: colon lead-in then 3 arrow lines",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R29",
+      "text": "Framework: open on what most people do and why it fails, then numbered moves",
+      "mark": "grounded",
+      "matches": "G1 (F18)"
+    },
+    {
+      "id": "R30",
+      "text": "Announcement: before/now two-line hook",
+      "mark": "grounded",
+      "matches": "G1 (F3)"
+    },
+    {
+      "id": "R31",
+      "text": "Personal change with several parts: count line then one paragraph per change",
+      "mark": "incidental",
+      "matches": null
+    },
+    {
+      "id": "R32",
+      "text": "Thanking a colleague: lead with result, thank directly, widen to reader's team",
+      "mark": "grounded",
+      "matches": "G1 (F14)"
+    },
+    {
+      "id": "R33",
+      "text": "End with exactly one question about the reader's parallel situation; never 'What do you think?'",
+      "mark": "grounded",
+      "matches": "G17,G18,G19"
+    },
+    {
+      "id": "R34",
+      "text": "If link/CTA: 'P.S. ... is in the first comment.'",
+      "mark": "grounded",
+      "matches": "G20,G22"
+    },
+    {
+      "id": "R35",
+      "text": "Hashtags: at most 2, last line",
+      "mark": "grounded",
+      "matches": "G21"
+    }
+  ],
+  "counts": {
+    "g_total": 60,
+    "g_visible_yes": 20,
+    "g_visible_partly": 15,
+    "g_visible_no": 25,
+    "recovered_full": 13,
+    "recovered_partial": 13,
+    "unknown_listed": 5,
+    "missed": 29,
+    "recall_visible": 0.5286,
+    "recall_all": 0.325,
+    "r_total": 35,
+    "grounded": 20,
+    "incidental": 12,
+    "incidental_env": 2,
+    "wrong": 1,
+    "precision": 0.6061
+  },
+  "missed_by_type": {
+    "structure": 2,
+    "conditional": 4,
+    "length": 2,
+    "word-list": 2,
+    "mechanics": 11,
+    "voice": 2,
+    "format": 1,
+    "other": 3,
+    "cta": 1,
+    "persona": 1
+  },
+  "lessons": [
+    "Density caps are invisible in a small sample: 'at most one contrast / one triple / one emoji per post' look like nothing. Count every device (contrasts, triads, reveal bridges, fragments) per output and ask whether a ceiling exists instead of only listing what is absent.",
+    "Separate operator environment rules from skill rules before writing bans. When a style is absent in every output (dashes here), list it as an open question about the source rather than a hard ban; the real skill may allow or even require it.",
+    "Look for the named-template layer behind each output. When outputs differ in shape by topic, the source likely has a library of hook formulas picked by goal; recover them as named skeletons with their trigger, not as ad hoc conditional shapes.",
+    "Mechanical micro-rules (curly quotes, Oxford commas, capitalization, passive voice, hedges, -ing openers) are usually present in humanizer checklists. Test each one against the outputs and list the ones you cannot test as unknowns, with a specific question to ask the author."
+  ]
+}

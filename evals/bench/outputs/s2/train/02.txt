@@ -1,0 +1,29 @@
+41% of our support tickets came from the same 3 screens.
+
+Not from bugs. Not from outages. From onboarding.
+
+We pulled 18 months of support tickets and tagged every one by where the customer was when they got stuck.
+
+I expected the load to be spread out. A bit of billing, a bit of integrations, a long tail of everything else.
+
+It was not spread out at all.
+
+Three onboarding screens were behind 41% of the volume. The same questions, asked again and again, by new customers who had done nothing wrong.
+
+That changed how I saw the support queue.
+
+We had been treating tickets as a staffing problem. More volume, more people, faster replies.
+
+They were a product problem. The screens were asking customers to understand things we had never explained.
+
+So we did not hire. We rewrote those three screens.
+
+Clearer labels. Fewer choices on each step. Plain words where we had used internal terms.
+
+Ticket volume dropped by a third.
+
+Same product. Same customers. Same support team. Just fewer people stuck in the same place.
+
+If your support queue keeps growing, do not start with headcount.
+
+Start by tagging where the tickets come from. The answer is often sitting in a handful of screens you stopped looking at years ago.

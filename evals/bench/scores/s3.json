@@ -1,0 +1,609 @@
+{
+ "id": "s3",
+ "g_rules": [
+  {
+   "id": "G1",
+   "text": "Storytelling and connecting with the audience come first; tactics only amplify a story",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G2",
+   "text": "First line is the hook and decides whether anyone reads on",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G3",
+   "text": "Use hook formula families: curiosity, story, value ('How to X:'), contrarian ('Unpopular opinion:'), social proof",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G4",
+   "text": "Fill the hook formula with a specific fact, number, or story",
+   "type": "voice",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G5",
+   "text": "Ban contrast reveals ('It's not X, it's Y', 'Not because X. Because Y.', 'This isn't X. This is Y.')",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G6",
+   "text": "Ban negation lists ('No X, no Y, no Z'); one plain absence is fine",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G7",
+   "text": "Ban trailing pile-ons; end the sentence at the claim",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G8",
+   "text": "Ban self-answered questions and colon reveals ('The result? ...', 'The best part: ...')",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G9",
+   "text": "Ban stock/marketing phrases ('Say goodbye to', 'X, reimagined', 'Unlock the power of', 'next level', 'game-changer', 'Here's the thing')",
+   "type": "word-list",
+   "visible": "no",
+   "recovered": "unknown-listed"
+  },
+  {
+   "id": "G10",
+   "text": "No em dashes in posts; use a period or line break",
+   "type": "mechanics",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G11",
+   "text": "No broetry; write paragraphs, break lines where a person would pause",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G12",
+   "text": "No engagement bait ('Agree?', 'Thoughts?', 'Let that sink in'); end on the point or a real question",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G13",
+   "text": "No manufactured vulnerability without a real story",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G14",
+   "text": "No emoji as bullets or structure",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G15",
+   "text": "Max one fragment / staccato burst per post",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G16",
+   "text": "Max one list of three per post",
+   "type": "mechanics",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G17",
+   "text": "No links in the post body; put links in the comments",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G18",
+   "text": "LinkedIn content that works: personal stories with business lessons, contrarian takes, behind-the-scenes, data and original insights",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G19",
+   "text": "Avoid overly promotional content",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G20",
+   "text": "No generic motivational quotes",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "full"
+  },
+  {
+   "id": "G21",
+   "text": "No corporate speak without personality",
+   "type": "voice",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G22",
+   "text": "Front-load the hook before the 'see more' cut (~210 chars)",
+   "type": "length",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G23",
+   "text": "Use line breaks for readability",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G24",
+   "text": "Target 1,200-1,500 characters",
+   "type": "length",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G25",
+   "text": "Max 3,000 characters",
+   "type": "length",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G26",
+   "text": "Tag people sparingly and genuinely",
+   "type": "format",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G27",
+   "text": "Use 3-5 hashtags",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G28",
+   "text": "Hashtags at the end, not inline",
+   "type": "format",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G29",
+   "text": "Story Post template: hook, scene, challenge, what you tried, turning point, result, lesson, question",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G30",
+   "text": "Contrarian Take template: unpopular opinion, what changed your mind with a number, reasons 1-3, recommendation, invite discussion",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G31",
+   "text": "List Post template: 'X things I learned about [topic] after [credibility]:', numbered 'Point: explanation', wrap-up, 'Which resonates most?'",
+   "type": "structure",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G32",
+   "text": "How-To template: 'How to [outcome] in [timeframe]:', steps with why/detail, result, CTA or question",
+   "type": "structure",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G33",
+   "text": "End with a question to prompt engagement (comments weigh most)",
+   "type": "cta",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G34",
+   "text": "Avoid uniform rhythm; vary sentence and paragraph length",
+   "type": "mechanics",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G35",
+   "text": "Use 'is'/'has' instead of 'serves as', 'boasts', 'stands as'",
+   "type": "mechanics",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G36",
+   "text": "No false ranges ('from startups to enterprises')",
+   "type": "mechanics",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G37",
+   "text": "No synonym cycling; repeat the customer's word",
+   "type": "mechanics",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G38",
+   "text": "Ban era/'Imagine'/'When it comes to' openers, throat-clearing, recap endings, fake-profound kickers, filler transitions",
+   "type": "word-list",
+   "visible": "partly",
+   "recovered": "unknown-listed"
+  },
+  {
+   "id": "G39",
+   "text": "Banned and capped vocabulary (delve, leverage, utilize, seamless, robust...) and empty intensifiers (truly, actually...)",
+   "type": "word-list",
+   "visible": "partly",
+   "recovered": "unknown-listed"
+  },
+  {
+   "id": "G40",
+   "text": "No hedge stacks, puffery, or weasel sources; scope claims honestly",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G41",
+   "text": "No chummy openers in social ('Great question!', 'Let's be honest')",
+   "type": "voice",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G42",
+   "text": "No exclamation points or hype punctuation in body",
+   "type": "mechanics",
+   "visible": "yes",
+   "recovered": "full"
+  },
+  {
+   "id": "G43",
+   "text": "No unicode decoration (arrows, bold letters)",
+   "type": "format",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G44",
+   "text": "No bold label on every bullet, parallel bullet openers, or Title Case",
+   "type": "format",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G45",
+   "text": "No wisdom-shaped sentences or performed cleverness",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "partial"
+  },
+  {
+   "id": "G46",
+   "text": "No self-narration ('Here's why this matters', 'The takeaway is simple')",
+   "type": "word-list",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G47",
+   "text": "No tidy closers; end on a number, named customer, offer, or CTA",
+   "type": "structure",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G48",
+   "text": "Uneven density: let what the writer cares about run longest; no perfect balance",
+   "type": "structure",
+   "visible": "partly",
+   "recovered": "none"
+  },
+  {
+   "id": "G49",
+   "text": "Write as a specific person with real, arguable opinions; first person only when it adds a fact",
+   "type": "persona",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G50",
+   "text": "Never invent experience, stats, or quotes; mark [NEED: ...]",
+   "type": "other",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G51",
+   "text": "Specificity and swap tests: every claim has a number, name, mechanism, or action",
+   "type": "voice",
+   "visible": "yes",
+   "recovered": "partial"
+  },
+  {
+   "id": "G52",
+   "text": "If brand voice / product-marketing context is given, match its tone and register",
+   "type": "conditional",
+   "visible": "no",
+   "recovered": "none"
+  },
+  {
+   "id": "G53",
+   "text": "Make people the subject, not abstract 'the platform enables'",
+   "type": "voice",
+   "visible": "partly",
+   "recovered": "none"
+  }
+ ],
+ "r_rules": [
+  {
+   "id": "R1",
+   "text": "Output one post as plain text, ready to paste",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R2",
+   "text": "Block order template: hook, context, body, action, reframe, optional practical block, question, hashtags",
+   "mark": "grounded",
+   "matches": "G29"
+  },
+  {
+   "id": "R3",
+   "text": "Hook is the first paragraph, standalone, 1-2 sentences, ~8-35 words",
+   "mark": "grounded",
+   "matches": "G2,G22"
+  },
+  {
+   "id": "R4",
+   "text": "Hook by post type (mistake+number, stat, 'Unpopular opinion:', 'How to X when Y:', 'We've...')",
+   "mark": "grounded",
+   "matches": "G3"
+  },
+  {
+   "id": "R5",
+   "text": "Short prose paragraphs, blank lines, never one sentence per line",
+   "mark": "grounded",
+   "matches": "G11,G23"
+  },
+  {
+   "id": "R6",
+   "text": "170-280 words in 6-10 blocks",
+   "mark": "grounded",
+   "matches": "G24"
+  },
+  {
+   "id": "R7",
+   "text": "Exactly one takeaway/lesson block after the action (not in announcements)",
+   "mark": "grounded",
+   "matches": "G29,G30"
+  },
+  {
+   "id": "R8",
+   "text": "Bring the hook's number back near the end",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R9",
+   "text": "Pivot paragraph opens with 'So' or 'Now'",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R10",
+   "text": "Mistake post order",
+   "mark": "grounded",
+   "matches": "G29"
+  },
+  {
+   "id": "R11",
+   "text": "Data finding post order with 'If your X, do Y before Z' advice paragraph",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R12",
+   "text": "Opinion post order with 'N reasons' and 'What I'd recommend instead'",
+   "mark": "grounded",
+   "matches": "G30"
+  },
+  {
+   "id": "R13",
+   "text": "How-to post order: hook, role paragraph, numbered moves with why, assumption, question",
+   "mark": "grounded",
+   "matches": "G32"
+  },
+  {
+   "id": "R14",
+   "text": "Announcement post order, CTA to comments, thank-you, no question",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R15",
+   "text": "Mention role and company size only in how-to and announcement posts",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R16",
+   "text": "End with one specific question to readers about their experience",
+   "mark": "grounded",
+   "matches": "G33,G12"
+  },
+  {
+   "id": "R17",
+   "text": "Only one question mark; no rhetorical questions in the body",
+   "mark": "grounded",
+   "matches": "G8"
+  },
+  {
+   "id": "R18",
+   "text": "Exactly 3 CamelCase hashtags on the last line",
+   "mark": "grounded",
+   "matches": "G27,G28"
+  },
+  {
+   "id": "R19",
+   "text": "One broad field hashtag plus two topic hashtags",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R20",
+   "text": "First person: I for decisions, we for company",
+   "mark": "grounded",
+   "matches": "G49,G18"
+  },
+  {
+   "id": "R21",
+   "text": "Plain, measured, honest; own mistakes outright",
+   "mark": "grounded",
+   "matches": "G21"
+  },
+  {
+   "id": "R22",
+   "text": "Hedge claims you cannot prove",
+   "mark": "grounded",
+   "matches": "G40"
+  },
+  {
+   "id": "R23",
+   "text": "No hype, slogans, motivational lines",
+   "mark": "grounded",
+   "matches": "G19,G20,G45"
+  },
+  {
+   "id": "R24",
+   "text": "Use natural contractions",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R25",
+   "text": "Number formatting: digits for 10+, spell out one to nine in body",
+   "mark": "incidental",
+   "matches": null
+  },
+  {
+   "id": "R26",
+   "text": "Mix sentence lengths, mostly 8-16 words with a few 20-30",
+   "mark": "grounded",
+   "matches": "G34"
+  },
+  {
+   "id": "R27",
+   "text": "No emojis",
+   "mark": "grounded",
+   "matches": "G14"
+  },
+  {
+   "id": "R28",
+   "text": "No exclamation marks",
+   "mark": "grounded",
+   "matches": "G42"
+  },
+  {
+   "id": "R29",
+   "text": "No em dashes",
+   "mark": "grounded",
+   "matches": "G10"
+  },
+  {
+   "id": "R30",
+   "text": "No en dashes or '--'",
+   "mark": "incidental-env",
+   "matches": null
+  },
+  {
+   "id": "R31",
+   "text": "No bold, headers, or bullet symbols; only '1. ' lists in how-to",
+   "mark": "grounded",
+   "matches": "G43,G44"
+  },
+  {
+   "id": "R32",
+   "text": "No links; send readers to the comments",
+   "mark": "grounded",
+   "matches": "G17"
+  },
+  {
+   "id": "R33",
+   "text": "Reframe phrased as 'looks like X, is really Y'",
+   "mark": "wrong",
+   "matches": "G5"
+  }
+ ],
+ "counts": {
+  "g_total": 53,
+  "g_visible_yes": 23,
+  "g_visible_partly": 22,
+  "g_visible_no": 8,
+  "recovered_full": 12,
+  "recovered_partial": 19,
+  "unknown_listed": 3,
+  "missed": 19,
+  "recall_visible": 0.478,
+  "recall_all": 0.406,
+  "r_total": 33,
+  "grounded": 22,
+  "incidental": 9,
+  "incidental_env": 1,
+  "wrong": 1,
+  "precision": 0.688
+ },
+ "missed_by_type": {
+  "voice": 4,
+  "mechanics": 8,
+  "format": 1,
+  "structure": 3,
+  "word-list": 1,
+  "other": 1,
+  "conditional": 1
+ },
+ "lessons": [
+  "Absence-only bans (contrast reveals, negation lists, pile-ons, self-narration, tidy closers) were the biggest miss: when outputs are clean, list the common AI-tell patterns of the genre and ask whether the source bans them, instead of logging them only as 'banned words unknown'.",
+  "Per-post caps (one fragment, one list of three, sentences per line) leave no trace in a small sample; ask about frequency limits on rhetorical devices, not just presence.",
+  "Check every recovered template phrase against known style bans before shipping it: an inferred device like 'looks like X, is really Y' can itself be a pattern the source forbids.",
+  "Express length and formatting in the platform's own units and limits (characters, 'see more' cut, hashtag ranges) and ask whether a value is a target range or an observed coincidence, so narrow observed values (exactly 3 hashtags) are not hardened into rules."
+ ]
+}

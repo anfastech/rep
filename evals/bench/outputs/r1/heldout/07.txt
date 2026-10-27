@@ -1,0 +1,53 @@
+The spreadsheet that predicts truck delays · content/drafts/2026-10-27-truck-delay-spreadsheet.md
+Single post · LinkedIn · Maya Rao's profile (first person) · voice provisional
+
+Hook (used below):
+A junior analyst on our team built a simple spreadsheet that predicts truck delays two days ahead. Last year it saved us roughly $200,000 in penalties.
+
+Alternative hooks:
+1. Roughly $200,000 in penalties avoided last year, from one spreadsheet a junior analyst built.
+2. Our best delay forecast isn't a platform. It's a spreadsheet a junior analyst built.
+
+Post:
+
+A junior analyst on our team built a simple spreadsheet that predicts truck delays two days ahead. Last year it saved us roughly $200,000 in penalties.
+
+Its predictions are right about 80% of the time. Two days of warning is enough time to act before a late truck turns into a penalty. [STORY NEEDED: what the team does when a delay is flagged]
+
+It runs every morning now, and it has become part of how operations starts the day.
+
+[NAME: the analyst's name, with their yes to be named] built it. [STORY NEEDED: how it started, e.g. asked to or on their own initiative, and what data it uses]
+
+What I keep coming back to is how plain it is. A spreadsheet, built by someone close to the data, now does a job worth six figures a year to us.
+
+If someone on your team understands a recurring problem better than anyone, ask them what they would build to fix it. Then give them the time to build it.
+
+#operations #logistics #supplychain
+
+First comment: none (no link in this post).
+
+Edit note
+- One argument: the people closest to the data can build tools that pay off far beyond their cost; a plain spreadsheet saved roughly $200,000 last year.
+- Fakes: the analyst's name, how it started, what data it uses and how the team acts on a flag are left as slots. "Part of how operations starts the day" and "two days of warning is enough time to act" go beyond the brief; Maya must confirm both.
+- Intent and CTA: success story; the close is a step for the reader's own team.
+- Swap test: passes on the two days, 80% and $200,000.
+- AI-tell check: removed 1 "game-changer", 1 "No fancy AI. No data science team." (invented contrast), 1 colon reveal ("The result? $200,000."). Alt hook 2 uses one "not X, it's Y" shape; it's the only one if chosen. No dashes.
+- Voice: provisional. No voice card or past posts for Maya. Offer: paste 5 to 10 of her LinkedIn posts and I'll build her voice card.
+
+Claims and facts: The spreadsheet that predicts truck delays   (sign-off: scoped sign-off this run, from the brief)
+- Kept: junior analyst built a simple spreadsheet; predicts truck delays two days ahead; 80% accuracy; runs every morning; saved roughly $200,000 in penalties last year.
+- Softened: "80% accuracy" written as "right about 80% of the time"; "worth six figures a year" follows from roughly $200,000 last year but implies it repeats, so Maya should confirm or change it to "last year".
+- Cut: "No data science team" (not in the brief; restore if Maya confirms).
+- Sourced: none needed; no world facts.
+- Disclaimers added: none.
+- Person yes needed: Maya Rao; the analyst, if named.
+
+Open gaps
+- PERSON YES NEEDED (Maya Rao)
+- PERSON YES NEEDED (the analyst), before their name goes in
+- [NAME: the analyst's name]
+- [STORY NEEDED: how it started and what data it uses]
+- [STORY NEEDED: what the team does when a delay is flagged]
+- [PROOF NEEDED: how the 80% accuracy was measured, if anyone asks in the comments]
+
+Nothing is published. You edit and post. If you want the social pieces in a two-week posting calendar, ask for it next.

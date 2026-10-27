@@ -1,0 +1,30 @@
+```
+Negotiating with a vendor when you have little leverage? You have four levers, and price isn't the best one.
+
+Most vendor negotiation advice assumes you're the big customer. Usually you aren't.
+
+1. Anchor on their contract renewal deadline. The vendor wants the renewal signed on time. Start early and let the date put pressure on them.
+
+2. Bundle multi-year terms. A longer commitment is worth more to them than a few points of discount is to you. Trade it for what you need.
+
+3. Bring a credible alternative. A real quote from a competitor, not a bluff. They can tell the difference.
+
+4. Ask for service credits, not discounts. Credits tie what you pay to how well they deliver, and they're easier for a vendor to agree to.
+
+Save this before your next renewal call.
+
+#procurement #vendormanagement #operations
+```
+
+Alt text (cover slide): Slide titled "Negotiating with little leverage" listing four tactics: the renewal deadline, multi-year terms, a credible alternative, service credits.
+
+```
+CAPTION READY
+job:        B - carousel cover, line one is the hook
+visible:    108 of 125 characters used before the cut
+ask:        one, save it
+hashtags:   3
+search:     "vendor negotiation" in line 3, "contract renewal" in line 5
+first comment: none, no link
+linter:     READY, checked by hand against caption.py's rules
+```
