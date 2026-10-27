@@ -1,9 +1,9 @@
 ---
 name: reverse-engineer-skill
-description: Use when given outputs made by an AI skill, prompt, template, or creator workflow (posts, captions, threads, newsletters, scripts) and asked to recover, reverse engineer, reconstruct, or clone the instructions that produced them, or to build a skill that writes "like these".
+description: Use when given outputs made by an AI skill, prompt, template, tool, or creator workflow (posts, captions, threads, newsletters, scripts, short videos, reels) and asked to recover, reverse engineer, reconstruct, or clone the instructions that produced them, or to build a skill that writes "like these".
 metadata:
-  version: "0.4-prototype"
-  modalities: text (carousel and video not built yet)
+  version: "0.5-prototype"
+  modalities: text, video (prototype); carousel not built
 ---
 
 # Reverse Engineer a Skill
@@ -19,7 +19,8 @@ regenerating, and say plainly what stays unknown.
 |---|---|---|
 | Plain text (posts, threads, emails, captions, newsletters) | built | [references/text.md](references/text.md) |
 | Carousels, slides | not built | stop and tell the user |
-| Video, audio | not built | stop and tell the user |
+| Video (shorts, reels, explainers) | prototype, tested on 1 video | [references/video.md](references/video.md) |
+| Audio only | not built | stop and tell the user |
 
 Fewer than 3 outputs: say the result will be a guess, then continue.
 

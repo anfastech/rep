@@ -57,12 +57,23 @@ output (r5: 9 of 10 incidental).
 
 First version with a precision gain on both skills. Recall flat.
 
+## Video prototype (v0.5, 1 video)
+
+One 85 s explainer short (720x1280, 2 hard cuts, 280 words at 201 wpm). The skill
+recovered a 9-beat script template and the visual and caption rules; with one video
+every rule is a guess. A code-rendered replay of one 6.8 s beat was diffed against the
+original over 4 rounds. Mean gap per feature, round 1 to round 4: finger tip height
+0.21 to 0.05, accent glow height 0.23 to 0.05, accent-row height 0.14 to 0.05. Two
+numeric matches were wrong on screen (finger area, brightness), so the method now
+requires a side-by-side visual check with every numeric diff. The source video is not
+in the repo.
+
 ## Limits
 
 - 2 or 3 source skills per round and one scorer each. No inter-scorer agreement measured yet.
 - Recall tops out near 0.65: about a quarter of real rules leave no trace in 7 outputs
   (banned words, rotation across posts, rules for content types the briefs never trigger).
-- Text only. Carousel and video are not built.
+- Video is a prototype tested on 1 video. Carousel is not built.
 
 ## Next
 
